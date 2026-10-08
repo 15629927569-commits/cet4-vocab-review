@@ -88,15 +88,10 @@ button.act.bad { background: #fff; color: #b3352b; border: 1px solid #eec8c4; }
 .opt.dim { opacity: .45; }
 .opt:disabled { cursor: default; }
 
-.score { font-size: 40px; font-weight: 700; text-center; text-align: center; }
+.score { font-size: 40px; font-weight: 700; text-align: center; }
 .muted { color: #888; text-align: center; margin-top: 8px; }
 .center-btn { text-align: center; margin-top: 20px; }
 
-.flashcard {
-  min-height: 280px; display: flex; flex-direction: column;
-  align-items: center; justify-content: center; text-align: center;
-  cursor: pointer; user-select: none; gap: 12px;
-}
 .flash-word { font-size: 38px; font-weight: 700; letter-spacing: 1px; }
 .flash-mean { font-size: 20px; font-weight: 600; }
 .flash-freq { font-size: 13px; color: #888; }
@@ -119,3 +114,43 @@ button.act.bad { background: #fff; color: #b3352b; border: 1px solid #eec8c4; }
 .w-head .date { margin-left: auto; font-size: 12px; color: #aaa; }
 .w-mean { font-weight: 600; margin-top: 4px; }
 .w-freq { font-size: 12px; color: #999; margin-top: 6px; }
+
+/* 题目切换淡入上移动画 */
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.anim-in { animation: card-in 0.28s ease-out; }
+
+@keyframes pop-in {
+  0% { opacity: 0; transform: scale(0.85); }
+  70% { transform: scale(1.04); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.anim-pop { animation: pop-in 0.35s ease-out; }
+
+/* 闪卡 3D 翻转 */
+.flip-scene { perspective: 1200px; }
+.flip-card {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.4, 0.2, 0.2, 1);
+  cursor: pointer;
+  user-select: none;
+}
+.flip-card.flipped { transform: rotateY(180deg); }
+.flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+}
+.flip-back { transform: rotateY(180deg); }
