@@ -198,5 +198,105 @@
     "exampleCn": "不同商店的价格差别很大。",
     "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
     "date": "2026-10-08"
+  },
+  {
+    "word": "adapt",
+    "phonetic": "/əˈdæpt/",
+    "pos": "v.",
+    "meaning": "适应；改编；调整",
+    "example": "It took her a while to adapt to college life.",
+    "exampleCn": "她花了一段时间才适应大学生活。",
+    "frequency": "高频词（估算值：COCA 排名约 2200 位，约 30 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "assume",
+    "phonetic": "/əˈsjuːm/",
+    "pos": "v.",
+    "meaning": "假定；认为；承担",
+    "example": "Don't assume that everyone thinks the same way.",
+    "exampleCn": "不要想当然地认为每个人的想法都一样。",
+    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "available",
+    "phonetic": "/əˈveɪləbl/",
+    "pos": "adj.",
+    "meaning": "可获得的；可用的；有空的",
+    "example": "Free Wi-Fi is available throughout the campus.",
+    "exampleCn": "整个校园都有免费无线网络可用。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "complex",
+    "phonetic": "/ˈkɒmpleks/",
+    "pos": "adj./n.",
+    "meaning": "复杂的；（n.）综合体；情结",
+    "example": "Learning a language is a complex process.",
+    "exampleCn": "学习语言是一个复杂的过程。",
+    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "current",
+    "phonetic": "/ˈkʌrənt/",
+    "pos": "adj./n.",
+    "meaning": "当前的；流行的；（n.）水流；电流",
+    "example": "The current situation calls for immediate action.",
+    "exampleCn": "当前的形势需要立即采取行动。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "establish",
+    "phonetic": "/ɪˈstæblɪʃ/",
+    "pos": "v.",
+    "meaning": "建立；确立；创办",
+    "example": "The club was established ten years ago.",
+    "exampleCn": "这个社团是十年前成立的。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "evidence",
+    "phonetic": "/ˈevɪdəns/",
+    "pos": "n.",
+    "meaning": "证据；迹象；证明",
+    "example": "There is strong evidence that sleep improves memory.",
+    "exampleCn": "有充分证据表明睡眠能改善记忆力。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "individual",
+    "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+    "pos": "adj./n.",
+    "meaning": "个人的；独特的；（n.）个人；个体",
+    "example": "Each individual has different learning habits.",
+    "exampleCn": "每个人都有不同的学习习惯。",
+    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 140 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "recognize",
+    "phonetic": "/ˈrekəɡnaɪz/",
+    "pos": "v.",
+    "meaning": "认出；承认；认可",
+    "example": "I recognized her voice the moment she spoke.",
+    "exampleCn": "她一开口我就听出了她的声音。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "reduce",
+    "phonetic": "/rɪˈdjuːs/",
+    "pos": "v.",
+    "meaning": "减少；降低；缩小",
+    "example": "Taking public transport helps reduce air pollution.",
+    "exampleCn": "乘坐公共交通有助于减少空气污染。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+    "date": "2026-10-08"
   }
 ]
