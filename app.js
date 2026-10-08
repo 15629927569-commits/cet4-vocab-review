@@ -5,7 +5,7 @@ const STATS_KEY = 'cet4_vocab_stats_v1'
 
 let words = []
 let stats = loadStats()
-let mode = 'spell'
+let mode = 'daily'
 let quiz = null // {list, idx, revealed, picked, results}
 let flashIdx = 0
 let flipped = false
@@ -154,10 +154,42 @@ function render() {
     main.innerHTML = '<div class="card"><p class="empty">词库还是空的，等今天的单词生成后再来吧</p></div>'
     return
   }
-  if (mode === 'spell') renderSpell(main)
+  if (mode === 'daily') renderDaily(main)
+  else if (mode === 'spell') renderSpell(main)
   else if (mode === 'choice') renderChoice(main)
   else if (mode === 'flash') renderFlash(main)
   else renderBank(main)
+}
+
+/* ---------- 每日新词 ---------- */
+function renderDaily(main) {
+  if (words.length === 0) {
+    main.innerHTML = '<div class="card"><p class="empty">词库还是空的，等今天的单词生成后再来吧</p></div>'
+    return
+  }
+  const latest = words.reduce((a, b) => (a.date >= b.date ? a : b)).date
+  const list = words.filter((w) => w.date === latest)
+  const md = latest.split('-')
+  const pretty = Number(md[1]) + ' 月 ' + Number(md[2]) + ' 日'
+
+  const cards = list.map((w) =>
+    '<div class="wcard">' +
+    '<div class="w-head">' +
+    '<b>' + esc(w.word) + '</b><span class="phon">' + esc(w.phonetic) + '</span>' +
+    '<button class="chip btn" onclick="speakWord(\'' + esc(w.word) + '\')">🔊</button>' +
+    '<span class="tag">' + esc(w.pos) + '</span>' +
+    '<span class="date">' + esc(w.date) + '</span>' +
+    '</div>' +
+    '<div class="w-mean">' + esc(w.meaning) + '</div>' +
+    '<div class="example"><div>' + esc(w.example) + '</div><div class="cn">' + esc(w.exampleCn) + '</div></div>' +
+    '<div class="w-freq">词频：' + esc(w.frequency) + '</div>' +
+    '<button class="act ghost" style="margin-top:8px" onclick="speakWord(\'' + esc(w.example) + '\')">🔊 朗读例句</button>' +
+    '</div>'
+  ).join('')
+
+  main.innerHTML =
+    '<div class="count">' + pretty + '新词 · 共 ' + list.length + ' 个，先过一遍再去做测验吧</div>' +
+    cards
 }
 
 /* ---------- 拼写测验 ---------- */
