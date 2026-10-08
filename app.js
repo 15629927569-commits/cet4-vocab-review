@@ -45,6 +45,34 @@ function playCorrect() { tone(659.25, 0, 0.35); tone(880, 0.09, 0.5) }
 function playWrong() { tone(220, 0, 0.28, 'triangle', 0.2); tone(174.61, 0.1, 0.42, 'triangle', 0.18) }
 function playFlip() { tone(440, 0, 0.1, 'sine', 0.05); tone(587.33, 0.06, 0.12, 'sine', 0.04) }
 
+/* 朗读：浏览器内置语音合成（免费，优先选英语语音） */
+let cachedVoice = null
+function pickVoice() {
+  if (cachedVoice) return cachedVoice
+  if (typeof speechSynthesis === 'undefined') return null
+  const vs = speechSynthesis.getVoices()
+  cachedVoice =
+    vs.filter(function (v) { return /en[-_]US/i.test(v.lang) && /google/i.test(v.name) })[0] ||
+    vs.filter(function (v) { return /en[-_]US/i.test(v.lang) })[0] ||
+    vs.filter(function (v) { return /^en/i.test(v.lang) })[0] || null
+  return cachedVoice
+}
+if (typeof speechSynthesis !== 'undefined') {
+  speechSynthesis.onvoiceschanged = function () { cachedVoice = null; pickVoice() }
+}
+function speakWord(text) {
+  if (typeof speechSynthesis === 'undefined' || !text) return
+  try {
+    speechSynthesis.cancel()
+    const u = new SpeechSynthesisUtterance(text)
+    u.lang = 'en-US'
+    u.rate = 0.85
+    const v = pickVoice()
+    if (v) u.voice = v
+    speechSynthesis.speak(u)
+  } catch (e) { /* ignore */ }
+}
+
 function toggleSound() {
   soundOn = !soundOn
   try { localStorage.setItem('cet4_sound', soundOn ? 'on' : 'off') } catch (e) {}
@@ -177,6 +205,9 @@ function renderSpell(main) {
       (q.idx + 1 === q.list.length ? '查看结果' : '下一个') + '</button></div>'
   }
   main.innerHTML = progress(q) + '<div class="card anim-in">' + body + '</div>' +
+    (q.revealed
+      ? '<div class="center" style="margin-top:10px"><button class="act ghost" onclick="speakWord(\'' + esc(cur.word) + '\')">🔊 朗读</button></div>'
+      : '') +
     '<p class="stat-line">' + (q.revealed ? '按 Enter 继续' : '在输入框打字，Enter 提交') + '</p>'
   const inp = document.getElementById('ans')
   if (inp && !q.revealed) { inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length) }
@@ -229,6 +260,7 @@ function renderChoice(main) {
     '<div class="q-type">选出正确的中文释义</div>' +
     '<div class="q-word" style="font-size:30px">' + esc(cur.w.word) + '</div>' +
     '<div class="q-phon">' + esc(cur.w.phonetic) + '</div>' +
+    '<div style="margin-top:6px"><button class="act ghost" onclick="speakWord(\'' + esc(cur.w.word) + '\')">🔊 朗读</button></div>' +
     '</div>' +
     '<div style="margin-top:16px">' + opts + '</div>' +
     tail +
@@ -298,11 +330,13 @@ function renderFlash(main) {
   const front =
     '<div class="flash-word">' + esc(cur.word) + '</div>' +
     '<div class="q-phon" style="font-size:18px">' + esc(cur.phonetic) + '</div>' +
+    '<button class="act ghost" style="margin-top:8px" onclick="event.stopPropagation();speakWord(\'' + esc(cur.word) + '\')">🔊 朗读</button>' +
     '<div class="hint">点击卡片或按空格查看释义</div>'
   const back =
     '<div class="flash-mean"><span class="tag">' + esc(cur.pos) + '</span> ' + esc(cur.meaning) + '</div>' +
     '<div class="flash-freq">' + esc(cur.frequency) + '</div>' +
-    '<div class="example" style="width:100%"><div>' + esc(cur.example) + '</div><div class="cn">' + esc(cur.exampleCn) + '</div></div>'
+    '<div class="example" style="width:100%"><div>' + esc(cur.example) + '</div><div class="cn">' + esc(cur.exampleCn) + '</div></div>' +
+    '<button class="act ghost" style="margin-top:10px" onclick="event.stopPropagation();speakWord(\'' + esc(cur.example) + '\')">🔊 朗读例句</button>'
 
   main.innerHTML =
     '<div class="progress-row" style="justify-content:space-between">' +
@@ -355,6 +389,7 @@ function renderBank(main) {
     return '<div class="wcard">' +
       '<div class="w-head">' +
       '<b>' + esc(w.word) + '</b><span class="phon">' + esc(w.phonetic) + '</span>' +
+      '<button class="chip btn" onclick="speakWord(\'' + esc(w.word) + '\')">🔊</button>' +
       '<span class="tag">' + esc(w.pos) + '</span>' + tag +
       '<span class="date">' + esc(w.date) + '</span>' +
       '</div>' +
