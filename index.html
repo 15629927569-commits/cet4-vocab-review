@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>四级单词复习</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>四级单词复习</h1>
+      <p class="sub">每天背 10 个，温故而知新。测验进度保存在本机浏览器中。</p>
+      <div class="chips" id="chips"></div>
+    </header>
+
+    <nav class="tabs" id="tabs">
+      <button data-mode="spell" class="active">拼写测验</button>
+      <button data-mode="choice">中英选择</button>
+      <button data-mode="flash">闪卡</button>
+      <button data-mode="bank">词库</button>
+    </nav>
+
+    <main id="main">
+      <p class="loading">词库加载中…</p>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
