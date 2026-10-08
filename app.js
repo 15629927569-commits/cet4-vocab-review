@@ -176,7 +176,8 @@ function renderSpell(main) {
       '<div class="row"><button class="act" style="width:100%" onclick="quizNext()">' +
       (q.idx + 1 === q.list.length ? '查看结果' : '下一个') + '</button></div>'
   }
-  main.innerHTML = progress(q) + '<div class="card anim-in">' + body + '</div>'
+  main.innerHTML = progress(q) + '<div class="card anim-in">' + body + '</div>' +
+    '<p class="stat-line">' + (q.revealed ? '按 Enter 继续' : '在输入框打字，Enter 提交') + '</p>'
   const inp = document.getElementById('ans')
   if (inp && !q.revealed) { inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length) }
 }
@@ -231,7 +232,8 @@ function renderChoice(main) {
     '</div>' +
     '<div style="margin-top:16px">' + opts + '</div>' +
     tail +
-    '</div>'
+    '</div>' +
+    '<p class="stat-line">' + (q.picked === null ? '按 A-D 或 1-4 快速选择' : '按 Enter 继续') + '</p>'
 }
 
 function choicePick(i) {
@@ -268,6 +270,7 @@ function renderQuizResult(main, type) {
     '<div class="score">' + score + ' / ' + q.list.length + '</div>' +
     '<p class="muted">' + msg + '</p>' +
     '<div class="center-btn"><button class="act" onclick="startQuiz(\'' + type + '\');render()">再来一轮</button></div>' +
+    '<p class="stat-line">按 Enter 再来一轮</p>' +
     '</div>'
 }
 
@@ -295,7 +298,7 @@ function renderFlash(main) {
   const front =
     '<div class="flash-word">' + esc(cur.word) + '</div>' +
     '<div class="q-phon" style="font-size:18px">' + esc(cur.phonetic) + '</div>' +
-    '<div class="hint">点击卡片查看释义</div>'
+    '<div class="hint">点击卡片或按空格查看释义</div>'
   const back =
     '<div class="flash-mean"><span class="tag">' + esc(cur.pos) + '</span> ' + esc(cur.meaning) + '</div>' +
     '<div class="flash-freq">' + esc(cur.frequency) + '</div>' +
@@ -317,6 +320,7 @@ function renderFlash(main) {
     '</div>' +
     '<button class="act ghost" onclick="flashGo(1)"' + (flashIdx === sorted.length - 1 ? ' disabled' : '') + '>下一张 →</button>' +
     '</div>' +
+    '<p class="stat-line">← → 切换卡片 · 空格翻面</p>' +
     (st ? '<p class="stat-line">该单词：答对 ' + st.correct + ' 次 · 答错 ' + st.wrong + ' 次' +
       (st.mastered ? ' · 已掌握 ✅' : '') + '</p>' : '')
 }
@@ -369,6 +373,34 @@ function renderBank(main) {
     '<div class="count">共 ' + filtered.length + ' 个单词</div>' +
     (cards || '<p class="empty">没有匹配的单词</p>')
 }
+
+/* ---------- 快捷键 ---------- */
+document.addEventListener('keydown', (e) => {
+  if (!words.length) return
+  const tag = (e.target && e.target.tagName || '').toLowerCase()
+  if (tag === 'input' || tag === 'textarea') return
+  if (mode === 'spell' && quiz) {
+    if (e.key !== 'Enter') return
+    e.preventDefault()
+    if (quiz.idx >= quiz.list.length) { startQuiz('spell'); render() }
+    else if (quiz.revealed) quizNext()
+  } else if (mode === 'choice' && quiz) {
+    if (quiz.idx >= quiz.list.length) {
+      if (e.key === 'Enter') { e.preventDefault(); startQuiz('choice'); render() }
+      return
+    }
+    if (quiz.picked === null) {
+      const map = { a: 0, b: 1, c: 2, d: 3, '1': 0, '2': 1, '3': 2, '4': 3 }
+      const i = map[e.key.toLowerCase()]
+      const cur = quiz.list[quiz.idx]
+      if (i !== undefined && cur && i < cur.options.length) { e.preventDefault(); choicePick(i) }
+    } else if (e.key === 'Enter') { e.preventDefault(); quizNext() }
+  } else if (mode === 'flash') {
+    if (e.key === 'ArrowLeft') { e.preventDefault(); flashGo(-1) }
+    else if (e.key === 'ArrowRight') { e.preventDefault(); flashGo(1) }
+    else if (e.key === ' ') { e.preventDefault(); flipCard() }
+  }
+})
 
 /* ---------- 启动 ---------- */
 document.getElementById('tabs').addEventListener('click', (e) => {
