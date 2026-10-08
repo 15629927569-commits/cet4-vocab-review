@@ -1,0 +1,102 @@
+[
+  {
+    "word": "access",
+    "phonetic": "/ˈækses/",
+    "pos": "n./v.",
+    "meaning": "进入；通道；使用权；（v.）访问；获取",
+    "example": "Students have free access to the online library.",
+    "exampleCn": "学生可以免费使用在线图书馆。",
+    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 120 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "challenge",
+    "phonetic": "/ˈtʃælɪndʒ/",
+    "pos": "n./v.",
+    "meaning": "挑战；质疑；（v.）向……挑战",
+    "example": "Learning a foreign language is a real challenge for many people.",
+    "exampleCn": "对许多人来说，学一门外语是真正的挑战。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 100 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "consume",
+    "phonetic": "/kənˈsjuːm/",
+    "pos": "v.",
+    "meaning": "消耗；消费；吃喝",
+    "example": "Americans consume a large amount of coffee every year.",
+    "exampleCn": "美国人每年消耗大量咖啡。",
+    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "contribute",
+    "phonetic": "/kənˈtrɪbjuːt/",
+    "pos": "v.",
+    "meaning": "贡献；捐献；促成；投稿",
+    "example": "Regular reading contributes greatly to language learning.",
+    "exampleCn": "经常阅读对语言学习有很大帮助。",
+    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "device",
+    "phonetic": "/dɪˈvaɪs/",
+    "pos": "n.",
+    "meaning": "设备；装置；手段",
+    "example": "Mobile devices have changed the way we communicate.",
+    "exampleCn": "移动设备改变了我们的交流方式。",
+    "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "emerge",
+    "phonetic": "/ɪˈmɜːdʒ/",
+    "pos": "v.",
+    "meaning": "出现；浮现；显露",
+    "example": "New problems emerge as technology develops rapidly.",
+    "exampleCn": "随着技术的快速发展，新问题不断出现。",
+    "frequency": "高频词（估算值：COCA 排名约 2000 位，约 35 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "factor",
+    "phonetic": "/ˈfæktə(r)/",
+    "pos": "n.",
+    "meaning": "因素；要素",
+    "example": "Money is not the only factor that affects happiness.",
+    "exampleCn": "金钱并不是影响幸福的唯一因素。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "impact",
+    "phonetic": "/ˈɪmpækt/",
+    "pos": "n./v.",
+    "meaning": "影响；冲击；（v.）对……产生影响",
+    "example": "The Internet has a huge impact on our daily lives.",
+    "exampleCn": "互联网对我们的日常生活有着巨大的影响。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "opportunity",
+    "phonetic": "/ˌɒpəˈtjuːnəti/",
+    "pos": "n.",
+    "meaning": "机会；时机",
+    "example": "College provides students with many opportunities to grow.",
+    "exampleCn": "大学为学生提供了许多成长的机会。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 100 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "survey",
+    "phonetic": "/ˈsɜːveɪ/",
+    "pos": "n./v.",
+    "meaning": "调查；测量；（v.）调查；审视",
+    "example": "A recent survey shows that most students prefer online courses.",
+    "exampleCn": "最近的一项调查显示，大多数学生更喜欢在线课程。",
+    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+    "date": "2026-10-08"
+  }
+]
