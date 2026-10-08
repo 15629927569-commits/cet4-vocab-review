@@ -98,5 +98,105 @@
     "exampleCn": "最近的一项调查显示，大多数学生更喜欢在线课程。",
     "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
     "date": "2026-10-08"
+  },
+  {
+    "word": "approach",
+    "phonetic": "/əˈprəʊtʃ/",
+    "pos": "v./n.",
+    "meaning": "接近；处理；（n.）方法；途径",
+    "example": "We need a new approach to solving this problem.",
+    "exampleCn": "我们需要一种解决这个问题的新方法。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "benefit",
+    "phonetic": "/ˈbenɪfɪt/",
+    "pos": "n./v.",
+    "meaning": "好处；益处；（v.）受益于；有利于",
+    "example": "Regular exercise benefits both the body and the mind.",
+    "exampleCn": "经常锻炼对身心都有益。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "concern",
+    "phonetic": "/kənˈsɜːn/",
+    "pos": "v./n.",
+    "meaning": "涉及；使担忧；（n.）关心；担忧",
+    "example": "Environmental pollution is a growing concern worldwide.",
+    "exampleCn": "环境污染是全世界日益关注的问题。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "demand",
+    "phonetic": "/dɪˈmɑːnd/",
+    "pos": "n./v.",
+    "meaning": "需求；要求；（v.）强烈要求",
+    "example": "The demand for skilled workers continues to rise.",
+    "exampleCn": "对技术工人的需求持续上升。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "essential",
+    "phonetic": "/ɪˈsenʃl/",
+    "pos": "adj.",
+    "meaning": "必不可少的；极其重要的；本质的",
+    "example": "Good communication is essential for teamwork.",
+    "exampleCn": "良好的沟通对团队合作至关重要。",
+    "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "generate",
+    "phonetic": "/ˈdʒenəreɪt/",
+    "pos": "v.",
+    "meaning": "产生；生成；引起",
+    "example": "Wind farms generate electricity without polluting the air.",
+    "exampleCn": "风力发电场在不污染空气的情况下发电。",
+    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "involve",
+    "phonetic": "/ɪnˈvɒlv/",
+    "pos": "v.",
+    "meaning": "涉及；包含；使参与",
+    "example": "The project involves students from different majors.",
+    "exampleCn": "这个项目涉及来自不同专业的学生。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 100 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "potential",
+    "phonetic": "/pəˈtenʃl/",
+    "pos": "adj./n.",
+    "meaning": "潜在的；可能的；（n.）潜力",
+    "example": "Every student has the potential to succeed.",
+    "exampleCn": "每个学生都有成功的潜力。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "resource",
+    "phonetic": "/rɪˈsɔːs/",
+    "pos": "n.",
+    "meaning": "资源；财力；办法（常用复数）",
+    "example": "The library is a valuable resource for learning.",
+    "exampleCn": "图书馆是宝贵的学习资源。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+    "date": "2026-10-08"
+  },
+  {
+    "word": "vary",
+    "phonetic": "/ˈveəri/",
+    "pos": "v.",
+    "meaning": "变化；改变；使多样化",
+    "example": "Prices vary greatly from store to store.",
+    "exampleCn": "不同商店的价格差别很大。",
+    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+    "date": "2026-10-08"
   }
 ]
