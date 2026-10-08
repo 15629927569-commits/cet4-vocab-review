@@ -12,9 +12,48 @@ let flipped = false
 let bankQuery = ''
 let bankOnlyUn = false
 
+/* ---------- 音效（Web Audio 合成，无需素材） ---------- */
+let soundOn = true
+try { soundOn = localStorage.getItem('cet4_sound') !== 'off' } catch (e) {}
+
+let audioCtx = null
+function ac() {
+  try {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)()
+    if (audioCtx.state === 'suspended') audioCtx.resume()
+    return audioCtx
+  } catch (e) { return null }
+}
+function tone(freq, start, dur, type, vol) {
+  const c = ac()
+  if (!c || !soundOn) return
+  type = type || 'sine'; vol = vol || 0.16
+  const o = c.createOscillator()
+  const g = c.createGain()
+  o.type = type
+  o.frequency.value = freq
+  const t0 = c.currentTime + start
+  g.gain.setValueAtTime(0, t0)
+  g.gain.linearRampToValueAtTime(vol, t0 + 0.015)
+  g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur)
+  o.connect(g)
+  g.connect(c.destination)
+  o.start(t0)
+  o.stop(t0 + dur + 0.05)
+}
+function playCorrect() { tone(659.25, 0, 0.35); tone(880, 0.09, 0.5) }
+function playWrong() { tone(220, 0, 0.28, 'triangle', 0.2); tone(174.61, 0.1, 0.42, 'triangle', 0.18) }
+function playFlip() { tone(440, 0, 0.1, 'sine', 0.05); tone(587.33, 0.06, 0.12, 'sine', 0.04) }
+
+function toggleSound() {
+  soundOn = !soundOn
+  try { localStorage.setItem('cet4_sound', soundOn ? 'on' : 'off') } catch (e) {}
+  renderChips()
+}
+
 /* ---------- 数据 ---------- */
 function loadStats() {
-  try { return JSON.parse(localStorage.getItem(STATS_KEY) || '{}') } catch { return {} }
+  try { return JSON.parse(localStorage.getItem(STATS_KEY) || '{}') } catch (e) { return {} }
 }
 function saveStats() { localStorage.setItem(STATS_KEY, JSON.stringify(stats)) }
 
@@ -52,13 +91,14 @@ function initData() {
 
 /* ---------- 头部 ---------- */
 function renderChips() {
-  const mastered = words.filter((w) => stats[w.word]?.mastered).length
+  const mastered = words.filter((w) => stats[w.word] && stats[w.word].mastered).length
   const tested = words.filter((w) => stats[w.word]).length
   const el = document.getElementById('chips')
   el.innerHTML =
-    `<span class="chip">词库 ${words.length} 词</span>` +
-    `<span class="chip">已掌握 ${mastered} 词</span>` +
-    `<span class="chip">学习中 ${tested - mastered} 词</span>` +
+    '<span class="chip">词库 ' + words.length + ' 词</span>' +
+    '<span class="chip">已掌握 ' + mastered + ' 词</span>' +
+    '<span class="chip">学习中 ' + (tested - mastered) + ' 词</span>' +
+    '<button class="chip btn" onclick="toggleSound()">' + (soundOn ? '🔊 音效开' : '🔇 音效关') + '</button>' +
     (tested > 0 ? '<button class="chip btn" onclick="resetAll()">重置进度</button>' : '')
 }
 
@@ -98,13 +138,13 @@ function startQuiz(type) {
   if (type === 'choice' && words.length >= 4) {
     list = shuffle(words).slice(0, Math.min(10, words.length)).map((w) => {
       const ds = shuffle(words.filter((x) => x.word !== w.word)).slice(0, 3).map((x) => x.meaning)
-      const options = shuffle([w.meaning, ...ds])
-      return { w, options, answer: options.indexOf(w.meaning) }
+      const options = shuffle([w.meaning].concat(ds))
+      return { w: w, options: options, answer: options.indexOf(w.meaning) }
     })
   } else {
-    list = shuffle(words).slice(0, Math.min(10, words.length)).map((w) => ({ w }))
+    list = shuffle(words).slice(0, Math.min(10, words.length)).map((w) => ({ w: w }))
   }
-  quiz = { type, list, idx: 0, revealed: false, picked: null, results: [], input: '' }
+  quiz = { type: type, list: list, idx: 0, revealed: false, picked: null, results: [], input: '' }
 }
 
 function renderSpell(main) {
@@ -115,27 +155,28 @@ function renderSpell(main) {
   const cur = q.list[q.idx].w
   let body
   if (!q.revealed) {
-    body = `
-      <div class="center">
-        <div class="q-type">根据中文写出英文单词</div>
-        <div class="q-word">${esc(cur.meaning)}</div>
-        <span class="tag">${esc(cur.pos)}</span>
-      </div>
-      <div class="row">
-        <input id="ans" type="text" placeholder="输入英文单词后按回车" value="${esc(q.input)}"
-               onkeydown="if(event.key==='Enter')spellCheck()" oninput="quiz.input=this.value" autofocus />
-        <button class="act" onclick="spellCheck()">提交</button>
-      </div>`
+    body =
+      '<div class="center">' +
+      '<div class="q-type">根据中文写出英文单词</div>' +
+      '<div class="q-word">' + esc(cur.meaning) + '</div>' +
+      '<span class="tag">' + esc(cur.pos) + '</span>' +
+      '</div>' +
+      '<div class="row">' +
+      '<input id="ans" type="text" placeholder="输入英文单词后按回车" value="' + esc(q.input) + '"' +
+      ' onkeydown="if(event.key===\'Enter\')spellCheck()" oninput="quiz.input=this.value" autofocus />' +
+      '<button class="act" onclick="spellCheck()">提交</button>' +
+      '</div>'
   } else {
     const ok = q.results[q.results.length - 1]
-    body = `
-      <div class="result-word ${ok ? 'ok' : 'bad'}">
-        ${ok ? '✓ 正确' : '✗ 正确答案：' + esc(cur.word)}<small>${esc(cur.phonetic)}</small>
-      </div>
-      <div class="example"><div>${esc(cur.example)}</div><div class="cn">${esc(cur.exampleCn)}</div></div>
-      <div class="row"><button class="act" style="width:100%" onclick="quizNext()">${q.idx + 1 === q.list.length ? '查看结果' : '下一个'}</button></div>`
+    body =
+      '<div class="result-word ' + (ok ? 'ok' : 'bad') + '">' +
+      (ok ? '✓ 正确' : '✗ 正确答案：' + esc(cur.word)) + '<small>' + esc(cur.phonetic) + '</small>' +
+      '</div>' +
+      '<div class="example"><div>' + esc(cur.example) + '</div><div class="cn">' + esc(cur.exampleCn) + '</div></div>' +
+      '<div class="row"><button class="act" style="width:100%" onclick="quizNext()">' +
+      (q.idx + 1 === q.list.length ? '查看结果' : '下一个') + '</button></div>'
   }
-  main.innerHTML = progress(q) + `<div class="card">${body}</div>`
+  main.innerHTML = progress(q) + '<div class="card anim-in">' + body + '</div>'
   const inp = document.getElementById('ans')
   if (inp && !q.revealed) { inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length) }
 }
@@ -144,7 +185,7 @@ function spellCheck() {
   const q = quiz
   if (q.revealed) return
   const inp = document.getElementById('ans')
-  const val = (inp?.value || '').trim()
+  const val = (inp && inp.value || '').trim()
   if (!val) return
   q.input = val
   const cur = q.list[q.idx].w
@@ -152,6 +193,7 @@ function spellCheck() {
   q.results.push(ok)
   q.revealed = true
   record(cur.word, ok)
+  if (ok) playCorrect(); else playWrong()
   render()
 }
 
@@ -162,32 +204,34 @@ function renderChoice(main) {
   if (q.idx >= q.list.length) return renderQuizResult(main, 'choice')
 
   const cur = q.list[q.idx]
-  let opts = cur.options.map((o, i) => {
+  const opts = cur.options.map((o, i) => {
     let cls = 'opt'
     if (q.picked !== null) {
       if (i === cur.answer) cls += ' correct'
       else if (i === q.picked) cls += ' wrong'
       else cls += ' dim'
     }
-    return `<button class="${cls}" ${q.picked !== null ? 'disabled' : ''} onclick="choicePick(${i})">${String.fromCharCode(65 + i)}. ${esc(o)}</button>`
+    return '<button class="' + cls + '"' + (q.picked !== null ? ' disabled' : '') +
+      ' onclick="choicePick(' + i + ')">' + String.fromCharCode(65 + i) + '. ' + esc(o) + '</button>'
   }).join('')
 
   let tail = ''
   if (q.picked !== null) {
-    tail = `
-      <div class="example"><div>${esc(cur.w.example)}</div><div class="cn">${esc(cur.w.exampleCn)}</div></div>
-      <div class="row"><button class="act" style="width:100%" onclick="quizNext()">${q.idx + 1 === q.list.length ? '查看结果' : '下一题'}</button></div>`
+    tail =
+      '<div class="example"><div>' + esc(cur.w.example) + '</div><div class="cn">' + esc(cur.w.exampleCn) + '</div></div>' +
+      '<div class="row"><button class="act" style="width:100%" onclick="quizNext()">' +
+      (q.idx + 1 === q.list.length ? '查看结果' : '下一题') + '</button></div>'
   }
-  main.innerHTML = progress(q) + `
-    <div class="card">
-      <div class="center">
-        <div class="q-type">选出正确的中文释义</div>
-        <div class="q-word" style="font-size:30px">${esc(cur.w.word)}</div>
-        <div class="q-phon">${esc(cur.w.phonetic)}</div>
-      </div>
-      <div style="margin-top:16px">${opts}</div>
-      ${tail}
-    </div>`
+  main.innerHTML = progress(q) +
+    '<div class="card anim-in">' +
+    '<div class="center">' +
+    '<div class="q-type">选出正确的中文释义</div>' +
+    '<div class="q-word" style="font-size:30px">' + esc(cur.w.word) + '</div>' +
+    '<div class="q-phon">' + esc(cur.w.phonetic) + '</div>' +
+    '</div>' +
+    '<div style="margin-top:16px">' + opts + '</div>' +
+    tail +
+    '</div>'
 }
 
 function choicePick(i) {
@@ -195,8 +239,10 @@ function choicePick(i) {
   if (q.picked !== null) return
   q.picked = i
   const cur = q.list[q.idx]
-  q.results.push(i === cur.answer)
-  record(cur.w.word, i === cur.answer)
+  const ok = i === cur.answer
+  q.results.push(ok)
+  record(cur.w.word, ok)
+  if (ok) playCorrect(); else playWrong()
   render()
 }
 
@@ -211,54 +257,68 @@ function quizNext() {
 function renderQuizResult(main, type) {
   const q = quiz
   const score = q.results.filter(Boolean).length
+  const full = score === q.list.length
+  const emoji = type === 'spell' ? (full ? '🎉' : score >= 7 ? '👍' : '💪') : (full ? '🎉' : '👍')
   const msg = type === 'spell'
-    ? (score === q.list.length ? '完美！全部拼写正确 🎉' : score >= 7 ? '不错，继续巩固出错的单词' : '别灰心，去闪卡模式多看看再来')
-    : (score === q.list.length ? '全部答对，太棒了 🎉' : '继续加油，多刷几遍就熟了')
-  main.innerHTML = `
-    <div class="card">
-      <div class="score">${score} / ${q.list.length}</div>
-      <p class="muted">${msg}</p>
-      <div class="center-btn"><button class="act" onclick="startQuiz('${type}');render()">再来一轮</button></div>
-    </div>`
+    ? (full ? '完美！全部拼写正确' : score >= 7 ? '不错，继续巩固出错的单词' : '别灰心，去闪卡模式多看看再来')
+    : (full ? '全部答对，太棒了' : '继续加油，多刷几遍就熟了')
+  main.innerHTML =
+    '<div class="card anim-pop">' +
+    '<div class="center" style="font-size:44px">' + emoji + '</div>' +
+    '<div class="score">' + score + ' / ' + q.list.length + '</div>' +
+    '<p class="muted">' + msg + '</p>' +
+    '<div class="center-btn"><button class="act" onclick="startQuiz(\'' + type + '\');render()">再来一轮</button></div>' +
+    '</div>'
 }
 
 function progress(q) {
-  return `<div class="progress-row">
-    <div class="bar"><div style="width:${(q.idx / q.list.length) * 100}%"></div></div>
-    <span>第 ${Math.min(q.idx + 1, q.list.length)} / ${q.list.length} 题</span>
-  </div>`
+  return '<div class="progress-row">' +
+    '<div class="bar"><div style="width:' + (q.idx / q.list.length) * 100 + '%"></div></div>' +
+    '<span>第 ' + Math.min(q.idx + 1, q.list.length) + ' / ' + q.list.length + ' 题</span>' +
+    '</div>'
 }
 
 /* ---------- 闪卡 ---------- */
+function flipCard() {
+  flipped = !flipped
+  playFlip()
+  render()
+}
+
 function renderFlash(main) {
   const sorted = words.slice().sort((a, b) => (a.date < b.date ? 1 : -1))
   flashIdx = Math.max(0, Math.min(flashIdx, sorted.length - 1))
   const cur = sorted[flashIdx]
   const st = stats[cur.word]
-  const masteredCnt = sorted.filter((w) => stats[w.word]?.mastered).length
+  const masteredCnt = sorted.filter((w) => stats[w.word] && stats[w.word].mastered).length
 
-  const face = !flipped
-    ? `<div class="flash-word">${esc(cur.word)}</div>
-       <div class="q-phon" style="font-size:18px">${esc(cur.phonetic)}</div>
-       <div class="hint">点击卡片查看释义</div>`
-    : `<div class="flash-mean"><span class="tag">${esc(cur.pos)}</span> ${esc(cur.meaning)}</div>
-       <div class="flash-freq">${esc(cur.frequency)}</div>
-       <div class="example" style="width:100%"><div>${esc(cur.example)}</div><div class="cn">${esc(cur.exampleCn)}</div></div>`
+  const front =
+    '<div class="flash-word">' + esc(cur.word) + '</div>' +
+    '<div class="q-phon" style="font-size:18px">' + esc(cur.phonetic) + '</div>' +
+    '<div class="hint">点击卡片查看释义</div>'
+  const back =
+    '<div class="flash-mean"><span class="tag">' + esc(cur.pos) + '</span> ' + esc(cur.meaning) + '</div>' +
+    '<div class="flash-freq">' + esc(cur.frequency) + '</div>' +
+    '<div class="example" style="width:100%"><div>' + esc(cur.example) + '</div><div class="cn">' + esc(cur.exampleCn) + '</div></div>'
 
-  main.innerHTML = `
-    <div class="progress-row" style="justify-content:space-between">
-      <span>第 ${flashIdx + 1} / ${sorted.length} 张</span><span>${masteredCnt} 张已掌握</span>
-    </div>
-    <div class="card flashcard" onclick="flipped=!flipped;render()">${face}</div>
-    <div class="nav-row">
-      <button class="act ghost" onclick="flashGo(-1)" ${flashIdx === 0 ? 'disabled' : ''}>← 上一张</button>
-      <div class="grp">
-        <button class="act bad" onclick="flashMark(false)">还不熟</button>
-        <button class="act good" onclick="flashMark(true)">认识了</button>
-      </div>
-      <button class="act ghost" onclick="flashGo(1)" ${flashIdx === sorted.length - 1 ? 'disabled' : ''}>下一张 →</button>
-    </div>
-    ${st ? `<p class="stat-line">该单词：答对 ${st.correct} 次 · 答错 ${st.wrong} 次${st.mastered ? ' · 已掌握 ✅' : ''}</p>` : ''}`
+  main.innerHTML =
+    '<div class="progress-row" style="justify-content:space-between">' +
+    '<span>第 ' + (flashIdx + 1) + ' / ' + sorted.length + ' 张</span><span>' + masteredCnt + ' 张已掌握</span>' +
+    '</div>' +
+    '<div class="flip-scene"><div class="flip-card' + (flipped ? ' flipped' : '') + '" onclick="flipCard()">' +
+    '<div class="card flip-face">' + front + '</div>' +
+    '<div class="card flip-face flip-back">' + back + '</div>' +
+    '</div></div>' +
+    '<div class="nav-row">' +
+    '<button class="act ghost" onclick="flashGo(-1)"' + (flashIdx === 0 ? ' disabled' : '') + '>← 上一张</button>' +
+    '<div class="grp">' +
+    '<button class="act bad" onclick="flashMark(false)">还不熟</button>' +
+    '<button class="act good" onclick="flashMark(true)">认识了</button>' +
+    '</div>' +
+    '<button class="act ghost" onclick="flashGo(1)"' + (flashIdx === sorted.length - 1 ? ' disabled' : '') + '>下一张 →</button>' +
+    '</div>' +
+    (st ? '<p class="stat-line">该单词：答对 ' + st.correct + ' 次 · 答错 ' + st.wrong + ' 次' +
+      (st.mastered ? ' · 已掌握 ✅' : '') + '</p>' : '')
 }
 
 function flashGo(d) {
@@ -269,6 +329,7 @@ function flashGo(d) {
 function flashMark(ok) {
   const sorted = words.slice().sort((a, b) => (a.date < b.date ? 1 : -1))
   record(sorted[flashIdx].word, ok)
+  if (ok) playCorrect(); else playWrong()
   flashGo(1)
 }
 
@@ -278,35 +339,35 @@ function renderBank(main) {
   const q = bankQuery.trim().toLowerCase()
   const filtered = sorted.filter((w) => {
     const mq = !q || w.word.toLowerCase().includes(q) || w.meaning.toLowerCase().includes(q)
-    const mm = !bankOnlyUn || !stats[w.word]?.mastered
+    const mm = !bankOnlyUn || !(stats[w.word] && stats[w.word].mastered)
     return mq && mm
   })
 
   const cards = filtered.map((w) => {
     const st = stats[w.word]
-    const tag = st?.mastered
+    const tag = st && st.mastered
       ? '<span class="tag ok">已掌握</span>'
       : st ? '<span class="tag">学习中</span>' : '<span class="tag">未测试</span>'
-    return `<div class="wcard">
-      <div class="w-head">
-        <b>${esc(w.word)}</b><span class="phon">${esc(w.phonetic)}</span>
-        <span class="tag">${esc(w.pos)}</span>${tag}
-        <span class="date">${esc(w.date)}</span>
-      </div>
-      <div class="w-mean">${esc(w.meaning)}</div>
-      <div class="example"><div>${esc(w.example)}</div><div class="cn">${esc(w.exampleCn)}</div></div>
-      <div class="w-freq">词频：${esc(w.frequency)}</div>
-    </div>`
+    return '<div class="wcard">' +
+      '<div class="w-head">' +
+      '<b>' + esc(w.word) + '</b><span class="phon">' + esc(w.phonetic) + '</span>' +
+      '<span class="tag">' + esc(w.pos) + '</span>' + tag +
+      '<span class="date">' + esc(w.date) + '</span>' +
+      '</div>' +
+      '<div class="w-mean">' + esc(w.meaning) + '</div>' +
+      '<div class="example"><div>' + esc(w.example) + '</div><div class="cn">' + esc(w.exampleCn) + '</div></div>' +
+      '<div class="w-freq">词频：' + esc(w.frequency) + '</div>' +
+      '</div>'
   }).join('')
 
-  main.innerHTML = `
-    <div class="search-row">
-      <input type="text" style="text-align:left;font-size:14px" placeholder="搜索单词或中文释义…"
-             value="${esc(bankQuery)}" oninput="bankQuery=this.value;renderBank(document.getElementById('main'))" />
-      <label><input type="checkbox" ${bankOnlyUn ? 'checked' : ''} onchange="bankOnlyUn=this.checked;render()" /> 只看未掌握</label>
-    </div>
-    <div class="count">共 ${filtered.length} 个单词</div>
-    ${cards || '<p class="empty">没有匹配的单词</p>'}`
+  main.innerHTML =
+    '<div class="search-row">' +
+    '<input type="text" style="text-align:left;font-size:14px" placeholder="搜索单词或中文释义…"' +
+    ' value="' + esc(bankQuery) + '" oninput="bankQuery=this.value;renderBank(document.getElementById(\'main\'))" />' +
+    '<label><input type="checkbox"' + (bankOnlyUn ? ' checked' : '') + ' onchange="bankOnlyUn=this.checked;render()" /> 只看未掌握</label>' +
+    '</div>' +
+    '<div class="count">共 ' + filtered.length + ' 个单词</div>' +
+    (cards || '<p class="empty">没有匹配的单词</p>')
 }
 
 /* ---------- 启动 ---------- */
