@@ -1,2 +1,3 @@
-# cet4-vocab-review
-四级单词复习小程序（GitHub Pages 部署），词库由 Kimi Work 每日自动更新
+# 四级单词复习
+
+每天 10 个四级单词的复习小程序。
