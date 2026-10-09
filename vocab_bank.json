@@ -298,5 +298,105 @@
     "exampleCn": "乘坐公共交通有助于减少空气污染。",
     "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
     "date": "2026-10-08"
+  },
+  {
+    "word": "achieve",
+    "phonetic": "/əˈtʃiːv/",
+    "pos": "v.",
+    "meaning": "实现；达到；完成",
+    "example": "You can achieve your goals with hard work and patience.",
+    "exampleCn": "凭借努力和耐心，你可以实现自己的目标。",
+    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+    "date": "2026-10-09"
+  },
+  {
+    "word": "authority",
+    "phonetic": "/ɔːˈθɒrəti/",
+    "pos": "n.",
+    "meaning": "权威；权力；（复）当局；官方",
+    "example": "The local authorities have taken measures to protect the river.",
+    "exampleCn": "地方当局已采取措施保护这条河流。",
+    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+    "date": "2026-10-09"
+  },
+  {
+    "word": "confirm",
+    "phonetic": "/kənˈfɜːm/",
+    "pos": "v.",
+    "meaning": "确认；证实；批准",
+    "example": "Please confirm your attendance by the end of this week.",
+    "exampleCn": "请在本周末之前确认你是否出席。",
+    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+    "date": "2026-10-09"
+  },
+  {
+    "word": "economy",
+    "phonetic": "/ɪˈkɒnəmi/",
+    "pos": "n.",
+    "meaning": "经济；节约；经济状况",
+    "example": "Tourism plays an important role in the local economy.",
+    "exampleCn": "旅游业在当地经济中扮演着重要角色。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+    "date": "2026-10-09"
+  },
+  {
+    "word": "focus",
+    "phonetic": "/ˈfəʊkəs/",
+    "pos": "v./n.",
+    "meaning": "集中（注意力）；聚焦；（n.）焦点",
+    "example": "You should focus on your strengths instead of your weaknesses.",
+    "exampleCn": "你应该专注于自己的长处，而不是短处。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+    "date": "2026-10-09"
+  },
+  {
+    "word": "improve",
+    "phonetic": "/ɪmˈpruːv/",
+    "pos": "v.",
+    "meaning": "改善；提高；进步",
+    "example": "Reading every day will greatly improve your vocabulary.",
+    "exampleCn": "每天阅读会大大提升你的词汇量。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+    "date": "2026-10-09"
+  },
+  {
+    "word": "lack",
+    "phonetic": "/læk/",
+    "pos": "n./v.",
+    "meaning": "缺乏；不足；（v.）缺少",
+    "example": "Many students lack confidence when speaking English.",
+    "exampleCn": "许多学生在说英语时缺乏自信。",
+    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+    "date": "2026-10-09"
+  },
+  {
+    "word": "promote",
+    "phonetic": "/prəˈməʊt/",
+    "pos": "v.",
+    "meaning": "促进；推广；晋升",
+    "example": "The campaign aims to promote healthy eating among teenagers.",
+    "exampleCn": "这项活动旨在在青少年中推广健康饮食。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+    "date": "2026-10-09"
+  },
+  {
+    "word": "require",
+    "phonetic": "/rɪˈkwaɪə/",
+    "pos": "v.",
+    "meaning": "需要；要求；规定",
+    "example": "This job requires good communication skills.",
+    "exampleCn": "这份工作需要良好的沟通能力。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+    "date": "2026-10-09"
+  },
+  {
+    "word": "subject",
+    "phonetic": "/ˈsʌbdʒɪkt/",
+    "pos": "n./adj./v.",
+    "meaning": "主题；学科；实验对象；（adj.）易受……影响的",
+    "example": "English is my favorite subject at school.",
+    "exampleCn": "英语是我在学校最喜欢的科目。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
+    "date": "2026-10-09"
   }
 ]
