@@ -398,5 +398,105 @@
     "exampleCn": "英语是我在学校最喜欢的科目。",
     "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
     "date": "2026-10-09"
+  },
+  {
+    "word": "affect",
+    "phonetic": "/əˈfekt/",
+    "pos": "v.",
+    "meaning": "影响；（感情）打动",
+    "example": "Climate change affects everyone on this planet.",
+    "exampleCn": "气候变化影响着地球上的每一个人。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+    "date": "2026-10-10"
+  },
+  {
+    "word": "attitude",
+    "phonetic": "/ˈætɪtjuːd/",
+    "pos": "n.",
+    "meaning": "态度；看法；姿态",
+    "example": "A positive attitude can make a big difference in your life.",
+    "exampleCn": "积极的态度能给你的生活带来很大的不同。",
+    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+    "date": "2026-10-10"
+  },
+  {
+    "word": "background",
+    "phonetic": "/ˈbækɡraʊnd/",
+    "pos": "n.",
+    "meaning": "背景；出身；经历",
+    "example": "Students from different backgrounds study together here.",
+    "exampleCn": "来自不同背景的学生在这里一起学习。",
+    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+    "date": "2026-10-10"
+  },
+  {
+    "word": "communicate",
+    "phonetic": "/kəˈmjuːnɪkeɪt/",
+    "pos": "v.",
+    "meaning": "交流；沟通；传达",
+    "example": "Body language is an important way to communicate with others.",
+    "exampleCn": "肢体语言是与他人交流的重要方式。",
+    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+    "date": "2026-10-10"
+  },
+  {
+    "word": "decision",
+    "phonetic": "/dɪˈsɪʒn/",
+    "pos": "n.",
+    "meaning": "决定；决策；决心",
+    "example": "Choosing a major is an important decision for every student.",
+    "exampleCn": "选专业对每个学生来说都是一个重要的决定。",
+    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+    "date": "2026-10-10"
+  },
+  {
+    "word": "develop",
+    "phonetic": "/dɪˈveləp/",
+    "pos": "v.",
+    "meaning": "发展；培养；开发",
+    "example": "Children develop good habits through daily practice.",
+    "exampleCn": "孩子们通过日常练习养成好习惯。",
+    "frequency": "极高频词（估算值：COCA 排名约 400 位，约 160 次/百万词）",
+    "date": "2026-10-10"
+  },
+  {
+    "word": "environment",
+    "phonetic": "/ɪnˈvaɪrənmənt/",
+    "pos": "n.",
+    "meaning": "环境；自然环境；周围状况",
+    "example": "A quiet environment helps students concentrate on their studies.",
+    "exampleCn": "安静的环境有助于学生专心学习。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
+    "date": "2026-10-10"
+  },
+  {
+    "word": "function",
+    "phonetic": "/ˈfʌŋkʃn/",
+    "pos": "n./v.",
+    "meaning": "功能；作用；（v.）运转；起作用",
+    "example": "The main function of the library is to provide knowledge.",
+    "exampleCn": "图书馆的主要功能是提供知识。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+    "date": "2026-10-10"
+  },
+  {
+    "word": "increase",
+    "phonetic": "/ɪnˈkriːs/",
+    "pos": "v./n.",
+    "meaning": "增加；增长；提高",
+    "example": "Exercise can increase your energy and reduce stress.",
+    "exampleCn": "运动可以增强你的精力并减轻压力。",
+    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+    "date": "2026-10-10"
+  },
+  {
+    "word": "support",
+    "phonetic": "/səˈpɔːt/",
+    "pos": "v./n.",
+    "meaning": "支持；支撑；资助",
+    "example": "My parents have always supported my decision to study abroad.",
+    "exampleCn": "我的父母一直支持我出国留学的决定。",
+    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
+    "date": "2026-10-10"
   }
 ]
