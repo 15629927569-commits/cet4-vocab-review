@@ -498,5 +498,105 @@
     "exampleCn": "我的父母一直支持我出国留学的决定。",
     "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
     "date": "2026-10-10"
+  },
+  {
+    "word": "ability",
+    "phonetic": "/əˈbɪləti/",
+    "pos": "n.",
+    "meaning": "能力；才能；本领",
+    "example": "Practice is the key to improving your speaking ability.",
+    "exampleCn": "练习是提高口语能力的关键。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 110 次/百万词）",
+    "date": "2026-10-13"
+  },
+  {
+    "word": "advance",
+    "phonetic": "/ədˈvɑːns/",
+    "pos": "v./n./adj.",
+    "meaning": "前进；推进；（n.）进展；（adj.）预先的",
+    "example": "Technology continues to advance at a rapid pace.",
+    "exampleCn": "技术继续以极快的速度向前发展。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+    "date": "2026-10-13"
+  },
+  {
+    "word": "culture",
+    "phonetic": "/ˈkʌltʃə/",
+    "pos": "n.",
+    "meaning": "文化；文明；培养",
+    "example": "Traveling abroad helps you understand different cultures.",
+    "exampleCn": "出国旅行能帮助你了解不同的文化。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+    "date": "2026-10-13"
+  },
+  {
+    "word": "encourage",
+    "phonetic": "/ɪnˈkʌrɪdʒ/",
+    "pos": "v.",
+    "meaning": "鼓励；激励；促进",
+    "example": "Teachers should encourage students to ask questions.",
+    "exampleCn": "老师应该鼓励学生提问。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+    "date": "2026-10-13"
+  },
+  {
+    "word": "experience",
+    "phonetic": "/ɪkˈspɪəriəns/",
+    "pos": "n./v.",
+    "meaning": "经验；经历；（v.）体验；感受",
+    "example": "Working part-time is a valuable experience for students.",
+    "exampleCn": "兼职工作对学生来说是一段宝贵的经历。",
+    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
+    "date": "2026-10-13"
+  },
+  {
+    "word": "knowledge",
+    "phonetic": "/ˈnɒlɪdʒ/",
+    "pos": "n.",
+    "meaning": "知识；学问；了解",
+    "example": "Reading widely is the best way to gain knowledge.",
+    "exampleCn": "广泛阅读是获取知识的最好方式。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
+    "date": "2026-10-13"
+  },
+  {
+    "word": "produce",
+    "phonetic": "/prəˈdjuːs/",
+    "pos": "v.",
+    "meaning": "生产；产生；制作",
+    "example": "This factory produces high-quality electronic products.",
+    "exampleCn": "这家工厂生产高质量的电子产品。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 120 次/百万词）",
+    "date": "2026-10-13"
+  },
+  {
+    "word": "professional",
+    "phonetic": "/prəˈfeʃənl/",
+    "pos": "adj./n.",
+    "meaning": "专业的；职业的；（n.）专业人士",
+    "example": "You should seek professional advice before making big decisions.",
+    "exampleCn": "在做重大决定之前，你应该寻求专业建议。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
+    "date": "2026-10-13"
+  },
+  {
+    "word": "society",
+    "phonetic": "/səˈsaɪəti/",
+    "pos": "n.",
+    "meaning": "社会；社团；交往",
+    "example": "Education plays a key role in modern society.",
+    "exampleCn": "教育在现代社会中起着关键作用。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 105 次/百万词）",
+    "date": "2026-10-13"
+  },
+  {
+    "word": "technology",
+    "phonetic": "/tekˈnɒlədʒi/",
+    "pos": "n.",
+    "meaning": "技术；工艺；科技",
+    "example": "New technology has made our lives much more convenient.",
+    "exampleCn": "新技术让我们的生活便利了许多。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
+    "date": "2026-10-13"
   }
 ]
