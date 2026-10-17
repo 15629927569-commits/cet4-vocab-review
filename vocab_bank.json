@@ -598,5 +598,105 @@
     "exampleCn": "新技术让我们的生活便利了许多。",
     "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
     "date": "2026-10-13"
+  },
+  {
+    "word": "activity",
+    "phonetic": "/ækˈtɪvəti/",
+    "pos": "n.",
+    "meaning": "活动；行动；活跃",
+    "example": "Outdoor activities are good for both body and mind.",
+    "exampleCn": "户外活动对身心都有好处。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
+    "date": "2026-10-17"
+  },
+  {
+    "word": "allow",
+    "phonetic": "/əˈlaʊ/",
+    "pos": "v.",
+    "meaning": "允许；准许；使能够",
+    "example": "The Internet allows us to learn anytime and anywhere.",
+    "exampleCn": "互联网让我们能够随时随地学习。",
+    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
+    "date": "2026-10-17"
+  },
+  {
+    "word": "condition",
+    "phonetic": "/kənˈdɪʃn/",
+    "pos": "n./v.",
+    "meaning": "条件；状况；状态",
+    "example": "You should read the conditions carefully before signing.",
+    "exampleCn": "签字之前你应该仔细阅读条款。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+    "date": "2026-10-17"
+  },
+  {
+    "word": "effect",
+    "phonetic": "/ɪˈfekt/",
+    "pos": "n./v.",
+    "meaning": "影响；效果；作用",
+    "example": "The new policy had a positive effect on the environment.",
+    "exampleCn": "新政策对环境产生了积极的影响。",
+    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+    "date": "2026-10-17"
+  },
+  {
+    "word": "major",
+    "phonetic": "/ˈmeɪdʒə/",
+    "pos": "adj./n./v.",
+    "meaning": "主要的；重大的；（n.）专业；（v.）主修",
+    "example": "She majors in computer science at university.",
+    "exampleCn": "她在大学里主修计算机科学。",
+    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+    "date": "2026-10-17"
+  },
+  {
+    "word": "pressure",
+    "phonetic": "/ˈpreʃə/",
+    "pos": "n./v.",
+    "meaning": "压力；压强；压迫",
+    "example": "Many students feel pressure before important exams.",
+    "exampleCn": "许多学生在重要考试前感到压力。",
+    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+    "date": "2026-10-17"
+  },
+  {
+    "word": "quality",
+    "phonetic": "/ˈkwɒləti/",
+    "pos": "n./adj.",
+    "meaning": "质量；品质；（adj.）优质的",
+    "example": "Quality is more important than quantity in learning.",
+    "exampleCn": "在学习中，质量比数量更重要。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 105 次/百万词）",
+    "date": "2026-10-17"
+  },
+  {
+    "word": "provide",
+    "phonetic": "/prəˈvaɪd/",
+    "pos": "v.",
+    "meaning": "提供；供应；规定",
+    "example": "The school provides free meals for students in need.",
+    "exampleCn": "学校为有需要的学生提供免费餐食。",
+    "frequency": "极高频词（估算值：COCA 排名约 300 位，约 200 次/百万词）",
+    "date": "2026-10-17"
+  },
+  {
+    "word": "responsibility",
+    "phonetic": "/rɪˌspɒnsəˈbɪləti/",
+    "pos": "n.",
+    "meaning": "责任；职责；义务",
+    "example": "It is everyone's responsibility to protect the earth.",
+    "exampleCn": "保护地球是每个人的责任。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+    "date": "2026-10-17"
+  },
+  {
+    "word": "volunteer",
+    "phonetic": "/ˌvɒlənˈtɪə/",
+    "pos": "n./v./adj.",
+    "meaning": "志愿者；（v.）自愿做；（adj.）志愿的",
+    "example": "He volunteers at a local hospital every weekend.",
+    "exampleCn": "他每个周末都在当地一家医院做志愿者。",
+    "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
+    "date": "2026-10-17"
   }
 ]
