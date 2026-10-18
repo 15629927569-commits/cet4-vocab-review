@@ -698,5 +698,105 @@
     "exampleCn": "他每个周末都在当地一家医院做志愿者。",
     "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
     "date": "2026-10-17"
+  },
+  {
+    "word": "average",
+    "phonetic": "/ˈævərɪdʒ/",
+    "pos": "adj./n./v.",
+    "meaning": "平均的；普通的；（n.）平均水平",
+    "example": "The average student spends two hours online every day.",
+    "exampleCn": "普通学生每天上网两小时。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+    "date": "2026-10-18"
+  },
+  {
+    "word": "compete",
+    "phonetic": "/kəmˈpiːt/",
+    "pos": "v.",
+    "meaning": "竞争；比赛；对抗",
+    "example": "Small companies have to compete with large ones.",
+    "exampleCn": "小公司不得不与大公司竞争。",
+    "frequency": "高频词（估算值：COCA 排名约 1700 位，约 42 次/百万词）",
+    "date": "2026-10-18"
+  },
+  {
+    "word": "confident",
+    "phonetic": "/ˈkɒnfɪdənt/",
+    "pos": "adj.",
+    "meaning": "自信的；有信心的；确信的",
+    "example": "She feels more confident after practicing many times.",
+    "exampleCn": "经过多次练习，她感觉更自信了。",
+    "frequency": "高频词（估算值：COCA 排名约 2200 位，约 30 次/百万词）",
+    "date": "2026-10-18"
+  },
+  {
+    "word": "create",
+    "phonetic": "/kriˈeɪt/",
+    "pos": "v.",
+    "meaning": "创造；创建；引起",
+    "example": "The new policy will create more jobs for young people.",
+    "exampleCn": "新政策将为年轻人创造更多就业机会。",
+    "frequency": "极高频词（估算值：COCA 排名约 400 位，约 170 次/百万词）",
+    "date": "2026-10-18"
+  },
+  {
+    "word": "describe",
+    "phonetic": "/dɪˈskraɪb/",
+    "pos": "v.",
+    "meaning": "描述；形容；描绘",
+    "example": "Can you describe what happened last night?",
+    "exampleCn": "你能描述一下昨晚发生了什么吗？",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+    "date": "2026-10-18"
+  },
+  {
+    "word": "education",
+    "phonetic": "/ˌedʒuˈkeɪʃn/",
+    "pos": "n.",
+    "meaning": "教育；培养；教育学",
+    "example": "A good education opens doors to a better future.",
+    "exampleCn": "良好的教育为更美好的未来打开大门。",
+    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 135 次/百万词）",
+    "date": "2026-10-18"
+  },
+  {
+    "word": "goal",
+    "phonetic": "/ɡəʊl/",
+    "pos": "n.",
+    "meaning": "目标；目的；进球",
+    "example": "Setting clear goals helps you stay motivated.",
+    "exampleCn": "设定明确的目标能帮助你保持动力。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+    "date": "2026-10-18"
+  },
+  {
+    "word": "manage",
+    "phonetic": "/ˈmænɪdʒ/",
+    "pos": "v.",
+    "meaning": "管理；设法做到；应付",
+    "example": "He managed to finish the report before the deadline.",
+    "exampleCn": "他设法在截止日期前完成了报告。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+    "date": "2026-10-18"
+  },
+  {
+    "word": "source",
+    "phonetic": "/sɔːs/",
+    "pos": "n./v.",
+    "meaning": "来源；源头；出处",
+    "example": "Books are a reliable source of knowledge.",
+    "exampleCn": "书籍是可靠的知识来源。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+    "date": "2026-10-18"
+  },
+  {
+    "word": "value",
+    "phonetic": "/ˈvæljuː/",
+    "pos": "n./v.",
+    "meaning": "价值；价值观；（v.）重视；珍惜",
+    "example": "We should value the time we spend with our family.",
+    "exampleCn": "我们应该珍惜与家人共度的时光。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
+    "date": "2026-10-18"
   }
 ]
