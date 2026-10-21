@@ -93,6 +93,126 @@ function record(word, ok) {
   stats[word] = cur
   saveStats()
   renderChips()
+  schedulePush()
+}
+
+/* ---------- 进度云同步（GitHub，可选；token 只存本机浏览器） ---------- */
+const GH_OWNER = '15629927569-commits'
+const GH_REPO = 'cet4-vocab-review'
+const GH_STATS_API = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO + '/contents/stats.json'
+const TOKEN_KEY = 'cet4_gh_token'
+let syncState = 'off' // off | busy | on | error
+let statsSha = null
+let syncChain = Promise.resolve()
+
+function getToken() {
+  try { return localStorage.getItem(TOKEN_KEY) } catch (e) { return null }
+}
+function setToken(t) {
+  try { t ? localStorage.setItem(TOKEN_KEY, t) : localStorage.removeItem(TOKEN_KEY) } catch (e) {}
+}
+function ghHeaders() {
+  return {
+    'Authorization': 'Bearer ' + getToken(),
+    'Accept': 'application/vnd.github+json',
+    'Content-Type': 'application/json',
+  }
+}
+function b64decode(s) {
+  const bin = atob(String(s).replace(/\n/g, ''))
+  const bytes = Uint8Array.from(bin, function (c) { return c.charCodeAt(0) })
+  return new TextDecoder('utf-8').decode(bytes)
+}
+function b64encode(s) {
+  const bytes = new TextEncoder().encode(s)
+  let bin = ''
+  bytes.forEach(function (b) { bin += String.fromCharCode(b) })
+  return btoa(bin)
+}
+// 合并远程进度到本地：每个单词保留做题次数更多的那份
+function mergeStats(remote) {
+  if (!remote || typeof remote !== 'object') return false
+  let changed = false
+  Object.keys(remote).forEach(function (w) {
+    const r = remote[w]
+    if (!r || typeof r.correct !== 'number') return
+    const l = stats[w]
+    if (!l || (r.correct + r.wrong) > (l.correct + l.wrong)) { stats[w] = r; changed = true }
+  })
+  if (changed) saveStats()
+  return changed
+}
+function doPull() {
+  return fetch(GH_STATS_API, { headers: ghHeaders() }).then(function (r) {
+    if (r.status === 404) { statsSha = null; return {} }
+    if (!r.ok) throw new Error('pull ' + r.status)
+    return r.json().then(function (j) {
+      statsSha = j.sha
+      return JSON.parse(b64decode(j.content))
+    })
+  }).then(function (remote) {
+    if (mergeStats(remote)) return doPush()
+  })
+}
+function doPush() {
+  const body = {
+    message: 'Sync review stats',
+    content: b64encode(JSON.stringify(stats)),
+    branch: 'main',
+  }
+  if (statsSha) body.sha = statsSha
+  return fetch(GH_STATS_API, { method: 'PUT', headers: ghHeaders(), body: JSON.stringify(body) })
+    .then(function (r) {
+      if (r.ok) return r.json().then(function (j) { statsSha = j.content.sha })
+      if (r.status === 409 || r.status === 422) return doPull().then(function () { return doPush() })
+      throw new Error('push ' + r.status)
+    })
+}
+function enqueue(op) {
+  syncChain = syncChain.then(op).catch(function () {})
+}
+function schedulePush() {
+  if (!getToken()) return
+  syncState = 'busy'
+  enqueue(function () {
+    return doPush()
+      .then(function () { syncState = 'on' })
+      .catch(function () { syncState = 'error' })
+      .then(function () { renderChips() })
+  })
+}
+function syncLabel() {
+  if (!getToken()) return '☁️ 开启进度同步'
+  if (syncState === 'busy') return '☁️ 同步中…'
+  if (syncState === 'error') return '⚠️ 同步失败，点我重试'
+  return '☁️ 同步已开启'
+}
+function syncToggle() {
+  if (getToken()) {
+    if (confirm('要关闭进度同步吗？本机进度保留，但不再与其他设备同步。')) {
+      setToken(null); syncState = 'off'; renderChips()
+    }
+    return
+  }
+  const t = prompt('粘贴 GitHub Token 即可开启手机/电脑进度同步。\n\n获取方法：GitHub 网页 → 头像 → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token：\n  · Repository access 选 Only select repositories，只勾选 cet4-vocab-review\n  · Permissions → Repository permissions → Contents 选 Read and write\n\nToken 只保存在本机浏览器，不会上传到任何地方。')
+  if (!t || !t.trim()) return
+  setToken(t.trim())
+  syncState = 'busy'
+  renderChips()
+  enqueue(function () {
+    return doPull().then(function () { syncState = 'on' })
+      .catch(function () { syncState = 'error' })
+      .then(function () { renderChips() })
+  })
+}
+function startSync() {
+  if (!getToken()) return
+  syncState = 'busy'
+  enqueue(function () {
+    return doPull().then(function () { syncState = 'on' })
+      .catch(function () { syncState = 'error' })
+      .then(function () { renderChips() })
+  })
 }
 
 function shuffle(a) {
@@ -127,6 +247,7 @@ function renderChips() {
     '<span class="chip">已掌握 ' + mastered + ' 词</span>' +
     '<span class="chip">学习中 ' + (tested - mastered) + ' 词</span>' +
     '<button class="chip btn" onclick="toggleSound()">' + (soundOn ? '🔊 音效开' : '🔇 音效关') + '</button>' +
+    '<button class="chip btn" onclick="syncToggle()">' + syncLabel() + '</button>' +
     (tested > 0 ? '<button class="chip btn" onclick="resetAll()">重置进度</button>' : '')
 }
 
@@ -135,6 +256,7 @@ function resetAll() {
   stats = {}
   saveStats()
   render()
+  schedulePush()
 }
 
 /* ---------- 路由 ---------- */
@@ -475,3 +597,4 @@ document.getElementById('tabs').addEventListener('click', (e) => {
   if (b) setMode(b.dataset.mode)
 })
 initData()
+startSync()
