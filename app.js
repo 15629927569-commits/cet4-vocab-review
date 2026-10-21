@@ -50,26 +50,39 @@ let cachedVoice = null
 function pickVoice() {
   if (cachedVoice) return cachedVoice
   if (typeof speechSynthesis === 'undefined') return null
-  const vs = speechSynthesis.getVoices()
+  const vs = speechSynthesis.getVoices() || []
   cachedVoice =
     vs.filter(function (v) { return /en[-_]US/i.test(v.lang) && /google/i.test(v.name) })[0] ||
     vs.filter(function (v) { return /en[-_]US/i.test(v.lang) })[0] ||
-    vs.filter(function (v) { return /^en/i.test(v.lang) })[0] || null
+    vs.filter(function (v) { return /^en/i.test(v.lang) })[0] ||
+    vs.filter(function (v) { return v.default })[0] || null
   return cachedVoice
 }
 if (typeof speechSynthesis !== 'undefined') {
+  // 安卓上 voices 列表异步加载，提前触发一次，不等 voiceschanged
   speechSynthesis.onvoiceschanged = function () { cachedVoice = null; pickVoice() }
+  try { speechSynthesis.getVoices() } catch (e) {}
 }
+let speakWarned = false
 function speakWord(text) {
   if (typeof speechSynthesis === 'undefined' || !text) return
   try {
-    speechSynthesis.cancel()
     const u = new SpeechSynthesisUtterance(text)
     u.lang = 'en-US'
     u.rate = 0.85
+    u.volume = 1
     const v = pickVoice()
     if (v) u.voice = v
-    speechSynthesis.speak(u)
+    u.onerror = function () {
+      // 多半是手机缺英语语音包，提示一次
+      if (!speakWarned) {
+        speakWarned = true
+        alert('朗读没声音？手机可能缺少英语语音包，可在系统设置里搜索“文字转语音/TTS”安装后再试。')
+      }
+    }
+    // 安卓兼容：cancel 之后立刻 speak 会被吞掉，且首次 voices 未加载会静音，统一延迟一点再播
+    if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel()
+    setTimeout(function () { speechSynthesis.speak(u) }, 80)
   } catch (e) { /* ignore */ }
 }
 
@@ -228,6 +241,10 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
 }[c]))
 
+/* onclick 内联调用朗读的安全传参：先 URI 编码（单引号需补转 %27），
+   否则例句里的撇号（Don't…）经 HTML 反转义后会截断 JS 字符串，按钮直接失灵 */
+const spkCall = (s) => "speakWord(decodeURIComponent('" + encodeURIComponent(String(s ?? '')).replace(/'/g, '%27') + "'))"
+
 function initData() {
   const t = Date.now()
   fetch('vocab_bank.json?t=' + t)
@@ -298,14 +315,14 @@ function renderDaily(main) {
     '<div class="wcard">' +
     '<div class="w-head">' +
     '<b>' + esc(w.word) + '</b><span class="phon">' + esc(w.phonetic) + '</span>' +
-    '<button class="chip btn" onclick="speakWord(\'' + esc(w.word) + '\')">🔊</button>' +
+    '<button class="chip btn" onclick="spkCall(w.word)">🔊</button>' +
     '<span class="tag">' + esc(w.pos) + '</span>' +
     '<span class="date">' + esc(w.date) + '</span>' +
     '</div>' +
     '<div class="w-mean">' + esc(w.meaning) + '</div>' +
     '<div class="example"><div>' + esc(w.example) + '</div><div class="cn">' + esc(w.exampleCn) + '</div></div>' +
     '<div class="w-freq">词频：' + esc(w.frequency) + '</div>' +
-    '<button class="act ghost" style="margin-top:8px" onclick="speakWord(\'' + esc(w.example) + '\')">🔊 朗读例句</button>' +
+    '<button class="act ghost" style="margin-top:8px" onclick="spkCall(w.example)">🔊 朗读例句</button>' +
     '</div>'
   ).join('')
 
@@ -360,7 +377,7 @@ function renderSpell(main) {
   }
   main.innerHTML = progress(q) + '<div class="card anim-in">' + body + '</div>' +
     (q.revealed
-      ? '<div class="center" style="margin-top:10px"><button class="act ghost" onclick="speakWord(\'' + esc(cur.word) + '\')">🔊 朗读</button></div>'
+      ? '<div class="center" style="margin-top:10px"><button class="act ghost" onclick="spkCall(cur.word)">🔊 朗读</button></div>'
       : '') +
     '<p class="stat-line">' + (q.revealed ? '按 Enter 继续' : '在输入框打字，Enter 提交') + '</p>'
   const inp = document.getElementById('ans')
@@ -414,7 +431,7 @@ function renderChoice(main) {
     '<div class="q-type">选出正确的中文释义</div>' +
     '<div class="q-word" style="font-size:30px">' + esc(cur.w.word) + '</div>' +
     '<div class="q-phon">' + esc(cur.w.phonetic) + '</div>' +
-    '<div style="margin-top:6px"><button class="act ghost" onclick="speakWord(\'' + esc(cur.w.word) + '\')">🔊 朗读</button></div>' +
+    '<div style="margin-top:6px"><button class="act ghost" onclick="spkCall(cur.w.word)">🔊 朗读</button></div>' +
     '</div>' +
     '<div style="margin-top:16px">' + opts + '</div>' +
     tail +
@@ -484,13 +501,13 @@ function renderFlash(main) {
   const front =
     '<div class="flash-word">' + esc(cur.word) + '</div>' +
     '<div class="q-phon" style="font-size:18px">' + esc(cur.phonetic) + '</div>' +
-    '<button class="act ghost" style="margin-top:8px" onclick="event.stopPropagation();speakWord(\'' + esc(cur.word) + '\')">🔊 朗读</button>' +
+    '<button class="act ghost" style="margin-top:8px" onclick="event.stopPropagation();spkCall(cur.word)">🔊 朗读</button>' +
     '<div class="hint">点击卡片或按空格查看释义</div>'
   const back =
     '<div class="flash-mean"><span class="tag">' + esc(cur.pos) + '</span> ' + esc(cur.meaning) + '</div>' +
     '<div class="flash-freq">' + esc(cur.frequency) + '</div>' +
     '<div class="example" style="width:100%"><div>' + esc(cur.example) + '</div><div class="cn">' + esc(cur.exampleCn) + '</div></div>' +
-    '<button class="act ghost" style="margin-top:10px" onclick="event.stopPropagation();speakWord(\'' + esc(cur.example) + '\')">🔊 朗读例句</button>'
+    '<button class="act ghost" style="margin-top:10px" onclick="event.stopPropagation();spkCall(cur.example)">🔊 朗读例句</button>'
 
   main.innerHTML =
     '<div class="progress-row" style="justify-content:space-between">' +
@@ -543,7 +560,7 @@ function renderBank(main) {
     return '<div class="wcard">' +
       '<div class="w-head">' +
       '<b>' + esc(w.word) + '</b><span class="phon">' + esc(w.phonetic) + '</span>' +
-      '<button class="chip btn" onclick="speakWord(\'' + esc(w.word) + '\')">🔊</button>' +
+      '<button class="chip btn" onclick="spkCall(w.word)">🔊</button>' +
       '<span class="tag">' + esc(w.pos) + '</span>' + tag +
       '<span class="date">' + esc(w.date) + '</span>' +
       '</div>' +
@@ -581,7 +598,7 @@ document.addEventListener('keydown', (e) => {
     if (quiz.picked === null) {
       const map = { a: 0, b: 1, c: 2, d: 3, '1': 0, '2': 1, '3': 2, '4': 3 }
       const i = map[e.key.toLowerCase()]
-      const cur = quiz.list[quiz.idx]
+      const cur = quiz.list[q.idx]
       if (i !== undefined && cur && i < cur.options.length) { e.preventDefault(); choicePick(i) }
     } else if (e.key === 'Enter') { e.preventDefault(); quizNext() }
   } else if (mode === 'flash') {
