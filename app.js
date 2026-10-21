@@ -598,7 +598,7 @@ document.addEventListener('keydown', (e) => {
     if (quiz.picked === null) {
       const map = { a: 0, b: 1, c: 2, d: 3, '1': 0, '2': 1, '3': 2, '4': 3 }
       const i = map[e.key.toLowerCase()]
-      const cur = quiz.list[q.idx]
+      const cur = quiz.list[quiz.idx]
       if (i !== undefined && cur && i < cur.options.length) { e.preventDefault(); choicePick(i) }
     } else if (e.key === 'Enter') { e.preventDefault(); quizNext() }
   } else if (mode === 'flash') {
