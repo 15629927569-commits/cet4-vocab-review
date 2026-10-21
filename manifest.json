@@ -1,0 +1,14 @@
+{
+  "name": "四级单词复习",
+  "short_name": "单词复习",
+  "description": "每天背 10 个英语四级单词，拼写测验、闪卡、朗读发音",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf9f6",
+  "theme_color": "#16a34a",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
