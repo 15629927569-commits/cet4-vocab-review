@@ -45,45 +45,45 @@ function playCorrect() { tone(659.25, 0, 0.35); tone(880, 0.09, 0.5) }
 function playWrong() { tone(220, 0, 0.28, 'triangle', 0.2); tone(174.61, 0.1, 0.42, 'triangle', 0.18) }
 function playFlip() { tone(440, 0, 0.1, 'sine', 0.05); tone(587.33, 0.06, 0.12, 'sine', 0.04) }
 
-/* 朗读：浏览器内置语音合成（免费，优先选英语语音） */
-let cachedVoice = null
-function pickVoice() {
-  if (cachedVoice) return cachedVoice
-  if (typeof speechSynthesis === 'undefined') return null
-  const vs = speechSynthesis.getVoices() || []
-  cachedVoice =
-    vs.filter(function (v) { return /en[-_]US/i.test(v.lang) && /google/i.test(v.name) })[0] ||
-    vs.filter(function (v) { return /en[-_]US/i.test(v.lang) })[0] ||
-    vs.filter(function (v) { return /^en/i.test(v.lang) })[0] ||
-    vs.filter(function (v) { return v.default })[0] || null
-  return cachedVoice
+/* 朗读：浏览器内置语音合成（免费）。
+   安卓经验：①不指定 voice，只靠 lang 让引擎自选（显式指定 voice 在某些机型上会静音）；
+   ②cancel 之后立刻 speak 会被吞掉，延迟 80ms 再播；③首次调用前先 getVoices() 预热。 */
+let speakWarned = false
+function speakHint(msg) {
+  if (speakWarned) return
+  speakWarned = true
+  alert(msg)
 }
 if (typeof speechSynthesis !== 'undefined') {
-  // 安卓上 voices 列表异步加载，提前触发一次，不等 voiceschanged
-  speechSynthesis.onvoiceschanged = function () { cachedVoice = null; pickVoice() }
   try { speechSynthesis.getVoices() } catch (e) {}
 }
-let speakWarned = false
 function speakWord(text) {
-  if (typeof speechSynthesis === 'undefined' || !text) return
+  if (!text) return
+  if (typeof speechSynthesis === 'undefined') {
+    speakHint('当前浏览器不支持语音朗读，请用系统自带的 Chrome 打开本页面再试。')
+    return
+  }
   try {
     const u = new SpeechSynthesisUtterance(text)
     u.lang = 'en-US'
     u.rate = 0.85
     u.volume = 1
-    const v = pickVoice()
-    if (v) u.voice = v
     u.onerror = function () {
-      // 多半是手机缺英语语音包，提示一次
-      if (!speakWarned) {
-        speakWarned = true
-        alert('朗读没声音？手机可能缺少英语语音包，可在系统设置里搜索“文字转语音/TTS”安装后再试。')
-      }
+      speakHint('朗读没声音？可能是手机缺少英语语音包，或当前浏览器不支持。可以试试：把媒体音量调大；用 Chrome 打开本页面；系统设置里搜索“文字转语音/TTS”安装语音数据。')
     }
-    // 安卓兼容：cancel 之后立刻 speak 会被吞掉，且首次 voices 未加载会静音，统一延迟一点再播
     if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel()
-    setTimeout(function () { speechSynthesis.speak(u) }, 80)
-  } catch (e) { /* ignore */ }
+    setTimeout(function () {
+      speechSynthesis.speak(u)
+      // 有的机型既不报错也不出声，500ms 后自检一次
+      setTimeout(function () {
+        if (!speechSynthesis.speaking && !speechSynthesis.pending) {
+          speakHint('没有听到朗读？可能是手机缺少英语语音包或浏览器不支持。可以试试：把媒体音量调大；用 Chrome 打开；系统设置里搜索“文字转语音/TTS”安装语音数据。')
+        }
+      }, 500)
+    }, 80)
+  } catch (e) {
+    speakHint('朗读启动失败：' + e.message)
+  }
 }
 
 function toggleSound() {
@@ -315,14 +315,14 @@ function renderDaily(main) {
     '<div class="wcard">' +
     '<div class="w-head">' +
     '<b>' + esc(w.word) + '</b><span class="phon">' + esc(w.phonetic) + '</span>' +
-    '<button class="chip btn" onclick="spkCall(w.word)">🔊</button>' +
+    '<button class="chip btn" onclick="' + spkCall(w.word) + '">🔊</button>' +
     '<span class="tag">' + esc(w.pos) + '</span>' +
     '<span class="date">' + esc(w.date) + '</span>' +
     '</div>' +
     '<div class="w-mean">' + esc(w.meaning) + '</div>' +
     '<div class="example"><div>' + esc(w.example) + '</div><div class="cn">' + esc(w.exampleCn) + '</div></div>' +
     '<div class="w-freq">词频：' + esc(w.frequency) + '</div>' +
-    '<button class="act ghost" style="margin-top:8px" onclick="spkCall(w.example)">🔊 朗读例句</button>' +
+    '<button class="act ghost" style="margin-top:8px" onclick="' + spkCall(w.example) + '">🔊 朗读例句</button>' +
     '</div>'
   ).join('')
 
@@ -377,7 +377,7 @@ function renderSpell(main) {
   }
   main.innerHTML = progress(q) + '<div class="card anim-in">' + body + '</div>' +
     (q.revealed
-      ? '<div class="center" style="margin-top:10px"><button class="act ghost" onclick="spkCall(cur.word)">🔊 朗读</button></div>'
+      ? '<div class="center" style="margin-top:10px"><button class="act ghost" onclick="' + spkCall(cur.word) + '">🔊 朗读</button></div>'
       : '') +
     '<p class="stat-line">' + (q.revealed ? '按 Enter 继续' : '在输入框打字，Enter 提交') + '</p>'
   const inp = document.getElementById('ans')
@@ -431,7 +431,7 @@ function renderChoice(main) {
     '<div class="q-type">选出正确的中文释义</div>' +
     '<div class="q-word" style="font-size:30px">' + esc(cur.w.word) + '</div>' +
     '<div class="q-phon">' + esc(cur.w.phonetic) + '</div>' +
-    '<div style="margin-top:6px"><button class="act ghost" onclick="spkCall(cur.w.word)">🔊 朗读</button></div>' +
+    '<div style="margin-top:6px"><button class="act ghost" onclick="' + spkCall(cur.w.word) + '">🔊 朗读</button></div>' +
     '</div>' +
     '<div style="margin-top:16px">' + opts + '</div>' +
     tail +
@@ -501,13 +501,13 @@ function renderFlash(main) {
   const front =
     '<div class="flash-word">' + esc(cur.word) + '</div>' +
     '<div class="q-phon" style="font-size:18px">' + esc(cur.phonetic) + '</div>' +
-    '<button class="act ghost" style="margin-top:8px" onclick="event.stopPropagation();spkCall(cur.word)">🔊 朗读</button>' +
+    '<button class="act ghost" style="margin-top:8px" onclick="event.stopPropagation();' + spkCall(cur.word) + '">🔊 朗读</button>' +
     '<div class="hint">点击卡片或按空格查看释义</div>'
   const back =
     '<div class="flash-mean"><span class="tag">' + esc(cur.pos) + '</span> ' + esc(cur.meaning) + '</div>' +
     '<div class="flash-freq">' + esc(cur.frequency) + '</div>' +
     '<div class="example" style="width:100%"><div>' + esc(cur.example) + '</div><div class="cn">' + esc(cur.exampleCn) + '</div></div>' +
-    '<button class="act ghost" style="margin-top:10px" onclick="event.stopPropagation();spkCall(cur.example)">🔊 朗读例句</button>'
+    '<button class="act ghost" style="margin-top:10px" onclick="event.stopPropagation();' + spkCall(cur.example) + '">🔊 朗读例句</button>'
 
   main.innerHTML =
     '<div class="progress-row" style="justify-content:space-between">' +
@@ -560,7 +560,7 @@ function renderBank(main) {
     return '<div class="wcard">' +
       '<div class="w-head">' +
       '<b>' + esc(w.word) + '</b><span class="phon">' + esc(w.phonetic) + '</span>' +
-      '<button class="chip btn" onclick="spkCall(w.word)">🔊</button>' +
+      '<button class="chip btn" onclick="' + spkCall(w.word) + '">🔊</button>' +
       '<span class="tag">' + esc(w.pos) + '</span>' + tag +
       '<span class="date">' + esc(w.date) + '</span>' +
       '</div>' +
