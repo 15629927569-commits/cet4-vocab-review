@@ -898,5 +898,105 @@
     "exampleCn": "春节是中国的传统节日。",
     "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
     "date": "2026-10-26"
+  },
+  {
+    "word": "accept",
+    "phonetic": "/əkˈsept/",
+    "pos": "v.",
+    "meaning": "接受；认可；同意",
+    "example": "She accepted the invitation to give a speech.",
+    "exampleCn": "她接受了发表演讲的邀请。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "behavior",
+    "phonetic": "/bɪˈheɪvjə/",
+    "pos": "n.",
+    "meaning": "行为；举止；表现",
+    "example": "Parents should set a good example for their children's behavior.",
+    "exampleCn": "父母应该为孩子的行为树立好榜样。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "career",
+    "phonetic": "/kəˈrɪə/",
+    "pos": "n./adj.",
+    "meaning": "职业；生涯；事业",
+    "example": "Choosing a career is a big step in everyone's life.",
+    "exampleCn": "选择职业是每个人人生中的一件大事。",
+    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 80 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "contact",
+    "phonetic": "/ˈkɒntækt/",
+    "pos": "n./v.",
+    "meaning": "联系；接触；（v.）联络",
+    "example": "Please contact me if you have any questions.",
+    "exampleCn": "如果你有任何问题，请与我联系。",
+    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "design",
+    "phonetic": "/dɪˈzaɪn/",
+    "pos": "n./v.",
+    "meaning": "设计；图案；构思",
+    "example": "This course is designed for beginners of English.",
+    "exampleCn": "这门课程是为英语初学者设计的。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 105 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "express",
+    "phonetic": "/ɪkˈspres/",
+    "pos": "v./adj./n.",
+    "meaning": "表达；表示；（adj.）特快的",
+    "example": "It is important to express your ideas clearly.",
+    "exampleCn": "清楚地表达自己的想法很重要。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "healthy",
+    "phonetic": "/ˈhelθi/",
+    "pos": "adj.",
+    "meaning": "健康的；有益健康的",
+    "example": "A healthy diet includes plenty of fruit and vegetables.",
+    "exampleCn": "健康的饮食包括大量的水果和蔬菜。",
+    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "information",
+    "phonetic": "/ˌɪnfəˈmeɪʃn/",
+    "pos": "n.",
+    "meaning": "信息；资料；情报（不可数）",
+    "example": "The Internet provides us with a great deal of information.",
+    "exampleCn": "互联网为我们提供了大量的信息。",
+    "frequency": "极高频词（估算值：COCA 排名约 400 位，约 170 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "promise",
+    "phonetic": "/ˈprɒmɪs/",
+    "pos": "v./n.",
+    "meaning": "承诺；许诺；（n.）希望",
+    "example": "He promised to help me with my English study.",
+    "exampleCn": "他答应帮助我学习英语。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "solution",
+    "phonetic": "/səˈluːʃn/",
+    "pos": "n.",
+    "meaning": "解决办法；答案；溶液",
+    "example": "We must find a solution to the traffic problem.",
+    "exampleCn": "我们必须找到解决交通问题的办法。",
+    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+    "date": "2026-10-26"
   }
 ]
