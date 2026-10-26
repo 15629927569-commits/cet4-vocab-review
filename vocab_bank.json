@@ -798,5 +798,105 @@
     "exampleCn": "我们应该珍惜与家人共度的时光。",
     "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
     "date": "2026-10-18"
+  },
+  {
+    "word": "community",
+    "phonetic": "/kəˈmjuːnəti/",
+    "pos": "n.",
+    "meaning": "社区；群体；社会",
+    "example": "Our community organizes activities for elderly people.",
+    "exampleCn": "我们社区为老年人组织活动。",
+    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "consider",
+    "phonetic": "/kənˈsɪdə/",
+    "pos": "v.",
+    "meaning": "考虑；认为；体谅",
+    "example": "You should consider all the options before deciding.",
+    "exampleCn": "在做决定之前，你应该考虑所有的选择。",
+    "frequency": "极高频词（估算值：COCA 排名约 400 位，约 160 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "discover",
+    "phonetic": "/dɪˈskʌvə/",
+    "pos": "v.",
+    "meaning": "发现；发觉；找到",
+    "example": "Scientists have discovered a new kind of plant.",
+    "exampleCn": "科学家发现了一种新的植物。",
+    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "exist",
+    "phonetic": "/ɪɡˈzɪst/",
+    "pos": "v.",
+    "meaning": "存在；生存；发生",
+    "example": "Many problems still exist in the education system.",
+    "exampleCn": "教育体系中仍然存在许多问题。",
+    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "graduate",
+    "phonetic": "/ˈɡrædʒuət/",
+    "pos": "n./v./adj.",
+    "meaning": "毕业生；（v.）毕业；（adj.）研究生的",
+    "example": "She will graduate from university next June.",
+    "exampleCn": "她将于明年六月大学毕业。",
+    "frequency": "高频词（估算值：COCA 排名约 2000 位，约 35 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "imagine",
+    "phonetic": "/ɪˈmædʒɪn/",
+    "pos": "v.",
+    "meaning": "想象；设想；猜想",
+    "example": "Imagine living in a world without the Internet.",
+    "exampleCn": "想象一下生活在一个没有互联网的世界里。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "method",
+    "phonetic": "/ˈmeθəd/",
+    "pos": "n.",
+    "meaning": "方法；办法；条理",
+    "example": "Finding the right method makes learning easier.",
+    "exampleCn": "找到正确的方法能让学习更轻松。",
+    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 90 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "perform",
+    "phonetic": "/pəˈfɔːm/",
+    "pos": "v.",
+    "meaning": "表演；执行；表现",
+    "example": "The students performed well in the English speech contest.",
+    "exampleCn": "学生们在英语演讲比赛中表现出色。",
+    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "success",
+    "phonetic": "/səkˈses/",
+    "pos": "n.",
+    "meaning": "成功；成就；成功的人或事",
+    "example": "Success comes from hard work and persistence.",
+    "exampleCn": "成功来自努力工作和坚持不懈。",
+    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+    "date": "2026-10-26"
+  },
+  {
+    "word": "traditional",
+    "phonetic": "/trəˈdɪʃənl/",
+    "pos": "adj.",
+    "meaning": "传统的；惯例的",
+    "example": "The Spring Festival is a traditional Chinese holiday.",
+    "exampleCn": "春节是中国的传统节日。",
+    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+    "date": "2026-10-26"
   }
 ]
