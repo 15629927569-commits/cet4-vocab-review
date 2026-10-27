@@ -998,5 +998,105 @@
     "exampleCn": "我们必须找到解决交通问题的办法。",
     "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
     "date": "2026-10-26"
+  },
+  {
+    "word": "attract",
+    "phonetic": "/əˈtrækt/",
+    "pos": "v.",
+    "meaning": "吸引；引起……的注意",
+    "example": "The beautiful scenery attracts many tourists every year.",
+    "exampleCn": "美丽的风景每年吸引许多游客。",
+    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+    "date": "2026-10-27"
+  },
+  {
+    "word": "belong",
+    "phonetic": "/bɪˈlɒŋ/",
+    "pos": "v.",
+    "meaning": "属于；应归入；是……的成员",
+    "example": "This book belongs to the school library.",
+    "exampleCn": "这本书属于学校图书馆。",
+    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+    "date": "2026-10-27"
+  },
+  {
+    "word": "certain",
+    "phonetic": "/ˈsɜːtn/",
+    "pos": "adj.",
+    "meaning": "确定的；某些；某个",
+    "example": "I am certain that practice makes perfect.",
+    "exampleCn": "我确信熟能生巧。",
+    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
+    "date": "2026-10-27"
+  },
+  {
+    "word": "choice",
+    "phonetic": "/tʃɔɪs/",
+    "pos": "n./adj.",
+    "meaning": "选择；选择权；（adj.）上等的",
+    "example": "Learning English gives you more choices in the future.",
+    "exampleCn": "学习英语能让你在未来有更多选择。",
+    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 120 次/百万词）",
+    "date": "2026-10-27"
+  },
+  {
+    "word": "compare",
+    "phonetic": "/kəmˈpeə/",
+    "pos": "v./n.",
+    "meaning": "比较；对比；比作",
+    "example": "Don't compare yourself with others all the time.",
+    "exampleCn": "不要总是拿自己和别人比较。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+    "date": "2026-10-27"
+  },
+  {
+    "word": "depend",
+    "phonetic": "/dɪˈpend/",
+    "pos": "v.",
+    "meaning": "依靠；取决于；信赖",
+    "example": "Success depends on both effort and opportunity.",
+    "exampleCn": "成功取决于努力，也取决于机遇。",
+    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+    "date": "2026-10-27"
+  },
+  {
+    "word": "honest",
+    "phonetic": "/ˈɒnɪst/",
+    "pos": "adj.",
+    "meaning": "诚实的；正直的；坦率的",
+    "example": "To be honest, learning a language takes time.",
+    "exampleCn": "说实话，学一门语言需要时间。",
+    "frequency": "高频词（估算值：COCA 排名约 1700 位，约 42 次/百万词）",
+    "date": "2026-10-27"
+  },
+  {
+    "word": "instead",
+    "phonetic": "/ɪnˈsted/",
+    "pos": "adv.",
+    "meaning": "代替；反而；却",
+    "example": "Instead of watching TV, she went for a walk.",
+    "exampleCn": "她没有看电视，而是去散步了。",
+    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 110 次/百万词）",
+    "date": "2026-10-27"
+  },
+  {
+    "word": "journey",
+    "phonetic": "/ˈdʒɜːni/",
+    "pos": "n./v.",
+    "meaning": "旅程；历程；（v.）旅行",
+    "example": "Learning English is a long but rewarding journey.",
+    "exampleCn": "学习英语是一段漫长但充满收获的旅程。",
+    "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
+    "date": "2026-10-27"
+  },
+  {
+    "word": "protect",
+    "phonetic": "/prəˈtekt/",
+    "pos": "v.",
+    "meaning": "保护；防护；保卫",
+    "example": "Sunglasses protect our eyes from strong sunlight.",
+    "exampleCn": "太阳镜保护我们的眼睛免受强烈阳光的伤害。",
+    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 80 次/百万词）",
+    "date": "2026-10-27"
   }
 ]
