@@ -1098,5 +1098,105 @@
     "exampleCn": "太阳镜保护我们的眼睛免受强烈阳光的伤害。",
     "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 80 次/百万词）",
     "date": "2026-10-27"
+  },
+  {
+    "word": "wealth",
+    "phonetic": "/welθ/",
+    "pos": "n.",
+    "meaning": "财富；丰富；大量",
+    "example": "Health is more valuable than wealth.",
+    "exampleCn": "健康比财富更宝贵。",
+    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+    "date": "2026-10-31"
+  },
+  {
+    "word": "uniform",
+    "phonetic": "/ˈjuːnɪfɔːm/",
+    "pos": "n./adj.",
+    "meaning": "制服；校服；（adj.）统一的",
+    "example": "All students must wear school uniforms on weekdays.",
+    "exampleCn": "所有学生在工作日都必须穿校服。",
+    "frequency": "高频词（估算值：COCA 排名约 2300 位，约 30 次/百万词）",
+    "date": "2026-10-31"
+  },
+  {
+    "word": "traffic",
+    "phonetic": "/ˈtræfɪk/",
+    "pos": "n./v.",
+    "meaning": "交通；车流；流量",
+    "example": "The traffic is always heavy during rush hour.",
+    "exampleCn": "高峰时段交通总是很拥堵。",
+    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+    "date": "2026-10-31"
+  },
+  {
+    "word": "succeed",
+    "phonetic": "/səkˈsiːd/",
+    "pos": "v.",
+    "meaning": "成功；继承；接着发生",
+    "example": "If you keep trying, you will succeed in the end.",
+    "exampleCn": "如果你坚持尝试，最终会成功的。",
+    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+    "date": "2026-10-31"
+  },
+  {
+    "word": "suffer",
+    "phonetic": "/ˈsʌfə/",
+    "pos": "v.",
+    "meaning": "遭受；忍受；患病",
+    "example": "Many people suffer from stress at work.",
+    "exampleCn": "许多人承受着工作压力。",
+    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+    "date": "2026-10-31"
+  },
+  {
+    "word": "suggest",
+    "phonetic": "/səˈdʒest/",
+    "pos": "v.",
+    "meaning": "建议；提议；暗示",
+    "example": "I suggest taking a break after long hours of study.",
+    "exampleCn": "我建议长时间学习后休息一下。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+    "date": "2026-10-31"
+  },
+  {
+    "word": "supply",
+    "phonetic": "/səˈplaɪ/",
+    "pos": "n./v.",
+    "meaning": "供应；供给；（n.）供应量",
+    "example": "The supermarket supplies fresh vegetables every day.",
+    "exampleCn": "这家超市每天供应新鲜蔬菜。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 65 次/百万词）",
+    "date": "2026-10-31"
+  },
+  {
+    "word": "suppose",
+    "phonetic": "/səˈpəʊz/",
+    "pos": "v.",
+    "meaning": "认为；猜想；假定",
+    "example": "I suppose you are right about this problem.",
+    "exampleCn": "我想你对这个问题的看法是对的。",
+    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
+    "date": "2026-10-31"
+  },
+  {
+    "word": "surface",
+    "phonetic": "/ˈsɜːfɪs/",
+    "pos": "n./adj./v.",
+    "meaning": "表面；外表；（v.）浮出水面",
+    "example": "The surface of the lake was calm and clear.",
+    "exampleCn": "湖面平静而清澈。",
+    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+    "date": "2026-10-31"
+  },
+  {
+    "word": "threat",
+    "phonetic": "/θret/",
+    "pos": "n.",
+    "meaning": "威胁；恐吓；征兆",
+    "example": "Climate change is a serious threat to our planet.",
+    "exampleCn": "气候变化对我们的星球是一个严重威胁。",
+    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 60 次/百万词）",
+    "date": "2026-10-31"
   }
 ]
