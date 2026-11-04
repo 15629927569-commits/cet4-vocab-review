@@ -1,1202 +1,1302 @@
 [
-  {
-    "word": "access",
-    "phonetic": "/ˈækses/",
-    "pos": "n./v.",
-    "meaning": "进入；通道；使用权；（v.）访问；获取",
-    "example": "Students have free access to the online library.",
-    "exampleCn": "学生可以免费使用在线图书馆。",
-    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 120 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "challenge",
-    "phonetic": "/ˈtʃælɪndʒ/",
-    "pos": "n./v.",
-    "meaning": "挑战；质疑；（v.）向……挑战",
-    "example": "Learning a foreign language is a real challenge for many people.",
-    "exampleCn": "对许多人来说，学一门外语是真正的挑战。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 100 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "consume",
-    "phonetic": "/kənˈsjuːm/",
-    "pos": "v.",
-    "meaning": "消耗；消费；吃喝",
-    "example": "Americans consume a large amount of coffee every year.",
-    "exampleCn": "美国人每年消耗大量咖啡。",
-    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "contribute",
-    "phonetic": "/kənˈtrɪbjuːt/",
-    "pos": "v.",
-    "meaning": "贡献；捐献；促成；投稿",
-    "example": "Regular reading contributes greatly to language learning.",
-    "exampleCn": "经常阅读对语言学习有很大帮助。",
-    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "device",
-    "phonetic": "/dɪˈvaɪs/",
-    "pos": "n.",
-    "meaning": "设备；装置；手段",
-    "example": "Mobile devices have changed the way we communicate.",
-    "exampleCn": "移动设备改变了我们的交流方式。",
-    "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "emerge",
-    "phonetic": "/ɪˈmɜːdʒ/",
-    "pos": "v.",
-    "meaning": "出现；浮现；显露",
-    "example": "New problems emerge as technology develops rapidly.",
-    "exampleCn": "随着技术的快速发展，新问题不断出现。",
-    "frequency": "高频词（估算值：COCA 排名约 2000 位，约 35 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "factor",
-    "phonetic": "/ˈfæktə(r)/",
-    "pos": "n.",
-    "meaning": "因素；要素",
-    "example": "Money is not the only factor that affects happiness.",
-    "exampleCn": "金钱并不是影响幸福的唯一因素。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "impact",
-    "phonetic": "/ˈɪmpækt/",
-    "pos": "n./v.",
-    "meaning": "影响；冲击；（v.）对……产生影响",
-    "example": "The Internet has a huge impact on our daily lives.",
-    "exampleCn": "互联网对我们的日常生活有着巨大的影响。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "opportunity",
-    "phonetic": "/ˌɒpəˈtjuːnəti/",
-    "pos": "n.",
-    "meaning": "机会；时机",
-    "example": "College provides students with many opportunities to grow.",
-    "exampleCn": "大学为学生提供了许多成长的机会。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 100 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "survey",
-    "phonetic": "/ˈsɜːveɪ/",
-    "pos": "n./v.",
-    "meaning": "调查；测量；（v.）调查；审视",
-    "example": "A recent survey shows that most students prefer online courses.",
-    "exampleCn": "最近的一项调查显示，大多数学生更喜欢在线课程。",
-    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "approach",
-    "phonetic": "/əˈprəʊtʃ/",
-    "pos": "v./n.",
-    "meaning": "接近；处理；（n.）方法；途径",
-    "example": "We need a new approach to solving this problem.",
-    "exampleCn": "我们需要一种解决这个问题的新方法。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "benefit",
-    "phonetic": "/ˈbenɪfɪt/",
-    "pos": "n./v.",
-    "meaning": "好处；益处；（v.）受益于；有利于",
-    "example": "Regular exercise benefits both the body and the mind.",
-    "exampleCn": "经常锻炼对身心都有益。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "concern",
-    "phonetic": "/kənˈsɜːn/",
-    "pos": "v./n.",
-    "meaning": "涉及；使担忧；（n.）关心；担忧",
-    "example": "Environmental pollution is a growing concern worldwide.",
-    "exampleCn": "环境污染是全世界日益关注的问题。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "demand",
-    "phonetic": "/dɪˈmɑːnd/",
-    "pos": "n./v.",
-    "meaning": "需求；要求；（v.）强烈要求",
-    "example": "The demand for skilled workers continues to rise.",
-    "exampleCn": "对技术工人的需求持续上升。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "essential",
-    "phonetic": "/ɪˈsenʃl/",
-    "pos": "adj.",
-    "meaning": "必不可少的；极其重要的；本质的",
-    "example": "Good communication is essential for teamwork.",
-    "exampleCn": "良好的沟通对团队合作至关重要。",
-    "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "generate",
-    "phonetic": "/ˈdʒenəreɪt/",
-    "pos": "v.",
-    "meaning": "产生；生成；引起",
-    "example": "Wind farms generate electricity without polluting the air.",
-    "exampleCn": "风力发电场在不污染空气的情况下发电。",
-    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "involve",
-    "phonetic": "/ɪnˈvɒlv/",
-    "pos": "v.",
-    "meaning": "涉及；包含；使参与",
-    "example": "The project involves students from different majors.",
-    "exampleCn": "这个项目涉及来自不同专业的学生。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 100 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "potential",
-    "phonetic": "/pəˈtenʃl/",
-    "pos": "adj./n.",
-    "meaning": "潜在的；可能的；（n.）潜力",
-    "example": "Every student has the potential to succeed.",
-    "exampleCn": "每个学生都有成功的潜力。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "resource",
-    "phonetic": "/rɪˈsɔːs/",
-    "pos": "n.",
-    "meaning": "资源；财力；办法（常用复数）",
-    "example": "The library is a valuable resource for learning.",
-    "exampleCn": "图书馆是宝贵的学习资源。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "vary",
-    "phonetic": "/ˈveəri/",
-    "pos": "v.",
-    "meaning": "变化；改变；使多样化",
-    "example": "Prices vary greatly from store to store.",
-    "exampleCn": "不同商店的价格差别很大。",
-    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "adapt",
-    "phonetic": "/əˈdæpt/",
-    "pos": "v.",
-    "meaning": "适应；改编；调整",
-    "example": "It took her a while to adapt to college life.",
-    "exampleCn": "她花了一段时间才适应大学生活。",
-    "frequency": "高频词（估算值：COCA 排名约 2200 位，约 30 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "assume",
-    "phonetic": "/əˈsjuːm/",
-    "pos": "v.",
-    "meaning": "假定；认为；承担",
-    "example": "Don't assume that everyone thinks the same way.",
-    "exampleCn": "不要想当然地认为每个人的想法都一样。",
-    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "available",
-    "phonetic": "/əˈveɪləbl/",
-    "pos": "adj.",
-    "meaning": "可获得的；可用的；有空的",
-    "example": "Free Wi-Fi is available throughout the campus.",
-    "exampleCn": "整个校园都有免费无线网络可用。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "complex",
-    "phonetic": "/ˈkɒmpleks/",
-    "pos": "adj./n.",
-    "meaning": "复杂的；（n.）综合体；情结",
-    "example": "Learning a language is a complex process.",
-    "exampleCn": "学习语言是一个复杂的过程。",
-    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "current",
-    "phonetic": "/ˈkʌrənt/",
-    "pos": "adj./n.",
-    "meaning": "当前的；流行的；（n.）水流；电流",
-    "example": "The current situation calls for immediate action.",
-    "exampleCn": "当前的形势需要立即采取行动。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "establish",
-    "phonetic": "/ɪˈstæblɪʃ/",
-    "pos": "v.",
-    "meaning": "建立；确立；创办",
-    "example": "The club was established ten years ago.",
-    "exampleCn": "这个社团是十年前成立的。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "evidence",
-    "phonetic": "/ˈevɪdəns/",
-    "pos": "n.",
-    "meaning": "证据；迹象；证明",
-    "example": "There is strong evidence that sleep improves memory.",
-    "exampleCn": "有充分证据表明睡眠能改善记忆力。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "individual",
-    "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
-    "pos": "adj./n.",
-    "meaning": "个人的；独特的；（n.）个人；个体",
-    "example": "Each individual has different learning habits.",
-    "exampleCn": "每个人都有不同的学习习惯。",
-    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 140 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "recognize",
-    "phonetic": "/ˈrekəɡnaɪz/",
-    "pos": "v.",
-    "meaning": "认出；承认；认可",
-    "example": "I recognized her voice the moment she spoke.",
-    "exampleCn": "她一开口我就听出了她的声音。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "reduce",
-    "phonetic": "/rɪˈdjuːs/",
-    "pos": "v.",
-    "meaning": "减少；降低；缩小",
-    "example": "Taking public transport helps reduce air pollution.",
-    "exampleCn": "乘坐公共交通有助于减少空气污染。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
-    "date": "2026-10-08"
-  },
-  {
-    "word": "achieve",
-    "phonetic": "/əˈtʃiːv/",
-    "pos": "v.",
-    "meaning": "实现；达到；完成",
-    "example": "You can achieve your goals with hard work and patience.",
-    "exampleCn": "凭借努力和耐心，你可以实现自己的目标。",
-    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "authority",
-    "phonetic": "/ɔːˈθɒrəti/",
-    "pos": "n.",
-    "meaning": "权威；权力；（复）当局；官方",
-    "example": "The local authorities have taken measures to protect the river.",
-    "exampleCn": "地方当局已采取措施保护这条河流。",
-    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "confirm",
-    "phonetic": "/kənˈfɜːm/",
-    "pos": "v.",
-    "meaning": "确认；证实；批准",
-    "example": "Please confirm your attendance by the end of this week.",
-    "exampleCn": "请在本周末之前确认你是否出席。",
-    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "economy",
-    "phonetic": "/ɪˈkɒnəmi/",
-    "pos": "n.",
-    "meaning": "经济；节约；经济状况",
-    "example": "Tourism plays an important role in the local economy.",
-    "exampleCn": "旅游业在当地经济中扮演着重要角色。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "focus",
-    "phonetic": "/ˈfəʊkəs/",
-    "pos": "v./n.",
-    "meaning": "集中（注意力）；聚焦；（n.）焦点",
-    "example": "You should focus on your strengths instead of your weaknesses.",
-    "exampleCn": "你应该专注于自己的长处，而不是短处。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "improve",
-    "phonetic": "/ɪmˈpruːv/",
-    "pos": "v.",
-    "meaning": "改善；提高；进步",
-    "example": "Reading every day will greatly improve your vocabulary.",
-    "exampleCn": "每天阅读会大大提升你的词汇量。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "lack",
-    "phonetic": "/læk/",
-    "pos": "n./v.",
-    "meaning": "缺乏；不足；（v.）缺少",
-    "example": "Many students lack confidence when speaking English.",
-    "exampleCn": "许多学生在说英语时缺乏自信。",
-    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "promote",
-    "phonetic": "/prəˈməʊt/",
-    "pos": "v.",
-    "meaning": "促进；推广；晋升",
-    "example": "The campaign aims to promote healthy eating among teenagers.",
-    "exampleCn": "这项活动旨在在青少年中推广健康饮食。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "require",
-    "phonetic": "/rɪˈkwaɪə/",
-    "pos": "v.",
-    "meaning": "需要；要求；规定",
-    "example": "This job requires good communication skills.",
-    "exampleCn": "这份工作需要良好的沟通能力。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "subject",
-    "phonetic": "/ˈsʌbdʒɪkt/",
-    "pos": "n./adj./v.",
-    "meaning": "主题；学科；实验对象；（adj.）易受……影响的",
-    "example": "English is my favorite subject at school.",
-    "exampleCn": "英语是我在学校最喜欢的科目。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
-    "date": "2026-10-09"
-  },
-  {
-    "word": "affect",
-    "phonetic": "/əˈfekt/",
-    "pos": "v.",
-    "meaning": "影响；（感情）打动",
-    "example": "Climate change affects everyone on this planet.",
-    "exampleCn": "气候变化影响着地球上的每一个人。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "attitude",
-    "phonetic": "/ˈætɪtjuːd/",
-    "pos": "n.",
-    "meaning": "态度；看法；姿态",
-    "example": "A positive attitude can make a big difference in your life.",
-    "exampleCn": "积极的态度能给你的生活带来很大的不同。",
-    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "background",
-    "phonetic": "/ˈbækɡraʊnd/",
-    "pos": "n.",
-    "meaning": "背景；出身；经历",
-    "example": "Students from different backgrounds study together here.",
-    "exampleCn": "来自不同背景的学生在这里一起学习。",
-    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "communicate",
-    "phonetic": "/kəˈmjuːnɪkeɪt/",
-    "pos": "v.",
-    "meaning": "交流；沟通；传达",
-    "example": "Body language is an important way to communicate with others.",
-    "exampleCn": "肢体语言是与他人交流的重要方式。",
-    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "decision",
-    "phonetic": "/dɪˈsɪʒn/",
-    "pos": "n.",
-    "meaning": "决定；决策；决心",
-    "example": "Choosing a major is an important decision for every student.",
-    "exampleCn": "选专业对每个学生来说都是一个重要的决定。",
-    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "develop",
-    "phonetic": "/dɪˈveləp/",
-    "pos": "v.",
-    "meaning": "发展；培养；开发",
-    "example": "Children develop good habits through daily practice.",
-    "exampleCn": "孩子们通过日常练习养成好习惯。",
-    "frequency": "极高频词（估算值：COCA 排名约 400 位，约 160 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "environment",
-    "phonetic": "/ɪnˈvaɪrənmənt/",
-    "pos": "n.",
-    "meaning": "环境；自然环境；周围状况",
-    "example": "A quiet environment helps students concentrate on their studies.",
-    "exampleCn": "安静的环境有助于学生专心学习。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "function",
-    "phonetic": "/ˈfʌŋkʃn/",
-    "pos": "n./v.",
-    "meaning": "功能；作用；（v.）运转；起作用",
-    "example": "The main function of the library is to provide knowledge.",
-    "exampleCn": "图书馆的主要功能是提供知识。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "increase",
-    "phonetic": "/ɪnˈkriːs/",
-    "pos": "v./n.",
-    "meaning": "增加；增长；提高",
-    "example": "Exercise can increase your energy and reduce stress.",
-    "exampleCn": "运动可以增强你的精力并减轻压力。",
-    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "support",
-    "phonetic": "/səˈpɔːt/",
-    "pos": "v./n.",
-    "meaning": "支持；支撑；资助",
-    "example": "My parents have always supported my decision to study abroad.",
-    "exampleCn": "我的父母一直支持我出国留学的决定。",
-    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
-    "date": "2026-10-10"
-  },
-  {
-    "word": "ability",
-    "phonetic": "/əˈbɪləti/",
-    "pos": "n.",
-    "meaning": "能力；才能；本领",
-    "example": "Practice is the key to improving your speaking ability.",
-    "exampleCn": "练习是提高口语能力的关键。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 110 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "advance",
-    "phonetic": "/ədˈvɑːns/",
-    "pos": "v./n./adj.",
-    "meaning": "前进；推进；（n.）进展；（adj.）预先的",
-    "example": "Technology continues to advance at a rapid pace.",
-    "exampleCn": "技术继续以极快的速度向前发展。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "culture",
-    "phonetic": "/ˈkʌltʃə/",
-    "pos": "n.",
-    "meaning": "文化；文明；培养",
-    "example": "Traveling abroad helps you understand different cultures.",
-    "exampleCn": "出国旅行能帮助你了解不同的文化。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "encourage",
-    "phonetic": "/ɪnˈkʌrɪdʒ/",
-    "pos": "v.",
-    "meaning": "鼓励；激励；促进",
-    "example": "Teachers should encourage students to ask questions.",
-    "exampleCn": "老师应该鼓励学生提问。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "experience",
-    "phonetic": "/ɪkˈspɪəriəns/",
-    "pos": "n./v.",
-    "meaning": "经验；经历；（v.）体验；感受",
-    "example": "Working part-time is a valuable experience for students.",
-    "exampleCn": "兼职工作对学生来说是一段宝贵的经历。",
-    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "knowledge",
-    "phonetic": "/ˈnɒlɪdʒ/",
-    "pos": "n.",
-    "meaning": "知识；学问；了解",
-    "example": "Reading widely is the best way to gain knowledge.",
-    "exampleCn": "广泛阅读是获取知识的最好方式。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "produce",
-    "phonetic": "/prəˈdjuːs/",
-    "pos": "v.",
-    "meaning": "生产；产生；制作",
-    "example": "This factory produces high-quality electronic products.",
-    "exampleCn": "这家工厂生产高质量的电子产品。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 120 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "professional",
-    "phonetic": "/prəˈfeʃənl/",
-    "pos": "adj./n.",
-    "meaning": "专业的；职业的；（n.）专业人士",
-    "example": "You should seek professional advice before making big decisions.",
-    "exampleCn": "在做重大决定之前，你应该寻求专业建议。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "society",
-    "phonetic": "/səˈsaɪəti/",
-    "pos": "n.",
-    "meaning": "社会；社团；交往",
-    "example": "Education plays a key role in modern society.",
-    "exampleCn": "教育在现代社会中起着关键作用。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 105 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "technology",
-    "phonetic": "/tekˈnɒlədʒi/",
-    "pos": "n.",
-    "meaning": "技术；工艺；科技",
-    "example": "New technology has made our lives much more convenient.",
-    "exampleCn": "新技术让我们的生活便利了许多。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
-    "date": "2026-10-13"
-  },
-  {
-    "word": "activity",
-    "phonetic": "/ækˈtɪvəti/",
-    "pos": "n.",
-    "meaning": "活动；行动；活跃",
-    "example": "Outdoor activities are good for both body and mind.",
-    "exampleCn": "户外活动对身心都有好处。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "allow",
-    "phonetic": "/əˈlaʊ/",
-    "pos": "v.",
-    "meaning": "允许；准许；使能够",
-    "example": "The Internet allows us to learn anytime and anywhere.",
-    "exampleCn": "互联网让我们能够随时随地学习。",
-    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "condition",
-    "phonetic": "/kənˈdɪʃn/",
-    "pos": "n./v.",
-    "meaning": "条件；状况；状态",
-    "example": "You should read the conditions carefully before signing.",
-    "exampleCn": "签字之前你应该仔细阅读条款。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "effect",
-    "phonetic": "/ɪˈfekt/",
-    "pos": "n./v.",
-    "meaning": "影响；效果；作用",
-    "example": "The new policy had a positive effect on the environment.",
-    "exampleCn": "新政策对环境产生了积极的影响。",
-    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "major",
-    "phonetic": "/ˈmeɪdʒə/",
-    "pos": "adj./n./v.",
-    "meaning": "主要的；重大的；（n.）专业；（v.）主修",
-    "example": "She majors in computer science at university.",
-    "exampleCn": "她在大学里主修计算机科学。",
-    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "pressure",
-    "phonetic": "/ˈpreʃə/",
-    "pos": "n./v.",
-    "meaning": "压力；压强；压迫",
-    "example": "Many students feel pressure before important exams.",
-    "exampleCn": "许多学生在重要考试前感到压力。",
-    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "quality",
-    "phonetic": "/ˈkwɒləti/",
-    "pos": "n./adj.",
-    "meaning": "质量；品质；（adj.）优质的",
-    "example": "Quality is more important than quantity in learning.",
-    "exampleCn": "在学习中，质量比数量更重要。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 105 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "provide",
-    "phonetic": "/prəˈvaɪd/",
-    "pos": "v.",
-    "meaning": "提供；供应；规定",
-    "example": "The school provides free meals for students in need.",
-    "exampleCn": "学校为有需要的学生提供免费餐食。",
-    "frequency": "极高频词（估算值：COCA 排名约 300 位，约 200 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "responsibility",
-    "phonetic": "/rɪˌspɒnsəˈbɪləti/",
-    "pos": "n.",
-    "meaning": "责任；职责；义务",
-    "example": "It is everyone's responsibility to protect the earth.",
-    "exampleCn": "保护地球是每个人的责任。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "volunteer",
-    "phonetic": "/ˌvɒlənˈtɪə/",
-    "pos": "n./v./adj.",
-    "meaning": "志愿者；（v.）自愿做；（adj.）志愿的",
-    "example": "He volunteers at a local hospital every weekend.",
-    "exampleCn": "他每个周末都在当地一家医院做志愿者。",
-    "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
-    "date": "2026-10-17"
-  },
-  {
-    "word": "average",
-    "phonetic": "/ˈævərɪdʒ/",
-    "pos": "adj./n./v.",
-    "meaning": "平均的；普通的；（n.）平均水平",
-    "example": "The average student spends two hours online every day.",
-    "exampleCn": "普通学生每天上网两小时。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "compete",
-    "phonetic": "/kəmˈpiːt/",
-    "pos": "v.",
-    "meaning": "竞争；比赛；对抗",
-    "example": "Small companies have to compete with large ones.",
-    "exampleCn": "小公司不得不与大公司竞争。",
-    "frequency": "高频词（估算值：COCA 排名约 1700 位，约 42 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "confident",
-    "phonetic": "/ˈkɒnfɪdənt/",
-    "pos": "adj.",
-    "meaning": "自信的；有信心的；确信的",
-    "example": "She feels more confident after practicing many times.",
-    "exampleCn": "经过多次练习，她感觉更自信了。",
-    "frequency": "高频词（估算值：COCA 排名约 2200 位，约 30 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "create",
-    "phonetic": "/kriˈeɪt/",
-    "pos": "v.",
-    "meaning": "创造；创建；引起",
-    "example": "The new policy will create more jobs for young people.",
-    "exampleCn": "新政策将为年轻人创造更多就业机会。",
-    "frequency": "极高频词（估算值：COCA 排名约 400 位，约 170 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "describe",
-    "phonetic": "/dɪˈskraɪb/",
-    "pos": "v.",
-    "meaning": "描述；形容；描绘",
-    "example": "Can you describe what happened last night?",
-    "exampleCn": "你能描述一下昨晚发生了什么吗？",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "education",
-    "phonetic": "/ˌedʒuˈkeɪʃn/",
-    "pos": "n.",
-    "meaning": "教育；培养；教育学",
-    "example": "A good education opens doors to a better future.",
-    "exampleCn": "良好的教育为更美好的未来打开大门。",
-    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 135 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "goal",
-    "phonetic": "/ɡəʊl/",
-    "pos": "n.",
-    "meaning": "目标；目的；进球",
-    "example": "Setting clear goals helps you stay motivated.",
-    "exampleCn": "设定明确的目标能帮助你保持动力。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "manage",
-    "phonetic": "/ˈmænɪdʒ/",
-    "pos": "v.",
-    "meaning": "管理；设法做到；应付",
-    "example": "He managed to finish the report before the deadline.",
-    "exampleCn": "他设法在截止日期前完成了报告。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "source",
-    "phonetic": "/sɔːs/",
-    "pos": "n./v.",
-    "meaning": "来源；源头；出处",
-    "example": "Books are a reliable source of knowledge.",
-    "exampleCn": "书籍是可靠的知识来源。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "value",
-    "phonetic": "/ˈvæljuː/",
-    "pos": "n./v.",
-    "meaning": "价值；价值观；（v.）重视；珍惜",
-    "example": "We should value the time we spend with our family.",
-    "exampleCn": "我们应该珍惜与家人共度的时光。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
-    "date": "2026-10-18"
-  },
-  {
-    "word": "community",
-    "phonetic": "/kəˈmjuːnəti/",
-    "pos": "n.",
-    "meaning": "社区；群体；社会",
-    "example": "Our community organizes activities for elderly people.",
-    "exampleCn": "我们社区为老年人组织活动。",
-    "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "consider",
-    "phonetic": "/kənˈsɪdə/",
-    "pos": "v.",
-    "meaning": "考虑；认为；体谅",
-    "example": "You should consider all the options before deciding.",
-    "exampleCn": "在做决定之前，你应该考虑所有的选择。",
-    "frequency": "极高频词（估算值：COCA 排名约 400 位，约 160 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "discover",
-    "phonetic": "/dɪˈskʌvə/",
-    "pos": "v.",
-    "meaning": "发现；发觉；找到",
-    "example": "Scientists have discovered a new kind of plant.",
-    "exampleCn": "科学家发现了一种新的植物。",
-    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "exist",
-    "phonetic": "/ɪɡˈzɪst/",
-    "pos": "v.",
-    "meaning": "存在；生存；发生",
-    "example": "Many problems still exist in the education system.",
-    "exampleCn": "教育体系中仍然存在许多问题。",
-    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "graduate",
-    "phonetic": "/ˈɡrædʒuət/",
-    "pos": "n./v./adj.",
-    "meaning": "毕业生；（v.）毕业；（adj.）研究生的",
-    "example": "She will graduate from university next June.",
-    "exampleCn": "她将于明年六月大学毕业。",
-    "frequency": "高频词（估算值：COCA 排名约 2000 位，约 35 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "imagine",
-    "phonetic": "/ɪˈmædʒɪn/",
-    "pos": "v.",
-    "meaning": "想象；设想；猜想",
-    "example": "Imagine living in a world without the Internet.",
-    "exampleCn": "想象一下生活在一个没有互联网的世界里。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "method",
-    "phonetic": "/ˈmeθəd/",
-    "pos": "n.",
-    "meaning": "方法；办法；条理",
-    "example": "Finding the right method makes learning easier.",
-    "exampleCn": "找到正确的方法能让学习更轻松。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 90 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "perform",
-    "phonetic": "/pəˈfɔːm/",
-    "pos": "v.",
-    "meaning": "表演；执行；表现",
-    "example": "The students performed well in the English speech contest.",
-    "exampleCn": "学生们在英语演讲比赛中表现出色。",
-    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "success",
-    "phonetic": "/səkˈses/",
-    "pos": "n.",
-    "meaning": "成功；成就；成功的人或事",
-    "example": "Success comes from hard work and persistence.",
-    "exampleCn": "成功来自努力工作和坚持不懈。",
-    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "traditional",
-    "phonetic": "/trəˈdɪʃənl/",
-    "pos": "adj.",
-    "meaning": "传统的；惯例的",
-    "example": "The Spring Festival is a traditional Chinese holiday.",
-    "exampleCn": "春节是中国的传统节日。",
-    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "accept",
-    "phonetic": "/əkˈsept/",
-    "pos": "v.",
-    "meaning": "接受；认可；同意",
-    "example": "She accepted the invitation to give a speech.",
-    "exampleCn": "她接受了发表演讲的邀请。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "behavior",
-    "phonetic": "/bɪˈheɪvjə/",
-    "pos": "n.",
-    "meaning": "行为；举止；表现",
-    "example": "Parents should set a good example for their children's behavior.",
-    "exampleCn": "父母应该为孩子的行为树立好榜样。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "career",
-    "phonetic": "/kəˈrɪə/",
-    "pos": "n./adj.",
-    "meaning": "职业；生涯；事业",
-    "example": "Choosing a career is a big step in everyone's life.",
-    "exampleCn": "选择职业是每个人人生中的一件大事。",
-    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 80 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "contact",
-    "phonetic": "/ˈkɒntækt/",
-    "pos": "n./v.",
-    "meaning": "联系；接触；（v.）联络",
-    "example": "Please contact me if you have any questions.",
-    "exampleCn": "如果你有任何问题，请与我联系。",
-    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "design",
-    "phonetic": "/dɪˈzaɪn/",
-    "pos": "n./v.",
-    "meaning": "设计；图案；构思",
-    "example": "This course is designed for beginners of English.",
-    "exampleCn": "这门课程是为英语初学者设计的。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 105 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "express",
-    "phonetic": "/ɪkˈspres/",
-    "pos": "v./adj./n.",
-    "meaning": "表达；表示；（adj.）特快的",
-    "example": "It is important to express your ideas clearly.",
-    "exampleCn": "清楚地表达自己的想法很重要。",
-    "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "healthy",
-    "phonetic": "/ˈhelθi/",
-    "pos": "adj.",
-    "meaning": "健康的；有益健康的",
-    "example": "A healthy diet includes plenty of fruit and vegetables.",
-    "exampleCn": "健康的饮食包括大量的水果和蔬菜。",
-    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "information",
-    "phonetic": "/ˌɪnfəˈmeɪʃn/",
-    "pos": "n.",
-    "meaning": "信息；资料；情报（不可数）",
-    "example": "The Internet provides us with a great deal of information.",
-    "exampleCn": "互联网为我们提供了大量的信息。",
-    "frequency": "极高频词（估算值：COCA 排名约 400 位，约 170 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "promise",
-    "phonetic": "/ˈprɒmɪs/",
-    "pos": "v./n.",
-    "meaning": "承诺；许诺；（n.）希望",
-    "example": "He promised to help me with my English study.",
-    "exampleCn": "他答应帮助我学习英语。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "solution",
-    "phonetic": "/səˈluːʃn/",
-    "pos": "n.",
-    "meaning": "解决办法；答案；溶液",
-    "example": "We must find a solution to the traffic problem.",
-    "exampleCn": "我们必须找到解决交通问题的办法。",
-    "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
-    "date": "2026-10-26"
-  },
-  {
-    "word": "attract",
-    "phonetic": "/əˈtrækt/",
-    "pos": "v.",
-    "meaning": "吸引；引起……的注意",
-    "example": "The beautiful scenery attracts many tourists every year.",
-    "exampleCn": "美丽的风景每年吸引许多游客。",
-    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "belong",
-    "phonetic": "/bɪˈlɒŋ/",
-    "pos": "v.",
-    "meaning": "属于；应归入；是……的成员",
-    "example": "This book belongs to the school library.",
-    "exampleCn": "这本书属于学校图书馆。",
-    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "certain",
-    "phonetic": "/ˈsɜːtn/",
-    "pos": "adj.",
-    "meaning": "确定的；某些；某个",
-    "example": "I am certain that practice makes perfect.",
-    "exampleCn": "我确信熟能生巧。",
-    "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "choice",
-    "phonetic": "/tʃɔɪs/",
-    "pos": "n./adj.",
-    "meaning": "选择；选择权；（adj.）上等的",
-    "example": "Learning English gives you more choices in the future.",
-    "exampleCn": "学习英语能让你在未来有更多选择。",
-    "frequency": "极高频词（估算值：COCA 排名约 700 位，约 120 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "compare",
-    "phonetic": "/kəmˈpeə/",
-    "pos": "v./n.",
-    "meaning": "比较；对比；比作",
-    "example": "Don't compare yourself with others all the time.",
-    "exampleCn": "不要总是拿自己和别人比较。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "depend",
-    "phonetic": "/dɪˈpend/",
-    "pos": "v.",
-    "meaning": "依靠；取决于；信赖",
-    "example": "Success depends on both effort and opportunity.",
-    "exampleCn": "成功取决于努力，也取决于机遇。",
-    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "honest",
-    "phonetic": "/ˈɒnɪst/",
-    "pos": "adj.",
-    "meaning": "诚实的；正直的；坦率的",
-    "example": "To be honest, learning a language takes time.",
-    "exampleCn": "说实话，学一门语言需要时间。",
-    "frequency": "高频词（估算值：COCA 排名约 1700 位，约 42 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "instead",
-    "phonetic": "/ɪnˈsted/",
-    "pos": "adv.",
-    "meaning": "代替；反而；却",
-    "example": "Instead of watching TV, she went for a walk.",
-    "exampleCn": "她没有看电视，而是去散步了。",
-    "frequency": "极高频词（估算值：COCA 排名约 800 位，约 110 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "journey",
-    "phonetic": "/ˈdʒɜːni/",
-    "pos": "n./v.",
-    "meaning": "旅程；历程；（v.）旅行",
-    "example": "Learning English is a long but rewarding journey.",
-    "exampleCn": "学习英语是一段漫长但充满收获的旅程。",
-    "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "protect",
-    "phonetic": "/prəˈtekt/",
-    "pos": "v.",
-    "meaning": "保护；防护；保卫",
-    "example": "Sunglasses protect our eyes from strong sunlight.",
-    "exampleCn": "太阳镜保护我们的眼睛免受强烈阳光的伤害。",
-    "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 80 次/百万词）",
-    "date": "2026-10-27"
-  },
-  {
-    "word": "wealth",
-    "phonetic": "/welθ/",
-    "pos": "n.",
-    "meaning": "财富；丰富；大量",
-    "example": "Health is more valuable than wealth.",
-    "exampleCn": "健康比财富更宝贵。",
-    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
-    "date": "2026-10-31"
-  },
-  {
-    "word": "uniform",
-    "phonetic": "/ˈjuːnɪfɔːm/",
-    "pos": "n./adj.",
-    "meaning": "制服；校服；（adj.）统一的",
-    "example": "All students must wear school uniforms on weekdays.",
-    "exampleCn": "所有学生在工作日都必须穿校服。",
-    "frequency": "高频词（估算值：COCA 排名约 2300 位，约 30 次/百万词）",
-    "date": "2026-10-31"
-  },
-  {
-    "word": "traffic",
-    "phonetic": "/ˈtræfɪk/",
-    "pos": "n./v.",
-    "meaning": "交通；车流；流量",
-    "example": "The traffic is always heavy during rush hour.",
-    "exampleCn": "高峰时段交通总是很拥堵。",
-    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
-    "date": "2026-10-31"
-  },
-  {
-    "word": "succeed",
-    "phonetic": "/səkˈsiːd/",
-    "pos": "v.",
-    "meaning": "成功；继承；接着发生",
-    "example": "If you keep trying, you will succeed in the end.",
-    "exampleCn": "如果你坚持尝试，最终会成功的。",
-    "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
-    "date": "2026-10-31"
-  },
-  {
-    "word": "suffer",
-    "phonetic": "/ˈsʌfə/",
-    "pos": "v.",
-    "meaning": "遭受；忍受；患病",
-    "example": "Many people suffer from stress at work.",
-    "exampleCn": "许多人承受着工作压力。",
-    "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
-    "date": "2026-10-31"
-  },
-  {
-    "word": "suggest",
-    "phonetic": "/səˈdʒest/",
-    "pos": "v.",
-    "meaning": "建议；提议；暗示",
-    "example": "I suggest taking a break after long hours of study.",
-    "exampleCn": "我建议长时间学习后休息一下。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
-    "date": "2026-10-31"
-  },
-  {
-    "word": "supply",
-    "phonetic": "/səˈplaɪ/",
-    "pos": "n./v.",
-    "meaning": "供应；供给；（n.）供应量",
-    "example": "The supermarket supplies fresh vegetables every day.",
-    "exampleCn": "这家超市每天供应新鲜蔬菜。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 65 次/百万词）",
-    "date": "2026-10-31"
-  },
-  {
-    "word": "suppose",
-    "phonetic": "/səˈpəʊz/",
-    "pos": "v.",
-    "meaning": "认为；猜想；假定",
-    "example": "I suppose you are right about this problem.",
-    "exampleCn": "我想你对这个问题的看法是对的。",
-    "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
-    "date": "2026-10-31"
-  },
-  {
-    "word": "surface",
-    "phonetic": "/ˈsɜːfɪs/",
-    "pos": "n./adj./v.",
-    "meaning": "表面；外表；（v.）浮出水面",
-    "example": "The surface of the lake was calm and clear.",
-    "exampleCn": "湖面平静而清澈。",
-    "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
-    "date": "2026-10-31"
-  },
-  {
-    "word": "threat",
-    "phonetic": "/θret/",
-    "pos": "n.",
-    "meaning": "威胁；恐吓；征兆",
-    "example": "Climate change is a serious threat to our planet.",
-    "exampleCn": "气候变化对我们的星球是一个严重威胁。",
-    "frequency": "高频词（估算值：COCA 排名约 1400 位，约 60 次/百万词）",
-    "date": "2026-10-31"
-  }
+ {
+  "word": "access",
+  "phonetic": "/ˈækses/",
+  "pos": "n./v.",
+  "meaning": "进入；通道；使用权；（v.）访问；获取",
+  "example": "Students have free access to the online library.",
+  "exampleCn": "学生可以免费使用在线图书馆。",
+  "frequency": "极高频词（估算值：COCA 排名约 600 位，约 120 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "challenge",
+  "phonetic": "/ˈtʃælɪndʒ/",
+  "pos": "n./v.",
+  "meaning": "挑战；质疑；（v.）向……挑战",
+  "example": "Learning a foreign language is a real challenge for many people.",
+  "exampleCn": "对许多人来说，学一门外语是真正的挑战。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 100 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "consume",
+  "phonetic": "/kənˈsjuːm/",
+  "pos": "v.",
+  "meaning": "消耗；消费；吃喝",
+  "example": "Americans consume a large amount of coffee every year.",
+  "exampleCn": "美国人每年消耗大量咖啡。",
+  "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "contribute",
+  "phonetic": "/kənˈtrɪbjuːt/",
+  "pos": "v.",
+  "meaning": "贡献；捐献；促成；投稿",
+  "example": "Regular reading contributes greatly to language learning.",
+  "exampleCn": "经常阅读对语言学习有很大帮助。",
+  "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "device",
+  "phonetic": "/dɪˈvaɪs/",
+  "pos": "n.",
+  "meaning": "设备；装置；手段",
+  "example": "Mobile devices have changed the way we communicate.",
+  "exampleCn": "移动设备改变了我们的交流方式。",
+  "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "emerge",
+  "phonetic": "/ɪˈmɜːdʒ/",
+  "pos": "v.",
+  "meaning": "出现；浮现；显露",
+  "example": "New problems emerge as technology develops rapidly.",
+  "exampleCn": "随着技术的快速发展，新问题不断出现。",
+  "frequency": "高频词（估算值：COCA 排名约 2000 位，约 35 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "factor",
+  "phonetic": "/ˈfæktə(r)/",
+  "pos": "n.",
+  "meaning": "因素；要素",
+  "example": "Money is not the only factor that affects happiness.",
+  "exampleCn": "金钱并不是影响幸福的唯一因素。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "impact",
+  "phonetic": "/ˈɪmpækt/",
+  "pos": "n./v.",
+  "meaning": "影响；冲击；（v.）对……产生影响",
+  "example": "The Internet has a huge impact on our daily lives.",
+  "exampleCn": "互联网对我们的日常生活有着巨大的影响。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "opportunity",
+  "phonetic": "/ˌɒpəˈtjuːnəti/",
+  "pos": "n.",
+  "meaning": "机会；时机",
+  "example": "College provides students with many opportunities to grow.",
+  "exampleCn": "大学为学生提供了许多成长的机会。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 100 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "survey",
+  "phonetic": "/ˈsɜːveɪ/",
+  "pos": "n./v.",
+  "meaning": "调查；测量；（v.）调查；审视",
+  "example": "A recent survey shows that most students prefer online courses.",
+  "exampleCn": "最近的一项调查显示，大多数学生更喜欢在线课程。",
+  "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "approach",
+  "phonetic": "/əˈprəʊtʃ/",
+  "pos": "v./n.",
+  "meaning": "接近；处理；（n.）方法；途径",
+  "example": "We need a new approach to solving this problem.",
+  "exampleCn": "我们需要一种解决这个问题的新方法。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "benefit",
+  "phonetic": "/ˈbenɪfɪt/",
+  "pos": "n./v.",
+  "meaning": "好处；益处；（v.）受益于；有利于",
+  "example": "Regular exercise benefits both the body and the mind.",
+  "exampleCn": "经常锻炼对身心都有益。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "concern",
+  "phonetic": "/kənˈsɜːn/",
+  "pos": "v./n.",
+  "meaning": "涉及；使担忧；（n.）关心；担忧",
+  "example": "Environmental pollution is a growing concern worldwide.",
+  "exampleCn": "环境污染是全世界日益关注的问题。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "demand",
+  "phonetic": "/dɪˈmɑːnd/",
+  "pos": "n./v.",
+  "meaning": "需求；要求；（v.）强烈要求",
+  "example": "The demand for skilled workers continues to rise.",
+  "exampleCn": "对技术工人的需求持续上升。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "essential",
+  "phonetic": "/ɪˈsenʃl/",
+  "pos": "adj.",
+  "meaning": "必不可少的；极其重要的；本质的",
+  "example": "Good communication is essential for teamwork.",
+  "exampleCn": "良好的沟通对团队合作至关重要。",
+  "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "generate",
+  "phonetic": "/ˈdʒenəreɪt/",
+  "pos": "v.",
+  "meaning": "产生；生成；引起",
+  "example": "Wind farms generate electricity without polluting the air.",
+  "exampleCn": "风力发电场在不污染空气的情况下发电。",
+  "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "involve",
+  "phonetic": "/ɪnˈvɒlv/",
+  "pos": "v.",
+  "meaning": "涉及；包含；使参与",
+  "example": "The project involves students from different majors.",
+  "exampleCn": "这个项目涉及来自不同专业的学生。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 100 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "potential",
+  "phonetic": "/pəˈtenʃl/",
+  "pos": "adj./n.",
+  "meaning": "潜在的；可能的；（n.）潜力",
+  "example": "Every student has the potential to succeed.",
+  "exampleCn": "每个学生都有成功的潜力。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "resource",
+  "phonetic": "/rɪˈsɔːs/",
+  "pos": "n.",
+  "meaning": "资源；财力；办法（常用复数）",
+  "example": "The library is a valuable resource for learning.",
+  "exampleCn": "图书馆是宝贵的学习资源。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "vary",
+  "phonetic": "/ˈveəri/",
+  "pos": "v.",
+  "meaning": "变化；改变；使多样化",
+  "example": "Prices vary greatly from store to store.",
+  "exampleCn": "不同商店的价格差别很大。",
+  "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "adapt",
+  "phonetic": "/əˈdæpt/",
+  "pos": "v.",
+  "meaning": "适应；改编；调整",
+  "example": "It took her a while to adapt to college life.",
+  "exampleCn": "她花了一段时间才适应大学生活。",
+  "frequency": "高频词（估算值：COCA 排名约 2200 位，约 30 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "assume",
+  "phonetic": "/əˈsjuːm/",
+  "pos": "v.",
+  "meaning": "假定；认为；承担",
+  "example": "Don't assume that everyone thinks the same way.",
+  "exampleCn": "不要想当然地认为每个人的想法都一样。",
+  "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "available",
+  "phonetic": "/əˈveɪləbl/",
+  "pos": "adj.",
+  "meaning": "可获得的；可用的；有空的",
+  "example": "Free Wi-Fi is available throughout the campus.",
+  "exampleCn": "整个校园都有免费无线网络可用。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "complex",
+  "phonetic": "/ˈkɒmpleks/",
+  "pos": "adj./n.",
+  "meaning": "复杂的；（n.）综合体；情结",
+  "example": "Learning a language is a complex process.",
+  "exampleCn": "学习语言是一个复杂的过程。",
+  "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "current",
+  "phonetic": "/ˈkʌrənt/",
+  "pos": "adj./n.",
+  "meaning": "当前的；流行的；（n.）水流；电流",
+  "example": "The current situation calls for immediate action.",
+  "exampleCn": "当前的形势需要立即采取行动。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "establish",
+  "phonetic": "/ɪˈstæblɪʃ/",
+  "pos": "v.",
+  "meaning": "建立；确立；创办",
+  "example": "The club was established ten years ago.",
+  "exampleCn": "这个社团是十年前成立的。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "evidence",
+  "phonetic": "/ˈevɪdəns/",
+  "pos": "n.",
+  "meaning": "证据；迹象；证明",
+  "example": "There is strong evidence that sleep improves memory.",
+  "exampleCn": "有充分证据表明睡眠能改善记忆力。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "individual",
+  "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+  "pos": "adj./n.",
+  "meaning": "个人的；独特的；（n.）个人；个体",
+  "example": "Each individual has different learning habits.",
+  "exampleCn": "每个人都有不同的学习习惯。",
+  "frequency": "极高频词（估算值：COCA 排名约 500 位，约 140 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "recognize",
+  "phonetic": "/ˈrekəɡnaɪz/",
+  "pos": "v.",
+  "meaning": "认出；承认；认可",
+  "example": "I recognized her voice the moment she spoke.",
+  "exampleCn": "她一开口我就听出了她的声音。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "reduce",
+  "phonetic": "/rɪˈdjuːs/",
+  "pos": "v.",
+  "meaning": "减少；降低；缩小",
+  "example": "Taking public transport helps reduce air pollution.",
+  "exampleCn": "乘坐公共交通有助于减少空气污染。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 90 次/百万词）",
+  "date": "2026-10-08"
+ },
+ {
+  "word": "achieve",
+  "phonetic": "/əˈtʃiːv/",
+  "pos": "v.",
+  "meaning": "实现；达到；完成",
+  "example": "You can achieve your goals with hard work and patience.",
+  "exampleCn": "凭借努力和耐心，你可以实现自己的目标。",
+  "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "authority",
+  "phonetic": "/ɔːˈθɒrəti/",
+  "pos": "n.",
+  "meaning": "权威；权力；（复）当局；官方",
+  "example": "The local authorities have taken measures to protect the river.",
+  "exampleCn": "地方当局已采取措施保护这条河流。",
+  "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "confirm",
+  "phonetic": "/kənˈfɜːm/",
+  "pos": "v.",
+  "meaning": "确认；证实；批准",
+  "example": "Please confirm your attendance by the end of this week.",
+  "exampleCn": "请在本周末之前确认你是否出席。",
+  "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "economy",
+  "phonetic": "/ɪˈkɒnəmi/",
+  "pos": "n.",
+  "meaning": "经济；节约；经济状况",
+  "example": "Tourism plays an important role in the local economy.",
+  "exampleCn": "旅游业在当地经济中扮演着重要角色。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "focus",
+  "phonetic": "/ˈfəʊkəs/",
+  "pos": "v./n.",
+  "meaning": "集中（注意力）；聚焦；（n.）焦点",
+  "example": "You should focus on your strengths instead of your weaknesses.",
+  "exampleCn": "你应该专注于自己的长处，而不是短处。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "improve",
+  "phonetic": "/ɪmˈpruːv/",
+  "pos": "v.",
+  "meaning": "改善；提高；进步",
+  "example": "Reading every day will greatly improve your vocabulary.",
+  "exampleCn": "每天阅读会大大提升你的词汇量。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "lack",
+  "phonetic": "/læk/",
+  "pos": "n./v.",
+  "meaning": "缺乏；不足；（v.）缺少",
+  "example": "Many students lack confidence when speaking English.",
+  "exampleCn": "许多学生在说英语时缺乏自信。",
+  "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "promote",
+  "phonetic": "/prəˈməʊt/",
+  "pos": "v.",
+  "meaning": "促进；推广；晋升",
+  "example": "The campaign aims to promote healthy eating among teenagers.",
+  "exampleCn": "这项活动旨在在青少年中推广健康饮食。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "require",
+  "phonetic": "/rɪˈkwaɪə/",
+  "pos": "v.",
+  "meaning": "需要；要求；规定",
+  "example": "This job requires good communication skills.",
+  "exampleCn": "这份工作需要良好的沟通能力。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "subject",
+  "phonetic": "/ˈsʌbdʒɪkt/",
+  "pos": "n./adj./v.",
+  "meaning": "主题；学科；实验对象；（adj.）易受……影响的",
+  "example": "English is my favorite subject at school.",
+  "exampleCn": "英语是我在学校最喜欢的科目。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
+  "date": "2026-10-09"
+ },
+ {
+  "word": "affect",
+  "phonetic": "/əˈfekt/",
+  "pos": "v.",
+  "meaning": "影响；（感情）打动",
+  "example": "Climate change affects everyone on this planet.",
+  "exampleCn": "气候变化影响着地球上的每一个人。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "attitude",
+  "phonetic": "/ˈætɪtjuːd/",
+  "pos": "n.",
+  "meaning": "态度；看法；姿态",
+  "example": "A positive attitude can make a big difference in your life.",
+  "exampleCn": "积极的态度能给你的生活带来很大的不同。",
+  "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "background",
+  "phonetic": "/ˈbækɡraʊnd/",
+  "pos": "n.",
+  "meaning": "背景；出身；经历",
+  "example": "Students from different backgrounds study together here.",
+  "exampleCn": "来自不同背景的学生在这里一起学习。",
+  "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "communicate",
+  "phonetic": "/kəˈmjuːnɪkeɪt/",
+  "pos": "v.",
+  "meaning": "交流；沟通；传达",
+  "example": "Body language is an important way to communicate with others.",
+  "exampleCn": "肢体语言是与他人交流的重要方式。",
+  "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "decision",
+  "phonetic": "/dɪˈsɪʒn/",
+  "pos": "n.",
+  "meaning": "决定；决策；决心",
+  "example": "Choosing a major is an important decision for every student.",
+  "exampleCn": "选专业对每个学生来说都是一个重要的决定。",
+  "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "develop",
+  "phonetic": "/dɪˈveləp/",
+  "pos": "v.",
+  "meaning": "发展；培养；开发",
+  "example": "Children develop good habits through daily practice.",
+  "exampleCn": "孩子们通过日常练习养成好习惯。",
+  "frequency": "极高频词（估算值：COCA 排名约 400 位，约 160 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "environment",
+  "phonetic": "/ɪnˈvaɪrənmənt/",
+  "pos": "n.",
+  "meaning": "环境；自然环境；周围状况",
+  "example": "A quiet environment helps students concentrate on their studies.",
+  "exampleCn": "安静的环境有助于学生专心学习。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 110 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "function",
+  "phonetic": "/ˈfʌŋkʃn/",
+  "pos": "n./v.",
+  "meaning": "功能；作用；（v.）运转；起作用",
+  "example": "The main function of the library is to provide knowledge.",
+  "exampleCn": "图书馆的主要功能是提供知识。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "increase",
+  "phonetic": "/ɪnˈkriːs/",
+  "pos": "v./n.",
+  "meaning": "增加；增长；提高",
+  "example": "Exercise can increase your energy and reduce stress.",
+  "exampleCn": "运动可以增强你的精力并减轻压力。",
+  "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "support",
+  "phonetic": "/səˈpɔːt/",
+  "pos": "v./n.",
+  "meaning": "支持；支撑；资助",
+  "example": "My parents have always supported my decision to study abroad.",
+  "exampleCn": "我的父母一直支持我出国留学的决定。",
+  "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
+  "date": "2026-10-10"
+ },
+ {
+  "word": "ability",
+  "phonetic": "/əˈbɪləti/",
+  "pos": "n.",
+  "meaning": "能力；才能；本领",
+  "example": "Practice is the key to improving your speaking ability.",
+  "exampleCn": "练习是提高口语能力的关键。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 110 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "advance",
+  "phonetic": "/ədˈvɑːns/",
+  "pos": "v./n./adj.",
+  "meaning": "前进；推进；（n.）进展；（adj.）预先的",
+  "example": "Technology continues to advance at a rapid pace.",
+  "exampleCn": "技术继续以极快的速度向前发展。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "culture",
+  "phonetic": "/ˈkʌltʃə/",
+  "pos": "n.",
+  "meaning": "文化；文明；培养",
+  "example": "Traveling abroad helps you understand different cultures.",
+  "exampleCn": "出国旅行能帮助你了解不同的文化。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "encourage",
+  "phonetic": "/ɪnˈkʌrɪdʒ/",
+  "pos": "v.",
+  "meaning": "鼓励；激励；促进",
+  "example": "Teachers should encourage students to ask questions.",
+  "exampleCn": "老师应该鼓励学生提问。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "experience",
+  "phonetic": "/ɪkˈspɪəriəns/",
+  "pos": "n./v.",
+  "meaning": "经验；经历；（v.）体验；感受",
+  "example": "Working part-time is a valuable experience for students.",
+  "exampleCn": "兼职工作对学生来说是一段宝贵的经历。",
+  "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "knowledge",
+  "phonetic": "/ˈnɒlɪdʒ/",
+  "pos": "n.",
+  "meaning": "知识；学问；了解",
+  "example": "Reading widely is the best way to gain knowledge.",
+  "exampleCn": "广泛阅读是获取知识的最好方式。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "produce",
+  "phonetic": "/prəˈdjuːs/",
+  "pos": "v.",
+  "meaning": "生产；产生；制作",
+  "example": "This factory produces high-quality electronic products.",
+  "exampleCn": "这家工厂生产高质量的电子产品。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 120 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "professional",
+  "phonetic": "/prəˈfeʃənl/",
+  "pos": "adj./n.",
+  "meaning": "专业的；职业的；（n.）专业人士",
+  "example": "You should seek professional advice before making big decisions.",
+  "exampleCn": "在做重大决定之前，你应该寻求专业建议。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 80 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "society",
+  "phonetic": "/səˈsaɪəti/",
+  "pos": "n.",
+  "meaning": "社会；社团；交往",
+  "example": "Education plays a key role in modern society.",
+  "exampleCn": "教育在现代社会中起着关键作用。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 105 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "technology",
+  "phonetic": "/tekˈnɒlədʒi/",
+  "pos": "n.",
+  "meaning": "技术；工艺；科技",
+  "example": "New technology has made our lives much more convenient.",
+  "exampleCn": "新技术让我们的生活便利了许多。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
+  "date": "2026-10-13"
+ },
+ {
+  "word": "activity",
+  "phonetic": "/ækˈtɪvəti/",
+  "pos": "n.",
+  "meaning": "活动；行动；活跃",
+  "example": "Outdoor activities are good for both body and mind.",
+  "exampleCn": "户外活动对身心都有好处。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "allow",
+  "phonetic": "/əˈlaʊ/",
+  "pos": "v.",
+  "meaning": "允许；准许；使能够",
+  "example": "The Internet allows us to learn anytime and anywhere.",
+  "exampleCn": "互联网让我们能够随时随地学习。",
+  "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "condition",
+  "phonetic": "/kənˈdɪʃn/",
+  "pos": "n./v.",
+  "meaning": "条件；状况；状态",
+  "example": "You should read the conditions carefully before signing.",
+  "exampleCn": "签字之前你应该仔细阅读条款。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 100 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "effect",
+  "phonetic": "/ɪˈfekt/",
+  "pos": "n./v.",
+  "meaning": "影响；效果；作用",
+  "example": "The new policy had a positive effect on the environment.",
+  "exampleCn": "新政策对环境产生了积极的影响。",
+  "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "major",
+  "phonetic": "/ˈmeɪdʒə/",
+  "pos": "adj./n./v.",
+  "meaning": "主要的；重大的；（n.）专业；（v.）主修",
+  "example": "She majors in computer science at university.",
+  "exampleCn": "她在大学里主修计算机科学。",
+  "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "pressure",
+  "phonetic": "/ˈpreʃə/",
+  "pos": "n./v.",
+  "meaning": "压力；压强；压迫",
+  "example": "Many students feel pressure before important exams.",
+  "exampleCn": "许多学生在重要考试前感到压力。",
+  "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "quality",
+  "phonetic": "/ˈkwɒləti/",
+  "pos": "n./adj.",
+  "meaning": "质量；品质；（adj.）优质的",
+  "example": "Quality is more important than quantity in learning.",
+  "exampleCn": "在学习中，质量比数量更重要。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 105 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "provide",
+  "phonetic": "/prəˈvaɪd/",
+  "pos": "v.",
+  "meaning": "提供；供应；规定",
+  "example": "The school provides free meals for students in need.",
+  "exampleCn": "学校为有需要的学生提供免费餐食。",
+  "frequency": "极高频词（估算值：COCA 排名约 300 位，约 200 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "responsibility",
+  "phonetic": "/rɪˌspɒnsəˈbɪləti/",
+  "pos": "n.",
+  "meaning": "责任；职责；义务",
+  "example": "It is everyone's responsibility to protect the earth.",
+  "exampleCn": "保护地球是每个人的责任。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "volunteer",
+  "phonetic": "/ˌvɒlənˈtɪə/",
+  "pos": "n./v./adj.",
+  "meaning": "志愿者；（v.）自愿做；（adj.）志愿的",
+  "example": "He volunteers at a local hospital every weekend.",
+  "exampleCn": "他每个周末都在当地一家医院做志愿者。",
+  "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
+  "date": "2026-10-17"
+ },
+ {
+  "word": "average",
+  "phonetic": "/ˈævərɪdʒ/",
+  "pos": "adj./n./v.",
+  "meaning": "平均的；普通的；（n.）平均水平",
+  "example": "The average student spends two hours online every day.",
+  "exampleCn": "普通学生每天上网两小时。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "compete",
+  "phonetic": "/kəmˈpiːt/",
+  "pos": "v.",
+  "meaning": "竞争；比赛；对抗",
+  "example": "Small companies have to compete with large ones.",
+  "exampleCn": "小公司不得不与大公司竞争。",
+  "frequency": "高频词（估算值：COCA 排名约 1700 位，约 42 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "confident",
+  "phonetic": "/ˈkɒnfɪdənt/",
+  "pos": "adj.",
+  "meaning": "自信的；有信心的；确信的",
+  "example": "She feels more confident after practicing many times.",
+  "exampleCn": "经过多次练习，她感觉更自信了。",
+  "frequency": "高频词（估算值：COCA 排名约 2200 位，约 30 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "create",
+  "phonetic": "/kriˈeɪt/",
+  "pos": "v.",
+  "meaning": "创造；创建；引起",
+  "example": "The new policy will create more jobs for young people.",
+  "exampleCn": "新政策将为年轻人创造更多就业机会。",
+  "frequency": "极高频词（估算值：COCA 排名约 400 位，约 170 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "describe",
+  "phonetic": "/dɪˈskraɪb/",
+  "pos": "v.",
+  "meaning": "描述；形容；描绘",
+  "example": "Can you describe what happened last night?",
+  "exampleCn": "你能描述一下昨晚发生了什么吗？",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "education",
+  "phonetic": "/ˌedʒuˈkeɪʃn/",
+  "pos": "n.",
+  "meaning": "教育；培养；教育学",
+  "example": "A good education opens doors to a better future.",
+  "exampleCn": "良好的教育为更美好的未来打开大门。",
+  "frequency": "极高频词（估算值：COCA 排名约 600 位，约 135 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "goal",
+  "phonetic": "/ɡəʊl/",
+  "pos": "n.",
+  "meaning": "目标；目的；进球",
+  "example": "Setting clear goals helps you stay motivated.",
+  "exampleCn": "设定明确的目标能帮助你保持动力。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "manage",
+  "phonetic": "/ˈmænɪdʒ/",
+  "pos": "v.",
+  "meaning": "管理；设法做到；应付",
+  "example": "He managed to finish the report before the deadline.",
+  "exampleCn": "他设法在截止日期前完成了报告。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "source",
+  "phonetic": "/sɔːs/",
+  "pos": "n./v.",
+  "meaning": "来源；源头；出处",
+  "example": "Books are a reliable source of knowledge.",
+  "exampleCn": "书籍是可靠的知识来源。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "value",
+  "phonetic": "/ˈvæljuː/",
+  "pos": "n./v.",
+  "meaning": "价值；价值观；（v.）重视；珍惜",
+  "example": "We should value the time we spend with our family.",
+  "exampleCn": "我们应该珍惜与家人共度的时光。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
+  "date": "2026-10-18"
+ },
+ {
+  "word": "community",
+  "phonetic": "/kəˈmjuːnəti/",
+  "pos": "n.",
+  "meaning": "社区；群体；社会",
+  "example": "Our community organizes activities for elderly people.",
+  "exampleCn": "我们社区为老年人组织活动。",
+  "frequency": "极高频词（估算值：COCA 排名约 600 位，约 130 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "consider",
+  "phonetic": "/kənˈsɪdə/",
+  "pos": "v.",
+  "meaning": "考虑；认为；体谅",
+  "example": "You should consider all the options before deciding.",
+  "exampleCn": "在做决定之前，你应该考虑所有的选择。",
+  "frequency": "极高频词（估算值：COCA 排名约 400 位，约 160 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "discover",
+  "phonetic": "/dɪˈskʌvə/",
+  "pos": "v.",
+  "meaning": "发现；发觉；找到",
+  "example": "Scientists have discovered a new kind of plant.",
+  "exampleCn": "科学家发现了一种新的植物。",
+  "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "exist",
+  "phonetic": "/ɪɡˈzɪst/",
+  "pos": "v.",
+  "meaning": "存在；生存；发生",
+  "example": "Many problems still exist in the education system.",
+  "exampleCn": "教育体系中仍然存在许多问题。",
+  "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "graduate",
+  "phonetic": "/ˈɡrædʒuət/",
+  "pos": "n./v./adj.",
+  "meaning": "毕业生；（v.）毕业；（adj.）研究生的",
+  "example": "She will graduate from university next June.",
+  "exampleCn": "她将于明年六月大学毕业。",
+  "frequency": "高频词（估算值：COCA 排名约 2000 位，约 35 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "imagine",
+  "phonetic": "/ɪˈmædʒɪn/",
+  "pos": "v.",
+  "meaning": "想象；设想；猜想",
+  "example": "Imagine living in a world without the Internet.",
+  "exampleCn": "想象一下生活在一个没有互联网的世界里。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "method",
+  "phonetic": "/ˈmeθəd/",
+  "pos": "n.",
+  "meaning": "方法；办法；条理",
+  "example": "Finding the right method makes learning easier.",
+  "exampleCn": "找到正确的方法能让学习更轻松。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 90 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "perform",
+  "phonetic": "/pəˈfɔːm/",
+  "pos": "v.",
+  "meaning": "表演；执行；表现",
+  "example": "The students performed well in the English speech contest.",
+  "exampleCn": "学生们在英语演讲比赛中表现出色。",
+  "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "success",
+  "phonetic": "/səkˈses/",
+  "pos": "n.",
+  "meaning": "成功；成就；成功的人或事",
+  "example": "Success comes from hard work and persistence.",
+  "exampleCn": "成功来自努力工作和坚持不懈。",
+  "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "traditional",
+  "phonetic": "/trəˈdɪʃənl/",
+  "pos": "adj.",
+  "meaning": "传统的；惯例的",
+  "example": "The Spring Festival is a traditional Chinese holiday.",
+  "exampleCn": "春节是中国的传统节日。",
+  "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 75 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "accept",
+  "phonetic": "/əkˈsept/",
+  "pos": "v.",
+  "meaning": "接受；认可；同意",
+  "example": "She accepted the invitation to give a speech.",
+  "exampleCn": "她接受了发表演讲的邀请。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 115 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "behavior",
+  "phonetic": "/bɪˈheɪvjə/",
+  "pos": "n.",
+  "meaning": "行为；举止；表现",
+  "example": "Parents should set a good example for their children's behavior.",
+  "exampleCn": "父母应该为孩子的行为树立好榜样。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "career",
+  "phonetic": "/kəˈrɪə/",
+  "pos": "n./adj.",
+  "meaning": "职业；生涯；事业",
+  "example": "Choosing a career is a big step in everyone's life.",
+  "exampleCn": "选择职业是每个人人生中的一件大事。",
+  "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 80 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "contact",
+  "phonetic": "/ˈkɒntækt/",
+  "pos": "n./v.",
+  "meaning": "联系；接触；（v.）联络",
+  "example": "Please contact me if you have any questions.",
+  "exampleCn": "如果你有任何问题，请与我联系。",
+  "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "design",
+  "phonetic": "/dɪˈzaɪn/",
+  "pos": "n./v.",
+  "meaning": "设计；图案；构思",
+  "example": "This course is designed for beginners of English.",
+  "exampleCn": "这门课程是为英语初学者设计的。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 105 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "express",
+  "phonetic": "/ɪkˈspres/",
+  "pos": "v./adj./n.",
+  "meaning": "表达；表示；（adj.）特快的",
+  "example": "It is important to express your ideas clearly.",
+  "exampleCn": "清楚地表达自己的想法很重要。",
+  "frequency": "极高频词（估算值：COCA 排名约 1000 位，约 85 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "healthy",
+  "phonetic": "/ˈhelθi/",
+  "pos": "adj.",
+  "meaning": "健康的；有益健康的",
+  "example": "A healthy diet includes plenty of fruit and vegetables.",
+  "exampleCn": "健康的饮食包括大量的水果和蔬菜。",
+  "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "information",
+  "phonetic": "/ˌɪnfəˈmeɪʃn/",
+  "pos": "n.",
+  "meaning": "信息；资料；情报（不可数）",
+  "example": "The Internet provides us with a great deal of information.",
+  "exampleCn": "互联网为我们提供了大量的信息。",
+  "frequency": "极高频词（估算值：COCA 排名约 400 位，约 170 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "promise",
+  "phonetic": "/ˈprɒmɪs/",
+  "pos": "v./n.",
+  "meaning": "承诺；许诺；（n.）希望",
+  "example": "He promised to help me with my English study.",
+  "exampleCn": "他答应帮助我学习英语。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "solution",
+  "phonetic": "/səˈluːʃn/",
+  "pos": "n.",
+  "meaning": "解决办法；答案；溶液",
+  "example": "We must find a solution to the traffic problem.",
+  "exampleCn": "我们必须找到解决交通问题的办法。",
+  "frequency": "极高频词（估算值：COCA 排名约 1200 位，约 70 次/百万词）",
+  "date": "2026-10-26"
+ },
+ {
+  "word": "attract",
+  "phonetic": "/əˈtrækt/",
+  "pos": "v.",
+  "meaning": "吸引；引起……的注意",
+  "example": "The beautiful scenery attracts many tourists every year.",
+  "exampleCn": "美丽的风景每年吸引许多游客。",
+  "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "belong",
+  "phonetic": "/bɪˈlɒŋ/",
+  "pos": "v.",
+  "meaning": "属于；应归入；是……的成员",
+  "example": "This book belongs to the school library.",
+  "exampleCn": "这本书属于学校图书馆。",
+  "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "certain",
+  "phonetic": "/ˈsɜːtn/",
+  "pos": "adj.",
+  "meaning": "确定的；某些；某个",
+  "example": "I am certain that practice makes perfect.",
+  "exampleCn": "我确信熟能生巧。",
+  "frequency": "极高频词（估算值：COCA 排名约 500 位，约 150 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "choice",
+  "phonetic": "/tʃɔɪs/",
+  "pos": "n./adj.",
+  "meaning": "选择；选择权；（adj.）上等的",
+  "example": "Learning English gives you more choices in the future.",
+  "exampleCn": "学习英语能让你在未来有更多选择。",
+  "frequency": "极高频词（估算值：COCA 排名约 700 位，约 120 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "compare",
+  "phonetic": "/kəmˈpeə/",
+  "pos": "v./n.",
+  "meaning": "比较；对比；比作",
+  "example": "Don't compare yourself with others all the time.",
+  "exampleCn": "不要总是拿自己和别人比较。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "depend",
+  "phonetic": "/dɪˈpend/",
+  "pos": "v.",
+  "meaning": "依靠；取决于；信赖",
+  "example": "Success depends on both effort and opportunity.",
+  "exampleCn": "成功取决于努力，也取决于机遇。",
+  "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "honest",
+  "phonetic": "/ˈɒnɪst/",
+  "pos": "adj.",
+  "meaning": "诚实的；正直的；坦率的",
+  "example": "To be honest, learning a language takes time.",
+  "exampleCn": "说实话，学一门语言需要时间。",
+  "frequency": "高频词（估算值：COCA 排名约 1700 位，约 42 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "instead",
+  "phonetic": "/ɪnˈsted/",
+  "pos": "adv.",
+  "meaning": "代替；反而；却",
+  "example": "Instead of watching TV, she went for a walk.",
+  "exampleCn": "她没有看电视，而是去散步了。",
+  "frequency": "极高频词（估算值：COCA 排名约 800 位，约 110 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "journey",
+  "phonetic": "/ˈdʒɜːni/",
+  "pos": "n./v.",
+  "meaning": "旅程；历程；（v.）旅行",
+  "example": "Learning English is a long but rewarding journey.",
+  "exampleCn": "学习英语是一段漫长但充满收获的旅程。",
+  "frequency": "高频词（估算值：COCA 排名约 1800 位，约 40 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "protect",
+  "phonetic": "/prəˈtekt/",
+  "pos": "v.",
+  "meaning": "保护；防护；保卫",
+  "example": "Sunglasses protect our eyes from strong sunlight.",
+  "exampleCn": "太阳镜保护我们的眼睛免受强烈阳光的伤害。",
+  "frequency": "极高频词（估算值：COCA 排名约 1100 位，约 80 次/百万词）",
+  "date": "2026-10-27"
+ },
+ {
+  "word": "wealth",
+  "phonetic": "/welθ/",
+  "pos": "n.",
+  "meaning": "财富；丰富；大量",
+  "example": "Health is more valuable than wealth.",
+  "exampleCn": "健康比财富更宝贵。",
+  "frequency": "高频词（估算值：COCA 排名约 1400 位，约 55 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "uniform",
+  "phonetic": "/ˈjuːnɪfɔːm/",
+  "pos": "n./adj.",
+  "meaning": "制服；校服；（adj.）统一的",
+  "example": "All students must wear school uniforms on weekdays.",
+  "exampleCn": "所有学生在工作日都必须穿校服。",
+  "frequency": "高频词（估算值：COCA 排名约 2300 位，约 30 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "traffic",
+  "phonetic": "/ˈtræfɪk/",
+  "pos": "n./v.",
+  "meaning": "交通；车流；流量",
+  "example": "The traffic is always heavy during rush hour.",
+  "exampleCn": "高峰时段交通总是很拥堵。",
+  "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "succeed",
+  "phonetic": "/səkˈsiːd/",
+  "pos": "v.",
+  "meaning": "成功；继承；接着发生",
+  "example": "If you keep trying, you will succeed in the end.",
+  "exampleCn": "如果你坚持尝试，最终会成功的。",
+  "frequency": "高频词（估算值：COCA 排名约 1600 位，约 45 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "suffer",
+  "phonetic": "/ˈsʌfə/",
+  "pos": "v.",
+  "meaning": "遭受；忍受；患病",
+  "example": "Many people suffer from stress at work.",
+  "exampleCn": "许多人承受着工作压力。",
+  "frequency": "高频词（估算值：COCA 排名约 1500 位，约 50 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "suggest",
+  "phonetic": "/səˈdʒest/",
+  "pos": "v.",
+  "meaning": "建议；提议；暗示",
+  "example": "I suggest taking a break after long hours of study.",
+  "exampleCn": "我建议长时间学习后休息一下。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 95 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "supply",
+  "phonetic": "/səˈplaɪ/",
+  "pos": "n./v.",
+  "meaning": "供应；供给；（n.）供应量",
+  "example": "The supermarket supplies fresh vegetables every day.",
+  "exampleCn": "这家超市每天供应新鲜蔬菜。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 65 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "suppose",
+  "phonetic": "/səˈpəʊz/",
+  "pos": "v.",
+  "meaning": "认为；猜想；假定",
+  "example": "I suppose you are right about this problem.",
+  "exampleCn": "我想你对这个问题的看法是对的。",
+  "frequency": "极高频词（估算值：COCA 排名约 900 位，约 100 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "surface",
+  "phonetic": "/ˈsɜːfɪs/",
+  "pos": "n./adj./v.",
+  "meaning": "表面；外表；（v.）浮出水面",
+  "example": "The surface of the lake was calm and clear.",
+  "exampleCn": "湖面平静而清澈。",
+  "frequency": "高频词（估算值：COCA 排名约 1300 位，约 60 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "threat",
+  "phonetic": "/θret/",
+  "pos": "n.",
+  "meaning": "威胁；恐吓；征兆",
+  "example": "Climate change is a serious threat to our planet.",
+  "exampleCn": "气候变化对我们的星球是一个严重威胁。",
+  "frequency": "高频词（估算值：COCA 排名约 1400 位，约 60 次/百万词）",
+  "date": "2026-10-31"
+ },
+ {
+  "word": "afford",
+  "phonetic": "/əˈfɔːd/",
+  "pos": "v.",
+  "meaning": "买得起；承担得起；提供",
+  "example": "We cannot afford to waste any more time.",
+  "exampleCn": "我们再也浪费不起时间了。",
+  "frequency": "高频（COCA 约 1200 位，约 70 次/百万词，估算值）",
+  "date": "2026-11-04"
+ },
+ {
+  "word": "amount",
+  "phonetic": "/əˈmaʊnt/",
+  "pos": "n./v.",
+  "meaning": "数量；总额；总计达",
+  "example": "He saved a large amount of money for his studies.",
+  "exampleCn": "他为学业存了一大笔钱。",
+  "frequency": "极高频（COCA 约 800 位，约 110 次/百万词，估算值）",
+  "date": "2026-11-04"
+ },
+ {
+  "word": "anxious",
+  "phonetic": "/ˈæŋkʃəs/",
+  "pos": "adj.",
+  "meaning": "焦虑的；担心的；渴望的",
+  "example": "She felt anxious before the job interview.",
+  "exampleCn": "面试前她感到很焦虑。",
+  "frequency": "高频（COCA 约 2200 位，约 35 次/百万词，估算值）",
+  "date": "2026-11-04"
+ },
+ {
+  "word": "apply",
+  "phonetic": "/əˈplaɪ/",
+  "pos": "v.",
+  "meaning": "申请；应用；适用",
+  "example": "He decided to apply for a position at the company.",
+  "exampleCn": "他决定申请这家公司的一个职位。",
+  "frequency": "极高频（COCA 约 800 位，约 115 次/百万词，估算值）",
+  "date": "2026-11-04"
+ },
+ {
+  "word": "arrange",
+  "phonetic": "/əˈreɪndʒ/",
+  "pos": "v.",
+  "meaning": "安排；筹备；整理",
+  "example": "They arranged a meeting to discuss the new plan.",
+  "exampleCn": "他们安排了一次会议来讨论新计划。",
+  "frequency": "高频（COCA 约 1900 位，约 40 次/百万词，估算值）",
+  "date": "2026-11-04"
+ },
+ {
+  "word": "aware",
+  "phonetic": "/əˈweə/",
+  "pos": "adj.",
+  "meaning": "意识到的；知道的",
+  "example": "People are becoming more aware of environmental problems.",
+  "exampleCn": "人们越来越意识到环境问题。",
+  "frequency": "高频（COCA 约 1100 位，约 75 次/百万词，估算值）",
+  "date": "2026-11-04"
+ },
+ {
+  "word": "balance",
+  "phonetic": "/ˈbæləns/",
+  "pos": "n./v.",
+  "meaning": "平衡；余额；使平衡",
+  "example": "It is important to keep a balance between work and rest.",
+  "exampleCn": "在工作和休息之间保持平衡很重要。",
+  "frequency": "高频（COCA 约 1200 位，约 70 次/百万词，估算值）",
+  "date": "2026-11-04"
+ },
+ {
+  "word": "blame",
+  "phonetic": "/bleɪm/",
+  "pos": "v./n.",
+  "meaning": "责备；归咎于；责任",
+  "example": "Don't blame others for your own mistakes.",
+  "exampleCn": "不要把自己的错误归咎于别人。",
+  "frequency": "高频（COCA 约 1800 位，约 45 次/百万词，估算值）",
+  "date": "2026-11-04"
+ },
+ {
+  "word": "brief",
+  "phonetic": "/briːf/",
+  "pos": "adj./n.",
+  "meaning": "简短的；短暂的；摘要",
+  "example": "Please give a brief introduction about yourself.",
+  "exampleCn": "请做一个简短的自我介绍。",
+  "frequency": "高频（COCA 约 1500 位，约 55 次/百万词，估算值）",
+  "date": "2026-11-04"
+ },
+ {
+  "word": "charge",
+  "phonetic": "/tʃɑːdʒ/",
+  "pos": "v./n.",
+  "meaning": "收费；指控；负责；费用",
+  "example": "The hotel charges 200 yuan for a single room.",
+  "exampleCn": "这家酒店单人房收费 200 元。",
+  "frequency": "高频（COCA 约 1000 位，约 85 次/百万词，估算值）",
+  "date": "2026-11-04"
+ }
 ]
