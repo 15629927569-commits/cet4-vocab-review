@@ -1298,5 +1298,105 @@
   "exampleCn": "这家酒店单人房收费 200 元。",
   "frequency": "高频（COCA 约 1000 位，约 85 次/百万词，估算值）",
   "date": "2026-11-04"
+ },
+ {
+  "word": "avoid",
+  "phonetic": "/əˈvɔɪd/",
+  "pos": "v.",
+  "meaning": "避免；避开；防止",
+  "example": "We should avoid making the same mistake twice.",
+  "exampleCn": "我们应该避免两次犯同样的错误。",
+  "frequency": "极高频（COCA 约 700 位，约 110 次/百万词，估算值）",
+  "date": "2026-11-07"
+ },
+ {
+  "word": "brave",
+  "phonetic": "/breɪv/",
+  "pos": "adj./v.",
+  "meaning": "勇敢的；（v.）勇敢面对",
+  "example": "The brave firefighter saved a child from the burning house.",
+  "exampleCn": "那位勇敢的消防员从着火的房子里救出了一个孩子。",
+  "frequency": "高频（COCA 约 2500 位，约 25 次/百万词，估算值）",
+  "date": "2026-11-07"
+ },
+ {
+  "word": "bright",
+  "phonetic": "/braɪt/",
+  "pos": "adj.",
+  "meaning": "明亮的；聪明的；光明的",
+  "example": "She has a bright future ahead of her.",
+  "exampleCn": "她前途一片光明。",
+  "frequency": "高频（COCA 约 1600 位，约 50 次/百万词，估算值）",
+  "date": "2026-11-07"
+ },
+ {
+  "word": "broad",
+  "phonetic": "/brɔːd/",
+  "pos": "adj.",
+  "meaning": "宽阔的；广泛的；概括的",
+  "example": "Reading gives you a broad knowledge of the world.",
+  "exampleCn": "阅读能让你获得广博的世界知识。",
+  "frequency": "高频（COCA 约 1700 位，约 45 次/百万词，估算值）",
+  "date": "2026-11-07"
+ },
+ {
+  "word": "calm",
+  "phonetic": "/kɑːm/",
+  "pos": "adj./v./n.",
+  "meaning": "平静的；镇静的；（v.）使平静",
+  "example": "Stay calm and think carefully before you answer.",
+  "exampleCn": "保持冷静，仔细思考后再回答。",
+  "frequency": "高频（COCA 约 1600 位，约 50 次/百万词，估算值）",
+  "date": "2026-11-07"
+ },
+ {
+  "word": "cancel",
+  "phonetic": "/ˈkænsl/",
+  "pos": "v./n.",
+  "meaning": "取消；撤销；作废",
+  "example": "The outdoor concert was cancelled because of the rain.",
+  "exampleCn": "由于下雨，户外音乐会被取消了。",
+  "frequency": "高频（COCA 约 2200 位，约 32 次/百万词，估算值）",
+  "date": "2026-11-07"
+ },
+ {
+  "word": "capable",
+  "phonetic": "/ˈkeɪpəbl/",
+  "pos": "adj.",
+  "meaning": "有能力的；能胜任的",
+  "example": "She is capable of finishing the task on her own.",
+  "exampleCn": "她有能力独立完成这项任务。",
+  "frequency": "高频（COCA 约 1900 位，约 40 次/百万词，估算值）",
+  "date": "2026-11-07"
+ },
+ {
+  "word": "celebrate",
+  "phonetic": "/ˈselɪbreɪt/",
+  "pos": "v.",
+  "meaning": "庆祝；歌颂；赞美",
+  "example": "People celebrate the harvest festival every autumn.",
+  "exampleCn": "人们每年秋天庆祝丰收节。",
+  "frequency": "高频（COCA 约 1600 位，约 50 次/百万词，估算值）",
+  "date": "2026-11-07"
+ },
+ {
+  "word": "century",
+  "phonetic": "/ˈsentʃəri/",
+  "pos": "n.",
+  "meaning": "世纪；一百年",
+  "example": "The Great Wall was built over many centuries.",
+  "exampleCn": "长城历经多个世纪才建成。",
+  "frequency": "极高频（COCA 约 900 位，约 90 次/百万词，估算值）",
+  "date": "2026-11-07"
+ },
+ {
+  "word": "chance",
+  "phonetic": "/tʃɑːns/",
+  "pos": "n./v./adj.",
+  "meaning": "机会；可能性；偶然",
+  "example": "Everyone deserves a second chance.",
+  "exampleCn": "每个人都应该得到第二次机会。",
+  "frequency": "极高频（COCA 约 600 位，约 130 次/百万词，估算值）",
+  "date": "2026-11-07"
  }
 ]
