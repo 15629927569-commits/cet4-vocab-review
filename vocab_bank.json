@@ -1398,5 +1398,105 @@
   "exampleCn": "每个人都应该得到第二次机会。",
   "frequency": "极高频（COCA 约 600 位，约 130 次/百万词，估算值）",
   "date": "2026-11-07"
+ },
+ {
+  "word": "cheap",
+  "phonetic": "/tʃiːp/",
+  "pos": "adj.",
+  "meaning": "便宜的；廉价的；低劣的",
+  "example": "Fresh fruit is cheap in summer.",
+  "exampleCn": "夏天新鲜水果很便宜。",
+  "frequency": "高频（COCA 约 1500 位，约 55 次/百万词，估算值）",
+  "date": "2026-11-08"
+ },
+ {
+  "word": "check",
+  "phonetic": "/tʃek/",
+  "pos": "v./n.",
+  "meaning": "检查；核对；支票",
+  "example": "Please check your answers before handing in the paper.",
+  "exampleCn": "交卷前请检查你的答案。",
+  "frequency": "极高频（COCA 约 500 位，约 140 次/百万词，估算值）",
+  "date": "2026-11-08"
+ },
+ {
+  "word": "cheer",
+  "phonetic": "/tʃɪə/",
+  "pos": "v./n.",
+  "meaning": "欢呼；喝彩；使振奋",
+  "example": "The crowd cheered loudly when their team won the game.",
+  "exampleCn": "当他们的队伍赢得比赛时，人群大声欢呼。",
+  "frequency": "高频（COCA 约 2200 位，约 32 次/百万词，估算值）",
+  "date": "2026-11-08"
+ },
+ {
+  "word": "chemical",
+  "phonetic": "/ˈkemɪkl/",
+  "pos": "adj./n.",
+  "meaning": "化学的；（n.）化学品",
+  "example": "The factory must treat its chemical waste properly.",
+  "exampleCn": "这家工厂必须妥善处理其化学废料。",
+  "frequency": "高频（COCA 约 1500 位，约 55 次/百万词，估算值）",
+  "date": "2026-11-08"
+ },
+ {
+  "word": "chief",
+  "phonetic": "/tʃiːf/",
+  "pos": "adj./n.",
+  "meaning": "主要的；首席的；（n.）首领",
+  "example": "The chief reason for his success is hard work.",
+  "exampleCn": "他成功的主要原因是努力。",
+  "frequency": "极高频（COCA 约 1100 位，约 75 次/百万词，估算值）",
+  "date": "2026-11-08"
+ },
+ {
+  "word": "climb",
+  "phonetic": "/klaɪm/",
+  "pos": "v./n.",
+  "meaning": "爬；攀登；上升",
+  "example": "They climbed to the top of the mountain at sunrise.",
+  "exampleCn": "他们在日出时登上了山顶。",
+  "frequency": "高频（COCA 约 1800 位，约 42 次/百万词，估算值）",
+  "date": "2026-11-08"
+ },
+ {
+  "word": "clothing",
+  "phonetic": "/ˈkləʊðɪŋ/",
+  "pos": "n.",
+  "meaning": "衣服；服装（总称）",
+  "example": "Warm clothing is necessary in the cold winter.",
+  "exampleCn": "寒冷的冬天需要保暖的衣服。",
+  "frequency": "高频（COCA 约 2100 位，约 35 次/百万词，估算值）",
+  "date": "2026-11-08"
+ },
+ {
+  "word": "collect",
+  "phonetic": "/kəˈlekt/",
+  "pos": "v.",
+  "meaning": "收集；采集；领取",
+  "example": "He likes to collect stamps from different countries.",
+  "exampleCn": "他喜欢收集不同国家的邮票。",
+  "frequency": "极高频（COCA 约 1300 位，约 65 次/百万词，估算值）",
+  "date": "2026-11-08"
+ },
+ {
+  "word": "comfort",
+  "phonetic": "/ˈkʌmfət/",
+  "pos": "n./v.",
+  "meaning": "舒适；安慰；（v.）安慰",
+  "example": "She tried to comfort her friend after the bad news.",
+  "exampleCn": "听到坏消息后，她试图安慰她的朋友。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-08"
+ },
+ {
+  "word": "command",
+  "phonetic": "/kəˈmɑːnd/",
+  "pos": "n./v.",
+  "meaning": "命令；指挥；掌握",
+  "example": "The officer gave the command to start the exercise.",
+  "exampleCn": "军官下令开始演习。",
+  "frequency": "高频（COCA 约 1400 位，约 58 次/百万词，估算值）",
+  "date": "2026-11-08"
  }
 ]
