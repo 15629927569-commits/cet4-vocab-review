@@ -1498,5 +1498,105 @@
   "exampleCn": "军官下令开始演习。",
   "frequency": "高频（COCA 约 1400 位，约 58 次/百万词，估算值）",
   "date": "2026-11-08"
+ },
+ {
+  "word": "common",
+  "phonetic": "/ˈkɒmən/",
+  "pos": "adj.",
+  "meaning": "共同的；普通的；常见的",
+  "example": "English is a common language in international business.",
+  "exampleCn": "英语是国际商务中的通用语言。",
+  "frequency": "极高频（COCA 约 300 位，约 200 次/百万词，估算值）",
+  "date": "2026-11-14"
+ },
+ {
+  "word": "complete",
+  "phonetic": "/kəmˈpliːt/",
+  "pos": "v./adj.",
+  "meaning": "完成；（adj.）完整的；彻底的",
+  "example": "He completed the project two days ahead of schedule.",
+  "exampleCn": "他提前两天完成了这个项目。",
+  "frequency": "极高频（COCA 约 500 位，约 150 次/百万词，估算值）",
+  "date": "2026-11-14"
+ },
+ {
+  "word": "continue",
+  "phonetic": "/kənˈtɪnjuː/",
+  "pos": "v.",
+  "meaning": "继续；持续；延续",
+  "example": "She continued working even after everyone else left.",
+  "exampleCn": "即使在其他人都离开后，她仍继续工作。",
+  "frequency": "极高频（COCA 约 400 位，约 170 次/百万词，估算值）",
+  "date": "2026-11-14"
+ },
+ {
+  "word": "convenient",
+  "phonetic": "/kənˈviːniənt/",
+  "pos": "adj.",
+  "meaning": "方便的；便利的；合适的",
+  "example": "Online shopping is very convenient for busy people.",
+  "exampleCn": "网购对忙碌的人来说非常方便。",
+  "frequency": "高频（COCA 约 1700 位，约 45 次/百万词，估算值）",
+  "date": "2026-11-14"
+ },
+ {
+  "word": "crowd",
+  "phonetic": "/kraʊd/",
+  "pos": "n./v.",
+  "meaning": "人群；观众；（v.）挤满",
+  "example": "A large crowd gathered to watch the street performance.",
+  "exampleCn": "一大群人聚集观看街头表演。",
+  "frequency": "高频（COCA 约 1400 位，约 55 次/百万词，估算值）",
+  "date": "2026-11-14"
+ },
+ {
+  "word": "damage",
+  "phonetic": "/ˈdæmɪdʒ/",
+  "pos": "n./v.",
+  "meaning": "损害；破坏；（v.）损坏",
+  "example": "The heavy storm caused great damage to the crops.",
+  "exampleCn": "暴风雨对庄稼造成了巨大破坏。",
+  "frequency": "高频（COCA 约 1100 位，约 78 次/百万词，估算值）",
+  "date": "2026-11-14"
+ },
+ {
+  "word": "debate",
+  "phonetic": "/dɪˈbeɪt/",
+  "pos": "n./v.",
+  "meaning": "辩论；讨论；（v.）争论",
+  "example": "Students had a heated debate about school uniforms.",
+  "exampleCn": "学生们就校服问题展开了激烈的辩论。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-14"
+ },
+ {
+  "word": "degree",
+  "phonetic": "/dɪˈɡriː/",
+  "pos": "n.",
+  "meaning": "程度；学位；度数",
+  "example": "She got a master's degree in English literature.",
+  "exampleCn": "她获得了英国文学硕士学位。",
+  "frequency": "极高频（COCA 约 800 位，约 105 次/百万词，估算值）",
+  "date": "2026-11-14"
+ },
+ {
+  "word": "deliver",
+  "phonetic": "/dɪˈlɪvə/",
+  "pos": "v.",
+  "meaning": "递送；发表（演讲）；接生",
+  "example": "The postman delivers letters and packages every morning.",
+  "exampleCn": "邮递员每天早上投递信件和包裹。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-14"
+ },
+ {
+  "word": "detail",
+  "phonetic": "/ˈdiːteɪl/",
+  "pos": "n./v.",
+  "meaning": "细节；详情；（v.）详细说明",
+  "example": "Please tell me all the details of your travel plan.",
+  "exampleCn": "请告诉我你旅行计划的所有细节。",
+  "frequency": "极高频（COCA 约 900 位，约 95 次/百万词，估算值）",
+  "date": "2026-11-14"
  }
 ]
