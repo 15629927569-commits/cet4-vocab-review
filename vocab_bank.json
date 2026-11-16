@@ -1598,5 +1598,105 @@
   "exampleCn": "请告诉我你旅行计划的所有细节。",
   "frequency": "极高频（COCA 约 900 位，约 95 次/百万词，估算值）",
   "date": "2026-11-14"
+ },
+ {
+  "word": "destroy",
+  "phonetic": "/dɪˈstrɔɪ/",
+  "pos": "v.",
+  "meaning": "破坏；摧毁；消灭",
+  "example": "The fire destroyed most of the old buildings in the town.",
+  "exampleCn": "大火烧毁了镇上大部分的老建筑。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-16"
+ },
+ {
+  "word": "determine",
+  "phonetic": "/dɪˈtɜːmɪn/",
+  "pos": "v.",
+  "meaning": "决定；确定；查明",
+  "example": "The test results will determine whether he can graduate.",
+  "exampleCn": "考试结果将决定他能否毕业。",
+  "frequency": "高频（COCA 约 1200 位，约 70 次/百万词，估算值）",
+  "date": "2026-11-16"
+ },
+ {
+  "word": "devote",
+  "phonetic": "/dɪˈvəʊt/",
+  "pos": "v.",
+  "meaning": "致力于；献身于；把……用于",
+  "example": "She devotes two hours every day to practicing English.",
+  "exampleCn": "她每天花两个小时练习英语。",
+  "frequency": "高频（COCA 约 1500 位，约 50 次/百万词，估算值）",
+  "date": "2026-11-16"
+ },
+ {
+  "word": "difference",
+  "phonetic": "/ˈdɪfrəns/",
+  "pos": "n.",
+  "meaning": "差异；不同；分歧",
+  "example": "There is a big difference between spoken and written English.",
+  "exampleCn": "英语口语和书面语之间有很大差异。",
+  "frequency": "极高频（COCA 约 500 位，约 150 次/百万词，估算值）",
+  "date": "2026-11-16"
+ },
+ {
+  "word": "difficult",
+  "phonetic": "/ˈdɪfɪkəlt/",
+  "pos": "adj.",
+  "meaning": "困难的；艰难的；难对付的",
+  "example": "It is difficult to learn a language without practice.",
+  "exampleCn": "不练习就学一门语言是很困难的。",
+  "frequency": "极高频（COCA 约 400 位，约 170 次/百万词，估算值）",
+  "date": "2026-11-16"
+ },
+ {
+  "word": "direct",
+  "phonetic": "/dəˈrekt/",
+  "pos": "adj./v./adv.",
+  "meaning": "直接的；（v.）指导；导演",
+  "example": "There is no direct flight from this city to London.",
+  "exampleCn": "从这座城市没有直飞伦敦的航班。",
+  "frequency": "极高频（COCA 约 900 位，约 95 次/百万词，估算值）",
+  "date": "2026-11-16"
+ },
+ {
+  "word": "disease",
+  "phonetic": "/dɪˈziːz/",
+  "pos": "n.",
+  "meaning": "疾病；弊病",
+  "example": "Regular exercise helps prevent heart disease.",
+  "exampleCn": "经常锻炼有助于预防心脏病。",
+  "frequency": "高频（COCA 约 1100 位，约 78 次/百万词，估算值）",
+  "date": "2026-11-16"
+ },
+ {
+  "word": "distant",
+  "phonetic": "/ˈdɪstənt/",
+  "pos": "adj.",
+  "meaning": "遥远的；远处的；疏远的",
+  "example": "We could see a small village in the distant hills.",
+  "exampleCn": "我们可以看到远处山里的一个小村庄。",
+  "frequency": "高频（COCA 约 2100 位，约 34 次/百万词，估算值）",
+  "date": "2026-11-16"
+ },
+ {
+  "word": "divide",
+  "phonetic": "/dɪˈvaɪd/",
+  "pos": "v./n.",
+  "meaning": "分；划分；除以",
+  "example": "The teacher divided the class into four groups.",
+  "exampleCn": "老师把全班分成了四个小组。",
+  "frequency": "高频（COCA 约 1600 位，约 48 次/百万词，估算值）",
+  "date": "2026-11-16"
+ },
+ {
+  "word": "doubt",
+  "phonetic": "/daʊt/",
+  "pos": "n./v.",
+  "meaning": "怀疑；疑问；（v.）不相信",
+  "example": "There is no doubt that practice makes perfect.",
+  "exampleCn": "毫无疑问，熟能生巧。",
+  "frequency": "极高频（COCA 约 900 位，约 95 次/百万词，估算值）",
+  "date": "2026-11-16"
  }
 ]
