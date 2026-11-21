@@ -1698,5 +1698,105 @@
   "exampleCn": "毫无疑问，熟能生巧。",
   "frequency": "极高频（COCA 约 900 位，约 95 次/百万词，估算值）",
   "date": "2026-11-16"
+ },
+ {
+  "word": "earn",
+  "phonetic": "/ɜːn/",
+  "pos": "v.",
+  "meaning": "挣得；赢得；获得（报酬、尊重等）",
+  "example": "He earns a good salary as a software engineer.",
+  "exampleCn": "他作为软件工程师挣得一份不错的薪水。",
+  "frequency": "高频（COCA 约 1100 位，约 75 次/百万词，估算值）",
+  "date": "2026-11-21"
+ },
+ {
+  "word": "effort",
+  "phonetic": "/ˈefət/",
+  "pos": "n.",
+  "meaning": "努力；尽力；尝试",
+  "example": "Success requires both talent and effort.",
+  "exampleCn": "成功既需要天赋，也需要努力。",
+  "frequency": "极高频（COCA 约 500 位，约 150 次/百万词，估算值）",
+  "date": "2026-11-21"
+ },
+ {
+  "word": "employ",
+  "phonetic": "/ɪmˈplɔɪ/",
+  "pos": "v.",
+  "meaning": "雇用；使用；采用",
+  "example": "The company employs more than five hundred workers.",
+  "exampleCn": "这家公司雇用了五百多名工人。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-21"
+ },
+ {
+  "word": "empty",
+  "phonetic": "/ˈempti/",
+  "pos": "adj./v.",
+  "meaning": "空的；空洞的；（v.）倒空",
+  "example": "The classroom was empty when I arrived early.",
+  "exampleCn": "我早到的时候教室里空无一人。",
+  "frequency": "高频（COCA 约 1700 位，约 45 次/百万词，估算值）",
+  "date": "2026-11-21"
+ },
+ {
+  "word": "energy",
+  "phonetic": "/ˈenədʒi/",
+  "pos": "n.",
+  "meaning": "精力；能量；能源",
+  "example": "Young people are usually full of energy.",
+  "exampleCn": "年轻人通常精力充沛。",
+  "frequency": "极高频（COCA 约 700 位，约 115 次/百万词，估算值）",
+  "date": "2026-11-21"
+ },
+ {
+  "word": "enjoy",
+  "phonetic": "/ɪnˈdʒɔɪ/",
+  "pos": "v.",
+  "meaning": "享受；喜爱；享有",
+  "example": "Most students enjoy listening to music after class.",
+  "exampleCn": "大多数学生课后喜欢听音乐。",
+  "frequency": "极高频（COCA 约 600 位，约 130 次/百万词，估算值）",
+  "date": "2026-11-21"
+ },
+ {
+  "word": "enter",
+  "phonetic": "/ˈentə/",
+  "pos": "v.",
+  "meaning": "进入；加入；输入",
+  "example": "You must enter your password to open the file.",
+  "exampleCn": "你必须输入密码才能打开这个文件。",
+  "frequency": "极高频（COCA 约 800 位，约 105 次/百万词，估算值）",
+  "date": "2026-11-21"
+ },
+ {
+  "word": "entire",
+  "phonetic": "/ɪnˈtaɪə/",
+  "pos": "adj.",
+  "meaning": "全部的；整个的；完全的",
+  "example": "She spent the entire weekend preparing for the exam.",
+  "exampleCn": "她花了整个周末准备考试。",
+  "frequency": "极高频（COCA 约 900 位，约 95 次/百万词，估算值）",
+  "date": "2026-11-21"
+ },
+ {
+  "word": "equal",
+  "phonetic": "/ˈiːkwəl/",
+  "pos": "adj./v./n.",
+  "meaning": "平等的；相等的；（v.）等于",
+  "example": "Everyone should have an equal chance to receive education.",
+  "exampleCn": "每个人都应该有平等的受教育机会。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-21"
+ },
+ {
+  "word": "escape",
+  "phonetic": "/ɪˈskeɪp/",
+  "pos": "v./n.",
+  "meaning": "逃跑；逃脱；逃避",
+  "example": "The bird escaped from the cage this morning.",
+  "exampleCn": "今天早上那只鸟从笼子里逃走了。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-21"
  }
 ]
