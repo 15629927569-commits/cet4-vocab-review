@@ -1798,5 +1798,105 @@
   "exampleCn": "今天早上那只鸟从笼子里逃走了。",
   "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
   "date": "2026-11-21"
+ },
+ {
+  "word": "especially",
+  "phonetic": "/ɪˈspeʃəli/",
+  "pos": "adv.",
+  "meaning": "特别；尤其；格外",
+  "example": "I like all kinds of sports, especially basketball.",
+  "exampleCn": "我喜欢各种运动，尤其是篮球。",
+  "frequency": "极高频（COCA 约 600 位，约 130 次/百万词，估算值）",
+  "date": "2026-11-23"
+ },
+ {
+  "word": "event",
+  "phonetic": "/ɪˈvent/",
+  "pos": "n.",
+  "meaning": "事件；大事；比赛项目",
+  "example": "The sports meeting is an important event at our school.",
+  "exampleCn": "运动会是我们学校的一项重要活动。",
+  "frequency": "极高频（COCA 约 600 位，约 130 次/百万词，估算值）",
+  "date": "2026-11-23"
+ },
+ {
+  "word": "exactly",
+  "phonetic": "/ɪɡˈzæktli/",
+  "pos": "adv.",
+  "meaning": "恰好；精确地；正是",
+  "example": "I can't remember exactly what he said.",
+  "exampleCn": "我记不清他到底说了什么。",
+  "frequency": "极高频（COCA 约 700 位，约 115 次/百万词，估算值）",
+  "date": "2026-11-23"
+ },
+ {
+  "word": "examine",
+  "phonetic": "/ɪɡˈzæmɪn/",
+  "pos": "v.",
+  "meaning": "检查；审查；考试",
+  "example": "The doctor examined the patient carefully.",
+  "exampleCn": "医生仔细地检查了病人。",
+  "frequency": "高频（COCA 约 1500 位，约 50 次/百万词，估算值）",
+  "date": "2026-11-23"
+ },
+ {
+  "word": "exchange",
+  "phonetic": "/ɪksˈtʃeɪndʒ/",
+  "pos": "v./n.",
+  "meaning": "交换；交流；兑换",
+  "example": "We exchanged phone numbers before saying goodbye.",
+  "exampleCn": "告别前我们交换了电话号码。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-23"
+ },
+ {
+  "word": "excite",
+  "phonetic": "/ɪkˈsaɪt/",
+  "pos": "v.",
+  "meaning": "使兴奋；使激动；激起",
+  "example": "The good news excited everyone in the class.",
+  "exampleCn": "这个好消息让全班同学都很兴奋。",
+  "frequency": "高频（COCA 约 2100 位，约 35 次/百万词，估算值）",
+  "date": "2026-11-23"
+ },
+ {
+  "word": "exercise",
+  "phonetic": "/ˈeksəsaɪz/",
+  "pos": "n./v.",
+  "meaning": "锻炼；练习；（v.）运动",
+  "example": "Regular exercise keeps you healthy and strong.",
+  "exampleCn": "经常锻炼使你健康强壮。",
+  "frequency": "高频（COCA 约 900 位，约 95 次/百万词，估算值）",
+  "date": "2026-11-23"
+ },
+ {
+  "word": "expect",
+  "phonetic": "/ɪkˈspekt/",
+  "pos": "v.",
+  "meaning": "期待；期望；预料",
+  "example": "We expect to finish the work before Friday.",
+  "exampleCn": "我们期望在周五之前完成这项工作。",
+  "frequency": "极高频（COCA 约 500 位，约 150 次/百万词，估算值）",
+  "date": "2026-11-23"
+ },
+ {
+  "word": "explain",
+  "phonetic": "/ɪkˈspleɪn/",
+  "pos": "v.",
+  "meaning": "解释；说明；阐明",
+  "example": "The teacher explained the rule again to us.",
+  "exampleCn": "老师又向我们解释了一遍这条规则。",
+  "frequency": "极高频（COCA 约 700 位，约 115 次/百万词，估算值）",
+  "date": "2026-11-23"
+ },
+ {
+  "word": "explore",
+  "phonetic": "/ɪkˈsplɔː/",
+  "pos": "v.",
+  "meaning": "探索；探究；考察",
+  "example": "They plan to explore the forest this summer.",
+  "exampleCn": "他们计划今年夏天去探索那片森林。",
+  "frequency": "高频（COCA 约 1500 位，约 50 次/百万词，估算值）",
+  "date": "2026-11-23"
  }
 ]
