@@ -1898,5 +1898,105 @@
   "exampleCn": "他们计划今年夏天去探索那片森林。",
   "frequency": "高频（COCA 约 1500 位，约 50 次/百万词，估算值）",
   "date": "2026-11-23"
+ },
+ {
+  "word": "expert",
+  "phonetic": "/ˈekspɜːt/",
+  "pos": "n./adj.",
+  "meaning": "专家；能手；（adj.）熟练的；内行的",
+  "example": "She is an expert in language teaching.",
+  "exampleCn": "她是语言教学方面的专家。",
+  "frequency": "高频（COCA 约 900 位，约 90 次/百万词，估算值）",
+  "date": "2026-11-25"
+ },
+ {
+  "word": "export",
+  "phonetic": "/ɪkˈspɔːt/",
+  "pos": "v./n.",
+  "meaning": "出口；输出；（n.）出口商品",
+  "example": "China exports many products to other countries.",
+  "exampleCn": "中国向其他国家出口许多产品。",
+  "frequency": "高频（COCA 约 2200 位，约 32 次/百万词，估算值）",
+  "date": "2026-11-25"
+ },
+ {
+  "word": "extra",
+  "phonetic": "/ˈekstrə/",
+  "pos": "adj./adv./n.",
+  "meaning": "额外的；另外的；（adv.）格外地",
+  "example": "He does extra work to earn more money.",
+  "exampleCn": "他做额外的工作来挣更多的钱。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-25"
+ },
+ {
+  "word": "extreme",
+  "phonetic": "/ɪkˈstriːm/",
+  "pos": "adj./n.",
+  "meaning": "极端的；极度的；（n.）极端",
+  "example": "The weather here is extreme in winter.",
+  "exampleCn": "这里冬天的天气非常极端。",
+  "frequency": "高频（COCA 约 1400 位，约 55 次/百万词，估算值）",
+  "date": "2026-11-25"
+ },
+ {
+  "word": "elect",
+  "phonetic": "/ɪˈlekt/",
+  "pos": "v.",
+  "meaning": "选举；推选；选择",
+  "example": "They elected him as their team leader.",
+  "exampleCn": "他们选他当队长。",
+  "frequency": "高频（COCA 约 1800 位，约 42 次/百万词，估算值）",
+  "date": "2026-11-25"
+ },
+ {
+  "word": "electric",
+  "phonetic": "/ɪˈlektrɪk/",
+  "pos": "adj.",
+  "meaning": "电的；电动的；导电的",
+  "example": "Electric cars are becoming more popular.",
+  "exampleCn": "电动汽车正变得越来越受欢迎。",
+  "frequency": "高频（COCA 约 1500 位，约 50 次/百万词，估算值）",
+  "date": "2026-11-25"
+ },
+ {
+  "word": "electronic",
+  "phonetic": "/ɪˌlekˈtrɒnɪk/",
+  "pos": "adj.",
+  "meaning": "电子的；电子化的",
+  "example": "Most students prefer electronic dictionaries now.",
+  "exampleCn": "现在大多数学生更喜欢电子词典。",
+  "frequency": "高频（COCA 约 1600 位，约 48 次/百万词，估算值）",
+  "date": "2026-11-25"
+ },
+ {
+  "word": "element",
+  "phonetic": "/ˈelɪmənt/",
+  "pos": "n.",
+  "meaning": "元素；要素；成分",
+  "example": "Trust is an important element of friendship.",
+  "exampleCn": "信任是友谊的重要要素。",
+  "frequency": "高频（COCA 约 1100 位，约 78 次/百万词，估算值）",
+  "date": "2026-11-25"
+ },
+ {
+  "word": "else",
+  "phonetic": "/els/",
+  "pos": "adv.",
+  "meaning": "其他；另外；否则（用于 or else）",
+  "example": "Would you like anything else to drink?",
+  "exampleCn": "你还想喝点别的吗？",
+  "frequency": "极高频（COCA 约 400 位，约 170 次/百万词，估算值）",
+  "date": "2026-11-25"
+ },
+ {
+  "word": "embarrass",
+  "phonetic": "/ɪmˈbærəs/",
+  "pos": "v.",
+  "meaning": "使尴尬；使窘迫",
+  "example": "His rude question embarrassed everyone at the table.",
+  "exampleCn": "他无礼的问题让在座的每个人都感到尴尬。",
+  "frequency": "高频（COCA 约 2500 位，约 28 次/百万词，估算值）",
+  "date": "2026-11-25"
  }
 ]
