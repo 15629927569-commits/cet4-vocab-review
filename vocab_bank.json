@@ -1998,5 +1998,105 @@
   "exampleCn": "他无礼的问题让在座的每个人都感到尴尬。",
   "frequency": "高频（COCA 约 2500 位，约 28 次/百万词，估算值）",
   "date": "2026-11-25"
+ },
+ {
+  "word": "eager",
+  "phonetic": "/ˈiːɡə/",
+  "pos": "adj.",
+  "meaning": "渴望的；热切的；急切的",
+  "example": "The students are eager to learn new skills.",
+  "exampleCn": "学生们渴望学习新技能。",
+  "frequency": "高频（COCA 约 2100 位，约 35 次/百万词，估算值）",
+  "date": "2026-11-28"
+ },
+ {
+  "word": "ease",
+  "phonetic": "/iːz/",
+  "pos": "n./v.",
+  "meaning": "轻松；容易；（v.）减轻；缓和",
+  "example": "The medicine helped ease the pain.",
+  "exampleCn": "这种药有助于减轻疼痛。",
+  "frequency": "高频（COCA 约 1300 位，约 62 次/百万词，估算值）",
+  "date": "2026-11-28"
+ },
+ {
+  "word": "emotion",
+  "phonetic": "/ɪˈməʊʃn/",
+  "pos": "n.",
+  "meaning": "情感；情绪；感情",
+  "example": "Music can express deep emotions.",
+  "exampleCn": "音乐能够表达深刻的情感。",
+  "frequency": "高频（COCA 约 1600 位，约 48 次/百万词，估算值）",
+  "date": "2026-11-28"
+ },
+ {
+  "word": "emphasize",
+  "phonetic": "/ˈemfəsaɪz/",
+  "pos": "v.",
+  "meaning": "强调；着重；重视",
+  "example": "The teacher emphasized the importance of practice.",
+  "exampleCn": "老师强调了练习的重要性。",
+  "frequency": "高频（COCA 约 1900 位，约 40 次/百万词，估算值）",
+  "date": "2026-11-28"
+ },
+ {
+  "word": "emergency",
+  "phonetic": "/ɪˈmɜːdʒənsi/",
+  "pos": "n.",
+  "meaning": "紧急情况；突发事件",
+  "example": "Call this number in case of emergency.",
+  "exampleCn": "遇到紧急情况请拨打这个号码。",
+  "frequency": "高频（COCA 约 1500 位，约 52 次/百万词，估算值）",
+  "date": "2026-11-28"
+ },
+ {
+  "word": "enable",
+  "phonetic": "/ɪˈneɪbl/",
+  "pos": "v.",
+  "meaning": "使能够；使成为可能",
+  "example": "The Internet enables us to work from home.",
+  "exampleCn": "互联网使我们能够在家工作。",
+  "frequency": "高频（COCA 约 1200 位，约 70 次/百万词，估算值）",
+  "date": "2026-11-28"
+ },
+ {
+  "word": "engage",
+  "phonetic": "/ɪnˈɡeɪdʒ/",
+  "pos": "v.",
+  "meaning": "参与；从事；吸引（注意力）",
+  "example": "Good teachers know how to engage their students.",
+  "exampleCn": "好老师知道如何吸引学生投入学习。",
+  "frequency": "高频（COCA 约 1400 位，约 55 次/百万词，估算值）",
+  "date": "2026-11-28"
+ },
+ {
+  "word": "engine",
+  "phonetic": "/ˈendʒɪn/",
+  "pos": "n.",
+  "meaning": "发动机；引擎",
+  "example": "The car's engine is very powerful.",
+  "exampleCn": "这辆车的发动机动力很强。",
+  "frequency": "高频（COCA 约 1600 位，约 48 次/百万词，估算值）",
+  "date": "2026-11-28"
+ },
+ {
+  "word": "enormous",
+  "phonetic": "/ɪˈnɔːməs/",
+  "pos": "adj.",
+  "meaning": "巨大的；庞大的；极大的",
+  "example": "The new library is an enormous building.",
+  "exampleCn": "新图书馆是一座巨大的建筑。",
+  "frequency": "高频（COCA 约 1900 位，约 40 次/百万词，估算值）",
+  "date": "2026-11-28"
+ },
+ {
+  "word": "ensure",
+  "phonetic": "/ɪnˈʃʊə/",
+  "pos": "v.",
+  "meaning": "确保；保证；担保",
+  "example": "We must ensure the safety of all passengers.",
+  "exampleCn": "我们必须确保所有乘客的安全。",
+  "frequency": "高频（COCA 约 1100 位，约 78 次/百万词，估算值）",
+  "date": "2026-11-28"
  }
 ]
